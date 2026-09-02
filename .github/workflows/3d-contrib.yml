@@ -6,6 +6,9 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths:
+      - ".github/workflows/3d-contrib.yml"
+      - "scripts/animate3d.py"
 
 jobs:
   build:
@@ -20,6 +23,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+
+      - name: Set the bars in motion
+        run: python3 scripts/animate3d.py
 
       - name: Commit the refreshed graphs
         run: |

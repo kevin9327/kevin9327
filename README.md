@@ -131,12 +131,12 @@ Ask out loud which public funding you can
 
 <br/><br/>
 
-### A year of commits, in 3D
+### A year of commits, in 3D — and it moves
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kevin9327/kevin9327/main/profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kevin9327/kevin9327/main/profile-3d-contrib/profile-season-animate.svg" />
-  <img alt="3D contribution graph" src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/profile-3d-contrib/profile-night-rainbow.svg" width="98%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kevin9327/kevin9327/main/profile-3d-contrib/profile-night-rainbow-live.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kevin9327/kevin9327/main/profile-3d-contrib/profile-season-animate-live.svg" />
+  <img alt="3D contribution graph, with a wave rolling across the bars" src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/profile-3d-contrib/profile-night-rainbow-live.svg" width="98%" />
 </picture>
 
 <br/>
