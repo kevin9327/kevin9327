@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ec4899"/>
+      <stop offset="0.5" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#facc15"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="cool" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#a371f7"/>
+      <stop offset="1" stop-color="#3fb950"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="1 0;-1 0;1 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#f97316" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="typewriter">
+      <rect x="360" y="180" width="0" height="60">
+        <animate attributeName="width" values="0;0;720;720;0" keyTimes="0;0.1;0.55;0.9;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#30363d" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)">
+    <animate attributeName="opacity" values="0.35;0.7;0.35" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- drifting particles -->
+  <g fill="#f97316">
+    <circle cx="80"  cy="340" r="2"><animate attributeName="cy" values="360;-20" dur="9s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="340" r="1.5" fill="#facc15"><animate attributeName="cy" values="360;-20" dur="12s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="12s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="340" r="2.5" fill="#ec4899"><animate attributeName="cy" values="360;-20" dur="10s" begin="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10s" begin="4s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="340" r="1.5" fill="#58a6ff"><animate attributeName="cy" values="360;-20" dur="14s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="14s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="340" r="2" fill="#a371f7"><animate attributeName="cy" values="360;-20" dur="11s" begin="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="11s" begin="6s" repeatCount="indefinite"/></circle>
+    <circle cx="1020" cy="340" r="2.5" fill="#3fb950"><animate attributeName="cy" values="360;-20" dur="13s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="13s" begin="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1140" cy="340" r="1.5" fill="#facc15"><animate attributeName="cy" values="360;-20" dur="8s" begin="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="8s" begin="5s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="340" r="2" fill="#f97316"><animate attributeName="cy" values="360;-20" dur="15s" begin="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.6;0" dur="15s" begin="7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- radar crosshair -->
+  <g transform="translate(185 170)">
+    <circle r="150" fill="url(#halo)"/>
+    <circle r="62" fill="none" stroke="#f97316" stroke-width="3">
+      <animate attributeName="r" values="62;160" dur="3s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0" dur="3s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="62" fill="none" stroke="#ec4899" stroke-width="3">
+      <animate attributeName="r" values="62;160" dur="3s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="62" fill="none" stroke="#facc15" stroke-width="3">
+      <animate attributeName="r" values="62;160" dur="3s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <g filter="url(#glow)">
+      <circle r="70" fill="none" stroke="url(#hot)" stroke-width="20"/>
+      <rect x="-11" y="-118" width="22" height="42" rx="4" fill="url(#hot)"/>
+      <rect x="-11" y="76"   width="22" height="42" rx="4" fill="url(#hot)"/>
+      <rect x="-118" y="-11" width="42" height="22" rx="4" fill="url(#hot)"/>
+      <rect x="76"   y="-11" width="42" height="22" rx="4" fill="url(#hot)"/>
+      <circle r="22" fill="url(#hot)">
+        <animate attributeName="r" values="22;26;22" dur="1.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g opacity="0.85">
+      <line x1="0" y1="0" x2="0" y2="-96" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+      <path d="M0 0 L-28 -92 A96 96 0 0 1 0 -96 Z" fill="#ffffff" opacity="0.18"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- name -->
+  <text x="360" y="150" font-size="104" font-weight="800" fill="url(#hot)" filter="url(#glow)" letter-spacing="-2">Kevin</text>
+  <text x="700" y="150" font-size="34" font-weight="600" fill="url(#cool)">@kevin9327</text>
+
+  <!-- typewriter tagline -->
+  <g clip-path="url(#typewriter)">
+    <text x="362" y="222" font-size="30" font-weight="500" fill="#c9d1d9">I break things on purpose, then send the patch.</text>
+  </g>
+  <rect x="362" y="196" width="4" height="34" fill="#f97316">
+    <animate attributeName="x" values="362;362;1082;1082;362" keyTimes="0;0.1;0.55;0.9;1" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- stack pills -->
+  <g font-size="20" font-weight="700" text-anchor="middle">
+    <g transform="translate(410 275)">
+      <rect x="-50" y="-18" width="100" height="36" rx="18" fill="#161b22" stroke="url(#hot)" stroke-width="2"/>
+      <text y="7" fill="#f97316">Rust</text>
+      <animateTransform attributeName="transform" type="translate" values="410 275;410 269;410 275" dur="2.4s" begin="0s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(545 275)">
+      <rect x="-70" y="-18" width="140" height="36" rx="18" fill="#161b22" stroke="url(#cool)" stroke-width="2"/>
+      <text y="7" fill="#58a6ff">TypeScript</text>
+      <animateTransform attributeName="transform" type="translate" values="545 275;545 269;545 275" dur="2.4s" begin="0.4s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(680 275)">
+      <rect x="-55" y="-18" width="110" height="36" rx="18" fill="#161b22" stroke="url(#cool)" stroke-width="2"/>
+      <text y="7" fill="#3fb950">Python</text>
+      <animateTransform attributeName="transform" type="translate" values="680 275;680 269;680 275" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(840 275)">
+      <rect x="-90" y="-18" width="180" height="36" rx="18" fill="#161b22" stroke="url(#hot)" stroke-width="2"/>
+      <text y="7" fill="#facc15">fails → passes</text>
+      <animateTransform attributeName="transform" type="translate" values="840 275;840 269;840 275" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
