@@ -126,7 +126,7 @@ Ask out loud which public funding you can
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="34" /> By the numbers
 
-<img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=kevin9327&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f97316&icon_color=ec4899&text_color=c9d1d9&include_all_commits=true" />
+<img height="160" src="https://raw.githubusercontent.com/kevin9327/kevin9327/output/stats.svg" alt="stats" />
 <img height="160" src="https://streak-stats.demolab.com?user=kevin9327&theme=github-dark-blue&hide_border=true&background=0d1117&ring=f97316&fire=facc15&currStreakLabel=ec4899" />
 
 <br/><br/>
