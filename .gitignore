@@ -5,3 +5,6 @@ action_readme.md
 c3d.ts
 g3d.svg
 *.ts
+render*/
+dist_test/
+*.gif
