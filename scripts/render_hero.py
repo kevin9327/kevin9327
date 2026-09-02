@@ -9,7 +9,7 @@ so the last frame hands off to the first without a seam.
 Usage:
     python scripts/render_hero.py -- <out_dir>
 Env:
-    HERO_FRAMES (72)  HERO_W (1200)  HERO_H (340)  HERO_SAMPLES (64)
+    HERO_FRAMES (72)  HERO_W (1200)  HERO_H (400)  HERO_SAMPLES (64)
 """
 from __future__ import annotations
 
@@ -23,7 +23,7 @@ import bpy
 OUT = os.path.abspath(sys.argv[sys.argv.index("--") + 1] if "--" in sys.argv else "render")
 N = int(os.environ.get("HERO_FRAMES", "72"))
 W = int(os.environ.get("HERO_W", "1200"))
-H = int(os.environ.get("HERO_H", "340"))
+H = int(os.environ.get("HERO_H", "400"))
 SAMPLES = int(os.environ.get("HERO_SAMPLES", "64"))
 os.makedirs(OUT, exist_ok=True)
 
@@ -172,9 +172,9 @@ ring_mat = solid("Ring", ORANGE, metallic=0.3, rough=0.3, emit=ORANGE, strength=
 core_mat = solid("Core", YELLOW, metallic=0.2, rough=0.3, emit=YELLOW, strength=9.0)
 bar_mats = [
     solid("BarDim", (0.05, 0.16, 0.08, 1), rough=0.35, emit=GREEN, strength=0.25),
-    solid("BarGreen", GREEN, rough=0.3, emit=GREEN, strength=0.9),
-    solid("BarViolet", VIOLET, rough=0.3, emit=VIOLET, strength=1.1),
-    solid("BarBlue", BLUE, rough=0.3, emit=BLUE, strength=0.8),
+    solid("BarGreen", tuple(c*0.45 for c in GREEN[:3])+(1,), rough=0.3, emit=GREEN, strength=0.8),
+    solid("BarViolet", tuple(c*0.45 for c in VIOLET[:3])+(1,), rough=0.3, emit=VIOLET, strength=0.95),
+    solid("BarBlue", tuple(c*0.45 for c in BLUE[:3])+(1,), rough=0.3, emit=BLUE, strength=0.75),
 ]
 spark_mats = [
     solid("SparkY", YELLOW, emit=YELLOW, strength=14.0),
@@ -238,12 +238,12 @@ drive(text, "location", 2, f"0.66 + 0.05*{sinf(0.9)}")
 
 # ---------------------------------------------------------------- crosshair
 pivot = link_obj(bpy.data.objects.new("CrosshairPivot", None))
-pivot.location = (-2.9, 0.2, 1.02)
+pivot.location = (-3.0, 0.2, 1.06)
 drive(pivot, "rotation_euler", 2, f"2*pi*frame/{N}")            # full turn per loop
 drive(pivot, "rotation_euler", 0, f"radians(12)*{sinf(0.6)}")   # gentle tilt
-drive(pivot, "location", 2, f"1.02 + 0.07*{sinf(2.4)}")
+drive(pivot, "location", 2, f"1.06 + 0.06*{sinf(2.4)}")
 
-bpy.ops.mesh.primitive_torus_add(major_radius=0.78, minor_radius=0.105,
+bpy.ops.mesh.primitive_torus_add(major_radius=0.72, minor_radius=0.1,
                                  major_segments=96, minor_segments=32)
 ring = bpy.context.object
 ring.name = "Ring"
@@ -252,11 +252,11 @@ ring.data.materials.append(ring_mat)
 ring.parent = pivot  # no parent-inverse: the ring must sit ON the pivot, not at the world origin
 ring.location = (0, 0, 0)
 
-for i, (dx, dz) in enumerate(((1.06, 0), (-1.06, 0), (0, 1.06), (0, -1.06))):
+for i, (dx, dz) in enumerate(((0.9, 0), (-0.9, 0), (0, 0.9), (0, -0.9))):
     bpy.ops.mesh.primitive_cube_add(size=1)
     arm = bpy.context.object
     arm.name = f"Arm{i}"
-    arm.scale = (0.36, 0.15, 0.15) if dz == 0 else (0.15, 0.15, 0.36)
+    arm.scale = (0.34, 0.14, 0.14) if dz == 0 else (0.14, 0.14, 0.34)
     arm.location = (dx, 0, dz)
     arm.data.materials.append(ring_mat)
     arm.parent = pivot
@@ -339,7 +339,7 @@ cam_data.dof.use_dof = True
 cam_data.dof.focus_object = text
 cam_data.dof.aperture_fstop = 2.2
 cam = link_obj(bpy.data.objects.new("Cam", cam_data))
-cam.location = (0.3, -8.6, 2.1)
+cam.location = (0.3, -9.7, 2.15)
 cam.parent = cam_pivot
 c = cam.constraints.new("TRACK_TO")
 c.target = cam_target
