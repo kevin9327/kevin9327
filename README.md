@@ -1,23 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:a371f7,100:3fb950&height=210&section=header&text=Kevin&fontSize=76&fontColor=ffffff&fontAlignY=32&desc=I%20break%20things%20on%20purpose%2C%20then%20send%20the%20patch&descAlignY=54&descSize=18&animation=fadeIn" width="100%" />
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/hero.svg" width="100%" alt="Kevin — I break things on purpose, then send the patch" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3400&pause=900&color=58A6FF&center=true&vCenter=true&width=780&lines=git+commit+-m+%22fix%3A+the+bug+that+only+appears+in+production%22;Cross-replica+state.+Fail-closed+policy.+Loops+that+never+terminate.;A+test+that+FAILS+before+and+PASSES+after+%E2%80%94+every+single+time.;Rust+%C2%B7+TypeScript+%C2%B7+Python" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3400&pause=900&color=F97316&center=true&vCenter=true&width=780&lines=git+commit+-m+%22fix%3A+the+bug+that+only+appears+in+production%22;Cross-replica+state.+Fail-closed+policy.+Loops+that+never+terminate.;A+test+that+FAILS+before+and+PASSES+after+%E2%80%94+every+single+time.;Rust+%C2%B7+TypeScript+%C2%B7+Python" alt="Typing SVG" />
 
-<br/>
+<br/><br/>
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+<a href="https://github.com/kevin9327"><img src="https://skillicons.dev/icons?i=rust,ts,py,postgres,bun,react,docker,git&theme=dark" alt="stack" /></a>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
 </div>
 
-## <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="28"/> What I actually do
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="34" /> What I actually do
 
 I hunt the bugs that **survive code review and only detonate in production** — the ones a
 second replica exposes, the ones a policy engine quietly hides, the ones that spin forever
@@ -31,9 +26,11 @@ without ever throwing. Then I prove them.
 - No padding. No drive-by nitpicks. No "looks good to me" reviews.
 ```
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/hunt.svg" width="100%" alt="bugs go in, fixes come out" />
 
-## 🎯 Bugs I have shipped fixes for
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Bug.png" width="34" /> Bugs I have shipped fixes for
 
 <table>
 <tr><th align="left">Project</th><th align="center">Landed</th><th align="left">The bug</th></tr>
@@ -76,15 +73,15 @@ without ever throwing. Then I prove them.
 
 </table>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
-## 🛠️ Things I built
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="34" /> Things I built
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔍 [patent-intel](https://github.com/kevin9327/patent-intel)
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Magnifying%20Glass%20Tilted%20Left.png" width="24" /> [patent-intel](https://github.com/kevin9327/patent-intel)
 `Python`
 
 Ask patent questions in plain language.
@@ -93,7 +90,7 @@ Get answers with the **measurement shown**, not asserted.
 </td>
 <td width="50%" valign="top">
 
-### 💾 [ai-disktracker](https://github.com/kevin9327/ai-disktracker)
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="24" /> [ai-disktracker](https://github.com/kevin9327/ai-disktracker)
 `Python`
 
 A live treemap of exactly what your
@@ -104,7 +101,7 @@ AI coding agent is **doing to your disk**.
 <tr>
 <td width="50%" valign="top">
 
-### ✅ [workproof](https://github.com/kevin9327/workproof)
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="24" /> [workproof](https://github.com/kevin9327/workproof)
 `JavaScript`
 
 After the agent says it is done —
@@ -113,7 +110,7 @@ After the agent says it is done —
 </td>
 <td width="50%" valign="top">
 
-### 📡 [opportunity-radar](https://github.com/kevin9327/opportunity-radar)
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="24" /> [opportunity-radar](https://github.com/kevin9327/opportunity-radar)
 `Python`
 
 Ask out loud which public funding you can
@@ -123,16 +120,28 @@ Ask out loud which public funding you can
 </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
 <div align="center">
 
-## 📊 By the numbers
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="34" /> By the numbers
 
-<img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=kevin9327&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=a371f7&text_color=c9d1d9&include_all_commits=true" />
-<img height="160" src="https://streak-stats.demolab.com?user=kevin9327&theme=github-dark-blue&hide_border=true&background=0d1117&ring=a371f7&fire=3fb950&currStreakLabel=58a6ff" />
+<img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=kevin9327&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f97316&icon_color=ec4899&text_color=c9d1d9&include_all_commits=true" />
+<img height="160" src="https://streak-stats.demolab.com?user=kevin9327&theme=github-dark-blue&hide_border=true&background=0d1117&ring=f97316&fire=facc15&currStreakLabel=ec4899" />
 
 <br/><br/>
+
+### A year of commits, in 3D
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kevin9327/kevin9327/main/profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kevin9327/kevin9327/main/profile-3d-contrib/profile-season-animate.svg" />
+  <img alt="3D contribution graph" src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/profile-3d-contrib/profile-night-rainbow.svg" width="98%" />
+</picture>
+
+<br/>
+
+### The snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kevin9327/kevin9327/output/github-contribution-grid-snake-dark.svg" />
@@ -140,11 +149,21 @@ Ask out loud which public funding you can
   <img alt="contribution snake" src="https://raw.githubusercontent.com/kevin9327/kevin9327/output/github-contribution-grid-snake.svg" width="98%" />
 </picture>
 
+<br/>
+
+### …and Pac-Man
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kevin9327/kevin9327/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kevin9327/kevin9327/output/pacman-contribution-graph.svg" />
+  <img alt="pac-man contribution graph" src="https://raw.githubusercontent.com/kevin9327/kevin9327/output/pacman-contribution-graph.svg" width="98%" />
+</picture>
+
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
-## 💬 How I work with maintainers
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crossed%20Swords.png" width="34" /> How I work with maintainers
 
 > A maintainer closed one of my pull requests with:
 > ***"Closing this as already landed, but you found a real bug and got there independently."***
@@ -159,6 +178,6 @@ That is the job. Not the badge on the pull request — **the bug being gone.**
 
 **The reviews I leave are the ones I would stake my name on. Silence otherwise.**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3fb950,50:a371f7,100:58a6ff&height=130&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ec4899,50:f97316,100:facc15&height=130&section=footer" width="100%" />
 
 </div>

@@ -6,6 +6,8 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths:
+      - ".github/workflows/animations.yml"
 
 jobs:
   generate:
@@ -13,6 +15,13 @@ jobs:
     permissions:
       contents: write
     steps:
+      # Pac-Man runs as the runner user and must create dist/ first: the snake
+      # step runs in a root container, and a root-owned dist/ is not writable later.
+      - name: Pac-Man eating the contribution grid
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
       - name: Snake eating the contribution grid
         uses: Platane/snk@v3
         with:
@@ -20,11 +29,6 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Pac-Man eating the contribution grid
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
 
       - name: Push everything to the output branch
         uses: crazy-max/ghaction-github-pages@v4

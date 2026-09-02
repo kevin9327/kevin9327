@@ -43,33 +43,33 @@
 
   <!-- bug 1 -->
   <g>
-    <use href="#bug">
+    <use href="#bug" opacity="0" transform="translate(-200 75)">
       <animateTransform attributeName="transform" type="translate" values="-60 75;600 75;600 75;600 75" keyTimes="0;0.5;0.56;1" dur="7.5s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.56;1" dur="7.5s" begin="0s" repeatCount="indefinite"/>
     </use>
-    <use href="#check">
+    <use href="#check" opacity="0" transform="translate(-200 75)">
       <animateTransform attributeName="transform" type="translate" values="600 75;600 75;600 75;1260 75;1260 75" keyTimes="0;0.5;0.58;0.98;1" dur="7.5s" begin="0s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.58;0.98;1" dur="7.5s" begin="0s" repeatCount="indefinite"/>
     </use>
   </g>
   <!-- bug 2 -->
   <g>
-    <use href="#bug">
+    <use href="#bug" opacity="0" transform="translate(-200 75)">
       <animateTransform attributeName="transform" type="translate" values="-60 75;600 75;600 75;600 75" keyTimes="0;0.5;0.56;1" dur="7.5s" begin="2.5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.56;1" dur="7.5s" begin="2.5s" repeatCount="indefinite"/>
     </use>
-    <use href="#check">
+    <use href="#check" opacity="0" transform="translate(-200 75)">
       <animateTransform attributeName="transform" type="translate" values="600 75;600 75;600 75;1260 75;1260 75" keyTimes="0;0.5;0.58;0.98;1" dur="7.5s" begin="2.5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.58;0.98;1" dur="7.5s" begin="2.5s" repeatCount="indefinite"/>
     </use>
   </g>
   <!-- bug 3 -->
   <g>
-    <use href="#bug">
+    <use href="#bug" opacity="0" transform="translate(-200 75)">
       <animateTransform attributeName="transform" type="translate" values="-60 75;600 75;600 75;600 75" keyTimes="0;0.5;0.56;1" dur="7.5s" begin="5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.56;1" dur="7.5s" begin="5s" repeatCount="indefinite"/>
     </use>
-    <use href="#check">
+    <use href="#check" opacity="0" transform="translate(-200 75)">
       <animateTransform attributeName="transform" type="translate" values="600 75;600 75;600 75;1260 75;1260 75" keyTimes="0;0.5;0.58;0.98;1" dur="7.5s" begin="5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.58;0.98;1" dur="7.5s" begin="5s" repeatCount="indefinite"/>
     </use>
