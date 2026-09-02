@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/hero.webp" width="100%" alt="Kevin — rendered in Blender: copper lettering, a spinning crosshair and a skyline of commits" />
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/hero.webp?v=20260903" width="100%" alt="Kevin — rendered in Blender: copper lettering, a spinning crosshair and a skyline of commits" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3400&pause=900&color=F97316&center=true&vCenter=true&width=780&lines=git+commit+-m+%22fix%3A+the+bug+that+only+appears+in+production%22;Cross-replica+state.+Fail-closed+policy.+Loops+that+never+terminate.;A+test+that+FAILS+before+and+PASSES+after+%E2%80%94+every+single+time.;Rust+%C2%B7+TypeScript+%C2%B7+Python" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3400&pause=900&color=F97316&center=true&vCenter=true&width=640&lines=git+commit+-m+%22fix%3A+the+bug+that+only+appears+in+production%22;Cross-replica+state.+Fail-closed+policy.+Loops+that+never+terminate.;A+test+that+FAILS+before+and+PASSES+after+%E2%80%94+every+single+time.;Rust+%C2%B7+TypeScript+%C2%B7+Python" alt="Typing SVG" />
 
 <br/><br/>
 
