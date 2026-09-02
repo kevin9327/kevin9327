@@ -20,7 +20,7 @@ import sys
 
 import bpy
 
-OUT = sys.argv[sys.argv.index("--") + 1] if "--" in sys.argv else "render"
+OUT = os.path.abspath(sys.argv[sys.argv.index("--") + 1] if "--" in sys.argv else "render")
 N = int(os.environ.get("HERO_FRAMES", "72"))
 W = int(os.environ.get("HERO_W", "1200"))
 H = int(os.environ.get("HERO_H", "340"))
@@ -136,7 +136,7 @@ def solid(name, base, metallic=0.0, rough=0.4, emit=None, strength=0.0, coat=0.0
     return m
 
 
-def hot_gradient(name, along="X", lo=-2.4, hi=2.4, metallic=0.9, rough=0.22, glow=0.35):
+def hot_gradient(name, along="X", lo=-1.9, hi=2.1, metallic=0.9, rough=0.22, glow=0.35):
     """Pink -> orange -> yellow across the object's own X, like the avatar."""
     m, p, nt = principled(name)
     nodes, links = nt.nodes, nt.links
@@ -172,9 +172,9 @@ ring_mat = solid("Ring", ORANGE, metallic=0.3, rough=0.3, emit=ORANGE, strength=
 core_mat = solid("Core", YELLOW, metallic=0.2, rough=0.3, emit=YELLOW, strength=9.0)
 bar_mats = [
     solid("BarDim", (0.05, 0.16, 0.08, 1), rough=0.35, emit=GREEN, strength=0.25),
-    solid("BarGreen", GREEN, rough=0.3, emit=GREEN, strength=2.2),
-    solid("BarViolet", VIOLET, rough=0.3, emit=VIOLET, strength=2.6),
-    solid("BarBlue", BLUE, rough=0.3, emit=BLUE, strength=2.0),
+    solid("BarGreen", GREEN, rough=0.3, emit=GREEN, strength=0.9),
+    solid("BarViolet", VIOLET, rough=0.3, emit=VIOLET, strength=1.1),
+    solid("BarBlue", BLUE, rough=0.3, emit=BLUE, strength=0.8),
 ]
 spark_mats = [
     solid("SparkY", YELLOW, emit=YELLOW, strength=14.0),
@@ -230,7 +230,7 @@ text.data.align_x = "CENTER"
 text.data.align_y = "CENTER"
 text.data.materials.append(text_mat)
 text.rotation_euler = (math.radians(90), 0, 0)
-text.location = (1.15, 0.0, 0.66)
+text.location = (0.85, 0.0, 0.66)
 # a lazy sway that loops: yaw and pitch on sines
 drive(text, "rotation_euler", 2, f"radians(9)*{sinf(0.0)}")
 drive(text, "rotation_euler", 0, f"radians(90) + radians(4)*{sinf(1.7)}")
@@ -238,26 +238,25 @@ drive(text, "location", 2, f"0.66 + 0.05*{sinf(0.9)}")
 
 # ---------------------------------------------------------------- crosshair
 pivot = link_obj(bpy.data.objects.new("CrosshairPivot", None))
-pivot.location = (-3.35, 0.2, 1.25)
+pivot.location = (-2.9, 0.2, 1.02)
 drive(pivot, "rotation_euler", 2, f"2*pi*frame/{N}")            # full turn per loop
 drive(pivot, "rotation_euler", 0, f"radians(12)*{sinf(0.6)}")   # gentle tilt
-drive(pivot, "location", 2, f"1.25 + 0.08*{sinf(2.4)}")
+drive(pivot, "location", 2, f"1.02 + 0.07*{sinf(2.4)}")
 
-bpy.ops.mesh.primitive_torus_add(major_radius=0.95, minor_radius=0.125,
+bpy.ops.mesh.primitive_torus_add(major_radius=0.78, minor_radius=0.105,
                                  major_segments=96, minor_segments=32)
 ring = bpy.context.object
 ring.name = "Ring"
 ring.rotation_euler = (math.radians(90), 0, 0)
 ring.data.materials.append(ring_mat)
-ring.parent = pivot
-ring.matrix_parent_inverse = pivot.matrix_world.inverted()
+ring.parent = pivot  # no parent-inverse: the ring must sit ON the pivot, not at the world origin
 ring.location = (0, 0, 0)
 
-for i, (dx, dz) in enumerate(((1.28, 0), (-1.28, 0), (0, 1.28), (0, -1.28))):
+for i, (dx, dz) in enumerate(((1.06, 0), (-1.06, 0), (0, 1.06), (0, -1.06))):
     bpy.ops.mesh.primitive_cube_add(size=1)
     arm = bpy.context.object
     arm.name = f"Arm{i}"
-    arm.scale = (0.42, 0.17, 0.17) if dz == 0 else (0.17, 0.17, 0.42)
+    arm.scale = (0.36, 0.15, 0.15) if dz == 0 else (0.15, 0.15, 0.36)
     arm.location = (dx, 0, dz)
     arm.data.materials.append(ring_mat)
     arm.parent = pivot
@@ -266,7 +265,7 @@ for i, (dx, dz) in enumerate(((1.28, 0), (-1.28, 0), (0, 1.28), (0, -1.28))):
     bev.width = 0.03
     bev.segments = 3
 
-bpy.ops.mesh.primitive_uv_sphere_add(radius=0.24, segments=48, ring_count=24)
+bpy.ops.mesh.primitive_uv_sphere_add(radius=0.2, segments=48, ring_count=24)
 core = bpy.context.object
 core.name = "Core"
 core.location = (0, 0, 0)
@@ -282,7 +281,7 @@ for gx in range(-9, 10):
         if rng.random() < 0.22:
             continue
         x = gx * 0.62 + rng.uniform(-0.05, 0.05)
-        y = 3.2 + gy * 0.62
+        y = 4.6 + gy * 0.62
         h = rng.choice((0.12, 0.12, 0.22, 0.4, 0.7, 1.1, 1.5))
         bpy.ops.mesh.primitive_cube_add(size=1)
         b = bpy.context.object
@@ -330,7 +329,7 @@ area("Fill", (5.0, -7.0, 2.0), 350, (0.75, 0.85, 1.0), size=6)
 
 # ---------------------------------------------------------------- camera
 cam_target = link_obj(bpy.data.objects.new("CamTarget", None))
-cam_target.location = (-0.35, 0.0, 0.95)
+cam_target.location = (-0.65, 0.0, 0.9)
 cam_pivot = link_obj(bpy.data.objects.new("CamPivot", None))
 cam_pivot.location = (0, 0, 0)
 drive(cam_pivot, "rotation_euler", 2, f"radians(3.2)*{sinf(0.3)}")
@@ -367,7 +366,7 @@ try:
                 setattr(glare, attr, val)
             except Exception:  # noqa: BLE001
                 pass
-    for iname, val in (("Threshold", 1.0), ("Size", 0.5), ("Strength", 0.35)):
+    for iname, val in (("Threshold", 1.0), ("Size", 0.55), ("Strength", 0.5)):
         if iname in glare.inputs:
             try:
                 glare.inputs[iname].default_value = val

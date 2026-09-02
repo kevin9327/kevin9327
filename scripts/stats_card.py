@@ -69,11 +69,11 @@ total = sum(sizes.values()) or 1
 
 cc = u["contributionsCollection"]
 stats = [
-    ("Contributions", cc["contributionCalendar"]["totalContributions"], "past year"),
-    ("PRs merged", u["pullRequests"]["totalCount"], "all time"),
-    ("Commits", cc["totalCommitContributions"], "past year"),
-    ("Stars", stars, "earned"),
-    ("Followers", u["followers"]["totalCount"], ""),
+    ("Contributions", cc["contributionCalendar"]["totalContributions"]),
+    ("PRs merged", u["pullRequests"]["totalCount"]),
+    ("Commits", cc["totalCommitContributions"]),
+    ("Stars", stars),
+    ("Followers", u["followers"]["totalCount"]),
 ]
 
 
@@ -102,18 +102,18 @@ parts = [
 
 # left: five numbers, fading and sliding in one after another
 x0, y0 = 18, 58
-for i, (label, value, sub) in enumerate(stats):
+for i, (label, value) in enumerate(stats):
     col, row = i % 3, i // 3
-    x = x0 + col * 92
-    y = y0 + row * 52
+    x = x0 + col * 94
+    y = y0 + row * 50
     begin = 0.15 + i * 0.12
     parts.append(
         f'<g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="{begin:.2f}s" fill="freeze"/>'
         f'<animateTransform attributeName="transform" type="translate" values="0 8;0 0" dur="0.6s" begin="{begin:.2f}s" fill="freeze"/>'
         f'<text x="{x}" y="{y}" font-size="22" font-weight="800" fill="#f0f6fc">{fmt(value)}</text>'
-        f'<text x="{x}" y="{y + 16}" font-size="10.5" font-weight="600" fill="#8b949e">{label}'
-        f'{(" · " + sub) if sub else ""}</text></g>'
+        f'<text x="{x}" y="{y + 16}" font-size="10.5" font-weight="600" fill="#8b949e">{label}</text></g>'
     )
+parts.append('<text x="18" y="150" font-size="8.5" fill="#6e7681">contributions &amp; commits: past year · PRs merged: all time</text>')
 
 # right: languages as bars that grow in
 bx, by, bw = 300, 48, 170
