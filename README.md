@@ -87,8 +87,26 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/crmne/fastpotify"><b>crmne/fastpotify</b></a><br/><sub>Native Spotify client in Rust</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acrmne%2Ffastpotify&label=in%20review&color=f97316&style=flat-square" alt="in review" /></td>
-<td>A skin colour containing a <b>multi-byte character panicked</b> the parser. The Han fallback font region is now read from the <b>Windows display language</b> instead of assumed.</td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Acrmne%2Ffastpotify&label=merged&color=3fb950&style=flat-square" alt="merged" /><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acrmne%2Ffastpotify&label=in%20review&color=f97316&style=flat-square" alt="in review" /><br/><sub>#9 of 23 contributors</sub></td>
+<td>A skin colour containing a <b>multi-byte character panicked</b> the parser, and release builds abort on panic. The Han fallback font is now chosen from the <b>Windows display language</b> rather than defaulting every reader to the Simplified Chinese cut. A byte order mark — what Notepad writes — <b>silently threw away every colour in a skin</b>.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/NVIDIA/SkillSpector"><b>NVIDIA/SkillSpector</b></a><br/><sub>Security scanner for agent skills</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3ANVIDIA%2FSkillSpector&label=in%20review&color=f97316&style=flat-square" alt="in review" /></td>
+<td>On Windows, <b>every scan failed and the risk score meant nothing</b> whenever the path held an 8.3 short name — which <code>%TEMP%</code> does on any account whose name has a space, so URL scans were broken by default. A safety check compared two spellings of the same file.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/cactus-compute/needle"><b>cactus-compute/needle</b></a><br/><sub>14 MB on-device tool-calling model</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acactus-compute%2Fneedle&label=in%20review&color=f97316&style=flat-square" alt="in review" /></td>
+<td>The engine test gate looked in the <b>wrong cache directory, so six tests had been silently skipping</b> since the release before. The playground rewound a <b>different engine than the one it was talking to</b>, so a tuned model never forgot the conversation. Extraction dropped the date the agent was given.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/nolight132/sonora"><b>nolight132/sonora</b></a><br/><sub>Native music client in Rust and GPUI</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20repo%3Anolight132%2Fsonora&label=landed&color=3fb950&style=flat-square" alt="landed" /></td>
+<td>Local music carried <b>no date added at all</b>, so the column was blank and sorting by it did nothing. The pinned toolchain <b>omitted clippy</b>, so the lint the contributing guide asks for could not run on a fresh checkout.</td>
 </tr>
 
 <tr>
