@@ -26,9 +26,9 @@
 
 <div align="center">
 
-**[▶ Gunslash Arena](https://kevin9327.github.io/arena/)** — wall-run, double jump, dash, slash, shoot. Eight bots that fight each other too.
+**[▶ Gunslash Arena](https://kevin9327.github.io/arena/)** — wall-run, double jump, dash, slash, shoot. Eight bots that fight each other too. It starts the moment the page opens.
 
-<sub>A third-person arena built from scratch in three.js. No install, no engine, no borrowed assets: the mansion, the fighters, the textures and every sound effect are generated in code. <a href="https://github.com/kevin9327/kevin9327.github.io/tree/main/arena">Source</a>. Keyboard and mouse.</sub>
+<sub>A third-person arena built from scratch in three.js, no engine, no install. The mansion, the textures, the effects and every sound are generated in code; the fighters and their animations are Kay Lousberg's CC0 <a href="https://kaylousberg.itch.io/kaykit-adventurers">KayKit Adventurers</a>. <a href="https://github.com/kevin9327/kevin9327.github.io/tree/main/arena">Source</a>. Keyboard and mouse.</sub>
 
 </div>
 
