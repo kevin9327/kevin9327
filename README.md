@@ -20,6 +20,20 @@
 
 </div>
 
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Video%20Game.png" width="34" /> Play something first
+
+<a href="https://kevin9327.github.io/arena/"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/arena.webp?v=20260906" width="100%" alt="Gunslash Arena: a third-person wall-running sword-and-gun arena, running in the browser" /></a>
+
+<div align="center">
+
+**[▶ Gunslash Arena](https://kevin9327.github.io/arena/)** — wall-run, double jump, dash, slash, shoot. Eight bots that fight each other too.
+
+<sub>A third-person arena built from scratch in three.js. No install, no engine, no borrowed assets: the mansion, the fighters, the textures and every sound effect are generated in code. <a href="https://github.com/kevin9327/kevin9327.github.io/tree/main/arena">Source</a>. Keyboard and mouse.</sub>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="34" /> What I actually do
 
 I hunt the bugs that **survive code review and only detonate in production** — the ones a
