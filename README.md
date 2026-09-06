@@ -22,7 +22,7 @@
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Video%20Game.png" width="34" /> Play something first
 
-<a href="https://kevin9327.github.io/arena/"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/arena.webp?v=20260906" width="100%" alt="Gunslash Arena: a third-person wall-running sword-and-gun arena, running in the browser" /></a>
+<a href="https://kevin9327.github.io/arena/"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/arena.webp?v=20260906c" width="100%" alt="Gunslash Arena: a third-person wall-running sword-and-gun arena, running in the browser" /></a>
 
 <div align="center">
 
