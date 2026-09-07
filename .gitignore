@@ -8,3 +8,4 @@ g3d.svg
 render*/
 dist_test/
 *.gif
+*.log

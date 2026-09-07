@@ -22,7 +22,7 @@
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Video%20Game.png" width="34" /> Play something first
 
-<a href="https://kevin9327.github.io/arena/"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/arena.webp?v=20260906c" width="100%" alt="Gunslash Arena: a third-person wall-running sword-and-gun arena, running in the browser" /></a>
+<a href="https://kevin9327.github.io/arena/"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/arena.webp?v=20260907" width="100%" alt="Gunslash Arena: a third-person wall-running sword-and-gun arena, running in the browser" /></a>
 
 <div align="center">
 
@@ -54,15 +54,15 @@ without ever throwing. Then I prove them.
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Bug.png" width="34" /> Bugs I have shipped fixes for
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Bug.png" width="34" /> Bugs I hunted down
 
 <table>
-<tr><th align="left">Project</th><th align="center">Landed</th><th align="left">The bug</th></tr>
+<tr><th align="left">Project</th><th align="center">Status</th><th align="left">The bug</th></tr>
 
 <tr>
 <td><a href="https://github.com/CopilotKit/OpenBot"><b>CopilotKit/OpenBot</b></a><br/><sub>AI coworker platform</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3ACopilotKit%2FOpenBot&label=merged&color=3fb950&style=flat-square"/><br/><sub>#3 of 24 contributors</sub></td>
-<td>A snapshot cache living in process memory meant element refs <b>silently stopped resolving the moment a second replica existed</b> — moved it into Postgres. A deny rule written for one action surface <b>refused every other surface too</b>. An audit page that <b>called a refused call "Allowed"</b>. An empty <code>PORT</code> in the environment that let the server <b>come up on a random port</b>.</td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3ACopilotKit%2FOpenBot&label=merged&color=3fb950&style=flat-square"/><br/><sub>#2 of 24 contributors</sub></td>
+<td>A snapshot cache living in process memory meant element refs <b>silently stopped resolving the moment a second replica existed</b> — moved it into Postgres. A deny rule written for one action surface <b>refused every other surface too</b>. An audit page that <b>called a refused call "Allowed"</b>. An empty <code>PORT</code> in the environment that let the server <b>come up on a random port</b>. A component <b>published under the padded name instead of the one the guard approved</b>. A <code>Stop</code> that lands mid-action, <b>recorded as anything but a stop</b>.</td>
 </tr>
 
 <tr>
@@ -73,14 +73,14 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/leookun/cursor-byok"><b>leookun/cursor-byok</b></a><br/><sub>Local Cursor backend</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aleookun%2Fcursor-byok&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aleookun%2Fcursor-byok&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 24 contributors</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aleookun%2Fcursor-byok&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aleookun%2Fcursor-byok&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 25 contributors</sub></td>
 <td>A tool-call id reused across rounds <b>wedged the run forever, with no timeout on that path</b>. Result truncation that <b>spun at 100% CPU, then underflowed a <code>usize</code></b>. One unreadable proxy row that <b>bricked every request</b>. Empty tool arguments that killed the entire run with <code>EOF while parsing a value</code>. Also: the repo's first pull-request CI, so <code>main</code> stops drifting red.</td>
 </tr>
 
 <tr>
 <td><a href="https://github.com/crmne/fastpotify"><b>crmne/fastpotify</b></a><br/><sub>Native Spotify client in Rust</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Acrmne%2Ffastpotify&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acrmne%2Ffastpotify&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#7 of 23 contributors</sub></td>
-<td>A skin colour with a <b>multi-byte character panicked the parser</b>, and release builds abort on panic, so the app just closed. On Windows the locale is empty, so every Japanese, Korean and Traditional-Chinese user got <b>three mismatched fallback fonts</b> — the Han region now comes from the Windows display language. A byte order mark, the thing Notepad writes, <b>silently threw away every colour in a skin</b>.</td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Acrmne%2Ffastpotify&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acrmne%2Ffastpotify&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#4 of 25 contributors</sub></td>
+<td>A skin colour with a <b>multi-byte character panicked the parser</b>, and release builds abort on panic, so the app just closed. On Windows the locale is empty, so every Japanese, Korean and Traditional-Chinese user got <b>three mismatched fallback fonts</b> — the Han region now comes from the Windows display language, and full-width punctuation <b>folds onto the skin font's own cells</b> instead of a fallback's. A byte order mark, the thing Notepad writes, <b>silently threw away every colour in a skin</b>.</td>
 </tr>
 
 <tr>
@@ -96,20 +96,20 @@ without ever throwing. Then I prove them.
 </tr>
 
 <tr>
-<td><a href="https://github.com/nolight132/sonora"><b>nolight132/sonora</b></a><br/><sub>Native music client, Rust + GPUI</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Anolight132%2Fsonora&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Anolight132%2Fsonora&label=in%20review&color=f97316&style=flat-square"/></td>
+<td><a href="https://github.com/sonorahq/sonora"><b>sonorahq/sonora</b></a><br/><sub>Native music client, Rust + GPUI</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Asonorahq%2Fsonora&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Asonorahq%2Fsonora&label=in%20review&color=f97316&style=flat-square"/></td>
 <td>The local library scanner stored <b>no "date added" at all</b>, so the column sat empty and sorting by it did nothing — now filled from the file's modification time. The toolchain file left out clippy, so <b>the lint command the contributing guide asks for failed on every fresh checkout</b>.</td>
 </tr>
 
 <tr>
 <td><a href="https://github.com/xevrion/breakscale"><b>xevrion/breakscale</b></a><br/><sub>Distributed-systems failure simulator</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Axevrion%2Fbreakscale&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Axevrion%2Fbreakscale&label=in%20review&color=f97316&style=flat-square"/></td>
-<td>A shared link could carry an instance count the inspector never allows; <code>Math.max(1, NaN)</code> is still <code>NaN</code>, so the simulator <b>tried to allocate a billion-slot array on its first snapshot and died</b>. Found by measuring every inspector knob against its declared range.</td>
+<td>Every knob a shared link can carry, measured against the range the inspector itself declares — <b>six of them accepted values the UI never allows</b>. The instance count landed first: <code>Math.max(1, NaN)</code> is still <code>NaN</code>, so the simulator <b>tried to allocate a billion-slot array and died on its first snapshot</b>. In review: the fleet counts the data components read, a broker's partition count, the transcoder's rendition ladder, a region switch, an autoscaler.</td>
 </tr>
 
 <tr>
 <td><a href="https://github.com/shy3130/tick-stock-panel"><b>shy3130/tick-stock-panel</b></a><br/><sub>A-share quant workbench</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/badge/4-landed-3fb950?style=flat-square"/></td>
+<td align="center" nowrap><img src="https://img.shields.io/badge/8-landed-3fb950?style=flat-square"/><br/><sub>#7 of 27 · 4 merged, 4 absorbed</sub></td>
 <td>A forced-exit signal <b>evaporated under pandas copy-on-write</b> — chained assignment, dropped without a warning. An upload handler read <b>whole files into memory with no cap at all</b>.</td>
 </tr>
 
@@ -129,6 +129,12 @@ without ever throwing. Then I prove them.
 <td><a href="https://github.com/ZSeven-W/openpencil"><b>ZSeven-W/openpencil</b></a><br/><sub>AI-native vector design tool</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3AZSeven-W%2Fopenpencil&label=in%20review&color=f97316&style=flat-square"/></td>
 <td>Five Windows fixes for the agent layer: executables probed <b>without their <code>.exe</code>/<code>.cmd</code> extensions</b>, environment allowlists that <b>miss natively-cased Windows variables</b>, restored blobs addressed <b>with the wrong path separator</b>.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/every-app/open-seo"><b>every-app/open-seo</b></a><br/><sub>Open-source SEO audit suite</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aevery-app%2Fopen-seo&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>Backlink history parsed date-only strings as UTC midnight and then rendered them in the reader's own timezone, so <b>every reader west of UTC saw each link first seen a day early</b> — and on the 1st, <b>the month axis a whole month early</b>.</td>
 </tr>
 
 <tr>
@@ -256,7 +262,7 @@ paid by platforms. Runs entirely in the browser, nothing leaves it.
 </tr>
 </table>
 
-<sub>Also on the shelf: <a href="https://github.com/kevin9327/balju-radar">balju-radar</a> (a weekly lead report on public tenders) · <a href="https://github.com/kevin9327/github-trending-daily">github-trending-daily</a> (GitHub Trending, snapshotted daily by Playwright on Actions) · hackathon prototypes <a href="https://github.com/kevin9327/protocol-sift-sentinel">protocol-sift-sentinel</a>, <a href="https://github.com/kevin9327/zipcode-cloud-relay">zipcode-cloud-relay</a> and <a href="https://github.com/kevin9327/shortsflow-ops-agent">shortsflow-ops-agent</a>.</sub>
+<sub>Also on the shelf: <a href="https://kevin9327.github.io/jangteo-story/">jangteo-story</a> (three photos and one sentence from a market stall, turned into a 30-second story and a QR code on the stall) · <a href="https://github.com/kevin9327/balju-radar">balju-radar</a> (a weekly lead report on public tenders) · <a href="https://github.com/kevin9327/github-trending-daily">github-trending-daily</a> (GitHub Trending, snapshotted daily by Playwright on Actions) · hackathon prototypes <a href="https://github.com/kevin9327/protocol-sift-sentinel">protocol-sift-sentinel</a>, <a href="https://github.com/kevin9327/zipcode-cloud-relay">zipcode-cloud-relay</a> and <a href="https://github.com/kevin9327/shortsflow-ops-agent">shortsflow-ops-agent</a>.</sub>
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
@@ -324,7 +330,7 @@ That is the job. Not the badge on the pull request — **the bug being gone.**
 
 **The reviews I leave are the ones I would stake my name on. Silence otherwise.**
 
-<sub>Everything that moves on this page is rendered with Blender (bpy + Cycles) from scripts in this repo, or drawn by GitHub Actions from live data. No JavaScript runs here — <a href="https://kevin9327.github.io">the WebGL version lives next door</a>.</sub>
+<sub>The loops here are rendered in Blender (bpy + Cycles) from scripts in this repo; the arena is the real game, captured frame by frame in headless Chromium; the graphs are redrawn by GitHub Actions from live data. No JavaScript runs here — <a href="https://kevin9327.github.io">the WebGL version lives next door</a>.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ec4899,50:f97316,100:facc15&height=130&section=footer" width="100%" />
 
