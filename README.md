@@ -46,6 +46,18 @@
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Counterclockwise%20Arrows%20Button.png" width="34" /> Run it backwards
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/entropy.svg?v=20260909" width="100%" alt="A field of static that assembles itself, cell by cell, into the words NO BUG IS RANDOM, holds them, and dissolves back into the same static." />
+
+<div align="center">
+
+<sub>That first frame is not static. It is the sentence, 80 steps early. The field is a reversible cellular automaton &mdash; one fixed rule on every 2&times;2 block, every step &mdash; and the seed was found by running that rule <b>backwards from the answer</b>. Played forward, the same rule reassembles the words cell for cell; the file asserts it before it is written. A crash log works the same way. One 117&nbsp;KB SVG, every frame a real state of the automaton, no JavaScript, no video &mdash; <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/render_entropy.py">scripts/render_entropy.py</a>.</sub>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="34" /> What I actually do
 
 I hunt the bugs that **survive code review and only detonate in production** — the ones a
@@ -342,7 +354,7 @@ That is the job. Not the badge on the pull request — **the bug being gone.**
 
 **The reviews I leave are the ones I would stake my name on. Silence otherwise.**
 
-<sub>The loops here are rendered in Blender (bpy + Cycles) from scripts in this repo; the staircase is a Python script's arithmetic that your browser draws live; the arena is the real game, captured frame by frame in headless Chromium; the graphs are redrawn by GitHub Actions from live data. No JavaScript runs here — <a href="https://kevin9327.github.io">the WebGL version lives next door</a>.</sub>
+<sub>The loops here are rendered in Blender (bpy + Cycles) from scripts in this repo; the staircase and the automaton are a Python script's arithmetic that your browser draws live; the arena is the real game, captured frame by frame in headless Chromium; the graphs are redrawn by GitHub Actions from live data. No JavaScript runs here — <a href="https://kevin9327.github.io">the WebGL version lives next door</a>.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ec4899,50:f97316,100:facc15&height=130&section=footer" width="100%" />
 

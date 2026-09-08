@@ -25,9 +25,12 @@ Pure stdlib. Runs in about a second.
 import collections
 import math
 import os
+import sys
 import xml.dom.minidom
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+from pixelfont import ADV, defs as font_defs, text   # noqa: E402  (the 5x7 bitmap font, compiled to paths)
 OUT = os.path.normpath(os.path.join(HERE, "..", "assets", "stairs.svg"))
 
 # ---------------------------------------------------------------- parameters
@@ -432,87 +435,6 @@ def discrete(attr, events, first, tag="animate", extra=""):
             f'keyTimes="{";".join(qt(t / TL) for t in kts)}" values="{";".join(vals)}"{extra}/>')
 
 
-# ---------------------------------------------------------------- bitmap font (5x7), compiled to paths
-FONT = {
-    "A": ".###. #...# #...# ##### #...# #...# #...#",
-    "B": "####. #...# #...# ####. #...# #...# ####.",
-    "C": ".###. #...# #.... #.... #.... #...# .###.",
-    "D": "####. #...# #...# #...# #...# #...# ####.",
-    "E": "##### #.... #.... ####. #.... #.... #####",
-    "F": "##### #.... #.... ####. #.... #.... #....",
-    "G": ".###. #...# #.... #.### #...# #...# .####",
-    "H": "#...# #...# #...# ##### #...# #...# #...#",
-    "I": "##### ..#.. ..#.. ..#.. ..#.. ..#.. #####",
-    "K": "#...# #..#. #.#.. ##... #.#.. #..#. #...#",
-    "L": "#.... #.... #.... #.... #.... #.... #####",
-    "M": "#...# ##.## #.#.# #.#.# #...# #...# #...#",
-    "N": "#...# ##..# #.#.# #..## #...# #...# #...#",
-    "O": ".###. #...# #...# #...# #...# #...# .###.",
-    "P": "####. #...# #...# ####. #.... #.... #....",
-    "R": "####. #...# #...# ####. #.#.. #..#. #...#",
-    "S": ".#### #.... #.... .###. ....# ....# ####.",
-    "T": "##### ..#.. ..#.. ..#.. ..#.. ..#.. ..#..",
-    "U": "#...# #...# #...# #...# #...# #...# .###.",
-    "V": "#...# #...# #...# #...# #...# .#.#. ..#..",
-    "W": "#...# #...# #...# #.#.# #.#.# ##.## #...#",
-    "X": "#...# #...# .#.#. ..#.. .#.#. #...# #...#",
-    "Y": "#...# #...# .#.#. ..#.. ..#.. ..#.. ..#..",
-    "0": ".###. #...# #..## #.#.# ##..# #...# .###.",
-    "1": "..#.. .##.. ..#.. ..#.. ..#.. ..#.. .###.",
-    "2": ".###. #...# ....# ...#. ..#.. .#... #####",
-    "3": "##### ...#. ..#.. ...#. ....# #...# .###.",
-    "4": "...#. ..##. .#.#. #..#. ##### ...#. ...#.",
-    "5": "##### #.... ####. ....# ....# #...# .###.",
-    "6": "..##. .#... #.... ####. #...# #...# .###.",
-    "7": "##### ....# ...#. ..#.. .#... .#... .#...",
-    "8": ".###. #...# #...# .###. #...# #...# .###.",
-    "9": ".###. #...# #...# .#### ....# ...#. .##..",
-    "(": "..#.. .#... #.... #.... #.... .#... ..#..",
-    ")": "..#.. ...#. ....# ....# ....# ...#. ..#..",
-    ".": "..... ..... ..... ..... ..... .##.. .##..",
-    "-": "..... ..... ..... ##### ..... ..... .....",
-    ":": "..... .##.. .##.. ..... .##.. .##.. .....",
-    "^": "..#.. ..#.. .#.#. .#.#. #...# #...# #####",   # delta
-}
-GID = {c: (f"c{c}" if c.isalnum() else {"(": "clp", ")": "crp", ".": "cdot", "-": "cdash", ":": "ccol", "^": "cdel"}[c])
-       for c in FONT}
-
-
-def glyph_path(rows):
-    rows = rows.split()
-    d = []
-    for x in range(5):
-        y = 0
-        while y < 7:
-            if rows[y][x] == "#":
-                y0 = y
-                while y < 7 and rows[y][x] == "#":
-                    y += 1
-                d.append(f"M{x} {y0}h1v{y - y0}h-1z")   # merge vertical runs: a stem is one subpath
-            else:
-                y += 1
-    return "".join(d)
-
-
-ADV = 6   # 5 columns + 1 gap, in glyph units
-
-
-def text(s, x, y, scale, fill, extra="", anchor="start"):
-    """one <use> per glyph; anchor start|middle|end; (x, y) is the top-left / top-centre / top-right"""
-    width = (len(s) * ADV - 1) * scale
-    if anchor == "middle":
-        x -= width / 2
-    elif anchor == "end":
-        x -= width
-    out = [f'<g transform="translate({q(x)} {q(y)}) scale({scale})" fill="{fill}"{extra}>']
-    for i, ch in enumerate(s):
-        if ch == " ":
-            continue
-        out.append(f'<use href="#{GID[ch]}" xlink:href="#{GID[ch]}" x="{i * ADV}"/>')
-    out.append("</g>")
-    return "".join(out)
-
-
 # ---------------------------------------------------------------- bake
 P0 = poses[0]
 ridge_scr = [proj(P0, p) for p in ridge]
@@ -595,8 +517,7 @@ for i, b in enumerate(blocks):
       f'<animate attributeName="opacity" dur="{TL}s" repeatCount="indefinite" keyTimes="{";".join(qt(t / TL) for t in kts)}" '
       f'values="{";".join(vals)}"/></use></g></g>')
 A(f'<path id="ridge" fill="none" d="{RIDGE_D}"/>')
-for ch, rows in FONT.items():
-    A(f'<path id="{GID[ch]}" d="{glyph_path(rows)}"/>')
+A(font_defs())
 A('<g id="odo">' + "".join(f'<use href="#c{d}" xlink:href="#c{d}" y="{8 * d}"/>' for d in range(10)) + '</g>')
 A('<clipPath id="win"><rect x="-0.5" y="-0.5" width="6" height="8"/></clipPath>')
 A('<path id="dia" d="M0 -7L7 0L0 7L-7 0Z"/>')

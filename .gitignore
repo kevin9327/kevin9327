@@ -9,3 +9,4 @@ render*/
 dist_test/
 *.gif
 *.log
+__pycache__/
