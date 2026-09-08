@@ -58,6 +58,18 @@
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" width="34" /> One line, 360 circles
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/fourier.svg?v=20260909" width="100%" alt="A chain of 360 spinning circles, each turning a whole number of times per lap, whose last tip draws a beetle in a single unbroken line; the beetle then fills with light." />
+
+<div align="center">
+
+<sub>Three hundred and sixty circles, chained end to end. Each one turns a whole number of times per lap &mdash; its size, its starting angle and its speed are one Fourier coefficient of the beetle's outline &mdash; and the tip of the last one draws the bug in a single stroke, legs and antennae and all, to within 2&nbsp;px. Nothing is stored per frame: every circle is one SMIL rotation and your browser composes all 360 of them live. One 146&nbsp;KB SVG, no JavaScript, no video &mdash; <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/render_fourier.py">scripts/render_fourier.py</a>.</sub>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="34" /> What I actually do
 
 I hunt the bugs that **survive code review and only detonate in production** — the ones a
@@ -354,7 +366,7 @@ That is the job. Not the badge on the pull request — **the bug being gone.**
 
 **The reviews I leave are the ones I would stake my name on. Silence otherwise.**
 
-<sub>The loops here are rendered in Blender (bpy + Cycles) from scripts in this repo; the staircase and the automaton are a Python script's arithmetic that your browser draws live; the arena is the real game, captured frame by frame in headless Chromium; the graphs are redrawn by GitHub Actions from live data. No JavaScript runs here — <a href="https://kevin9327.github.io">the WebGL version lives next door</a>.</sub>
+<sub>The loops here are rendered in Blender (bpy + Cycles) from scripts in this repo; the staircase, the automaton and the circles are a Python script's arithmetic that your browser draws live; the arena is the real game, captured frame by frame in headless Chromium; the graphs are redrawn by GitHub Actions from live data. No JavaScript runs here — <a href="https://kevin9327.github.io">the WebGL version lives next door</a>.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ec4899,50:f97316,100:facc15&height=130&section=footer" width="100%" />
 
