@@ -6,31 +6,34 @@ render_stairs.py -- REPRO STEPS: a staircase that ascends on every step and stil
 Emits assets/stairs.svg. Pure SMIL: no script, no filter, no font, no external reference, so it
 plays inside the <img> GitHub uses for a profile README.
 
-The object is real. 26 congruent square plates walk a rectangular circuit, every step up. The walk
-does NOT close in space -- it ends |g| = 14.14 treads away from where it began -- but g is parallel
-to the view axis at (45 deg, 60 deg), so under orthographic projection it projects to zero and the
-near plate hides the seam. That is asserted to machine precision below, not drawn.
+The object is real. Blocks walk a rectangular circuit -- a tread block per step, a square landing at
+each corner -- every step up, and no two blocks intersect. The walk does NOT close in space: it ends
+|g| treads away from where it began. But g is parallel to the view axis at (45 deg, 60 deg), so under
+orthographic projection the end lands exactly on the beginning. That is asserted to machine
+precision below, not drawn.
 
-Orthographic projection is linear, so every plate is the same projected polygon, merely translated:
-the whole rotating solid is three morphing face paths, instanced 26 times. SVG has no depth buffer
-and document order cannot animate, so the solid is emitted once per legal painter order and the
-orders are switched at the sub-frame instants where both are correct.
+Orthographic projection is linear, so every block of a kind is the same projected polygon, merely
+translated: the whole rotating solid is nine morphing face paths, instanced once per block. SVG has
+no depth buffer and document order cannot animate, so the solid is emitted once per legal painter
+order. At the magic angle the painter's order is the one the *loop* implies (the first block is
+drawn in front of the last landing, as its next step would be); the instant the camera opens a
+gap, the order becomes the true one and the illusion visibly breaks. The orders are switched at
+the interpolated instant where the incoming one becomes legal.
 
 Pure stdlib. Runs in about a second.
 """
 import collections
 import math
 import os
-import sys
 import xml.dom.minidom
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.normpath(os.path.join(HERE, "..", "assets", "stairs.svg"))
 
 # ---------------------------------------------------------------- parameters
-LEGS = [(1, 0, 9), (0, 1, 9), (-1, 0, 4), (0, -1, 4)]   # (dir x, dir y, steps): a 3/4 ring, CCW in plan
+LEGS = [(1, 0, 7), (0, 1, 7), (-1, 0, 3), (0, -1, 3)]   # (dir x, dir y, tread blocks); a square landing follows each
 T = 1.0                                               # tread advance per step
-PW = 2.8 * T                                          # plate side; square, so one prototype serves every leg
+PW = 3.0 * T                                          # flight width; landings are PW x PW
 THETA0, PHI0 = math.radians(45.0), math.radians(60.0)  # the one angle from which the loop closes
 THETA1, PHI1 = math.radians(82.0), math.radians(14.0)  # where the camera goes to break it
 NPOSE = 24                                            # baked camera poses between the two
@@ -46,6 +49,7 @@ T_BACK = T_HOLD + HOLD
 T_SNAP = T_BACK + BACK
 
 PINK, ORANGE, YELLOW, INK, MUTE = "#ec4899", "#f97316", "#facc15", "#0d1117", "#8b949e"
+SEAM_PX = 8.0        # while the ends are closer than this on screen, draw the loop's order, not the truth
 
 
 def hexlerp(a, b, s):
@@ -55,31 +59,57 @@ def hexlerp(a, b, s):
 
 
 def ramp(s):
-    """pink -> orange -> yellow -> orange -> pink around the loop: periodic, so the last slab meets the
+    """pink -> orange -> yellow -> orange -> pink around the loop: periodic, so the last block meets the
     first in the same colour and the eye can follow the stairs across the seam without a break"""
     t = 1 - abs(2 * (s % 1.0) - 1)
     return hexlerp(PINK, ORANGE, t * 2) if t < 0.5 else hexlerp(ORANGE, YELLOW, (t - 0.5) * 2)
 
 
 # ---------------------------------------------------------------- geometry
-N = sum(n for _, _, n in LEGS)
-DX = sum(dx * n for dx, dy, n in LEGS) * T
-DY = sum(dy * n for dx, dy, n in LEGS) * T
-assert abs(math.atan2(DY, DX) - THETA0) < 1e-9, "the closure azimuth must equal the magic azimuth"
-RISE = math.hypot(DX, DY) * math.tan(PHI0)   # derived from the closure condition, never chosen
-h = RISE / N                                 # riser
-TH = 2.2 * h + 0.2                           # plate thickness: each plate reaches below the one before
+def walk(h):
+    """lay the blocks along the circuit with riser h; returns blocks, the comet's path, and where the
+    path ends relative to where it began"""
+    blocks, ridge, tread_idx = [], [], []
 
-plates, dirs = [], []                        # plate top-centre, walk direction
-cx = cy = z = 0.0
-for dx, dy, n in LEGS:
-    for _ in range(n):
+    def point(p):
+        if not ridge or max(abs(p[k] - ridge[-1][k]) for k in range(3)) > 1e-9:
+            ridge.append(p)
+        return len(ridge) - 1
+
+    x = y = z = 0.0
+    for li, (dx, dy, n) in enumerate(LEGS):
+        for _ in range(n):
+            z += h
+            i0 = point((x, y, z))                       # at the top of the riser, entering the tread
+            blocks.append(dict(c=(x + 0.5 * dx, y + 0.5 * dy, z), kind="X" if dx else "Y"))
+            x, y = x + dx, y + dy
+            i1 = point((x, y, z))                       # leaving the tread
+            point((x, y, z + h))                        # up the next riser
+            tread_idx.append((i0, i1))
+        ndx, ndy, _ = LEGS[(li + 1) % len(LEGS)]
         z += h
-        plates.append((cx, cy, z))
-        dirs.append((dx, dy))
-        cx += dx * T
-        cy += dy * T
-g = (cx, cy, z)                              # closure vector: where the walk ends relative to its start
+        i0 = point((x, y, z))
+        cx, cy = x + PW / 2 * dx, y + PW / 2 * dy
+        point((cx, cy, z))                              # across the landing, turning the corner
+        blocks.append(dict(c=(cx, cy, z), kind="C"))
+        x, y = cx + PW / 2 * ndx, cy + PW / 2 * ndy
+        i1 = point((x, y, z))
+        point((x, y, z + h))
+        tread_idx.append((i0, i1))
+    return blocks, ridge, tread_idx, (x, y, z)
+
+
+_, _, _, g_plan = walk(1.0)
+N = len(walk(1.0)[0])
+assert abs(math.atan2(g_plan[1], g_plan[0]) - THETA0) < 1e-9, "the walk's plan displacement must point along the magic azimuth"
+RISE = math.hypot(g_plan[0], g_plan[1]) * math.tan(PHI0)   # derived from the closure condition, never chosen
+h = RISE / N                                                # riser
+TH = 2.2 * h + 0.2                                          # block thickness: a flight reads solid from the side
+blocks, ridge, tread_idx, g = walk(h)
+SEAM = ridge[0]
+END = (SEAM[0] + g[0], SEAM[1] + g[1], SEAM[2] + g[2])
+assert max(abs(a - b) for a, b in zip(ridge[-1], END)) < 1e-9
+SIZE = {"X": (T, PW), "Y": (PW, T), "C": (PW, PW)}
 
 
 def basis(theta, phi):
@@ -100,29 +130,33 @@ PAR = math.sqrt(sum(c * c for c in cross))
 GAP0 = (dot(g, r0), -dot(g, u0))
 assert PAR < 1e-9 and abs(GAP0[0]) < 1e-9 and abs(GAP0[1]) < 1e-9, "the loop does not close at the magic angle"
 
-FACES = {   # local coordinates, plate top-centre at the origin; the three faces the camera sees
-    "top": [(-PW / 2, -PW / 2, 0), (PW / 2, -PW / 2, 0), (PW / 2, PW / 2, 0), (-PW / 2, PW / 2, 0)],
-    "sx": [(PW / 2, -PW / 2, 0), (PW / 2, PW / 2, 0), (PW / 2, PW / 2, -TH), (PW / 2, -PW / 2, -TH)],
-    "sy": [(-PW / 2, PW / 2, 0), (PW / 2, PW / 2, 0), (PW / 2, PW / 2, -TH), (-PW / 2, PW / 2, -TH)],
-}
-CORN = [(sx * PW / 2, sy * PW / 2, zz) for zz in (0, -TH) for sx, sy in ((-1, -1), (1, -1), (1, 1), (-1, 1))]
-centres = [(p[0], p[1], p[2] - TH / 2) for p in plates]
 
-# the walk the comet runs: along each exposed tread, then up. Closes onto itself only through g.
-ridge, tread_idx = [], []                    # tread_idx[i] = ridge indices of plate i's tread start and end
-for i, ((px, py, pz), (dx, dy)) in enumerate(zip(plates, dirs)):
-    a = (px - 1.4 * dx, py - 1.4 * dy, pz)
-    b = (px - 0.4 * dx, py - 0.4 * dy, pz)
-    c = (px - 0.4 * dx, py - 0.4 * dy, pz + h)
-    ids = []
-    for p in (a, b, c):
-        if not ridge or max(abs(p[k] - ridge[-1][k]) for k in range(3)) > 1e-9:
-            ridge.append(p)
-        ids.append(len(ridge) - 1)
-    tread_idx.append((ids[0], ids[1]))
-SEAM = ridge[0]
-END = (SEAM[0] + g[0], SEAM[1] + g[1], SEAM[2] + g[2])
-ridge.append(END)
+def faces(kind):
+    """local coordinates, block top-centre at the origin; the three faces the camera sees"""
+    sx, sy = SIZE[kind]
+    return {
+        "top": [(-sx / 2, -sy / 2, 0), (sx / 2, -sy / 2, 0), (sx / 2, sy / 2, 0), (-sx / 2, sy / 2, 0)],
+        "sx": [(sx / 2, -sy / 2, 0), (sx / 2, sy / 2, 0), (sx / 2, sy / 2, -TH), (sx / 2, -sy / 2, -TH)],
+        "sy": [(-sx / 2, sy / 2, 0), (sx / 2, sy / 2, 0), (sx / 2, sy / 2, -TH), (-sx / 2, sy / 2, -TH)],
+    }
+
+
+def corners(b):
+    sx, sy = SIZE[b["kind"]]
+    cx, cy, cz = b["c"]
+    return [(cx + ex * sx / 2, cy + ey * sy / 2, cz + ez) for ez in (0, -TH) for ex, ey in ((-1, -1), (1, -1), (1, 1), (-1, 1))]
+
+
+def box(b, shift=(0, 0, 0)):
+    sx, sy = SIZE[b["kind"]]
+    cx, cy, cz = (b["c"][i] + shift[i] for i in range(3))
+    return ((cx - sx / 2, cx + sx / 2), (cy - sy / 2, cy + sy / 2), (cz - TH, cz))
+
+
+for a in range(N):   # the blocks touch; they never intersect, which is what makes a painter's order exist
+    for b_ in range(a + 1, N):
+        A, B = box(blocks[a]), box(blocks[b_])
+        assert any(A[k][1] <= B[k][0] + 1e-9 or B[k][1] <= A[k][0] + 1e-9 for k in range(3)), f"blocks {a} and {b_} intersect"
 
 
 # ---------------------------------------------------------------- camera
@@ -135,7 +169,7 @@ for k in range(NPOSE):
     s = ease(k / (NPOSE - 1))
     th, ph = THETA0 + (THETA1 - THETA0) * s, PHI0 + (PHI1 - PHI0) * s
     fv, rv, uv = basis(th, ph)
-    pts = [(dot(p, rv), -dot(p, uv)) for b in plates for c in CORN for p in [(b[0] + c[0], b[1] + c[1], b[2] + c[2])]]
+    pts = [(dot(p, rv), -dot(p, uv)) for b in blocks for p in corners(b)]
     xs, ys = [p[0] for p in pts], [p[1] for p in pts]
     poses.append(dict(f=fv, r=rv, u=uv, bb=(min(xs), min(ys), max(xs), max(ys))))
 
@@ -155,6 +189,10 @@ def proj(p, pt):
 
 def proj0(p, pt):   # without the translation: the instanced prototype
     return (p["s"] * dot(pt, p["r"]), -p["s"] * dot(pt, p["u"]))
+
+
+def lerp(a, b, s):
+    return a + (b - a) * s
 
 
 def q(v):
@@ -201,19 +239,54 @@ def overlap(A, B, eps=0.6):
     return True
 
 
-def corners_at(k):
-    p = poses[k]
-    return [[proj(p, (b[0] + c[0], b[1] + c[1], b[2] + c[2])) for c in CORN] for b in plates]
+def nearer(a, b, seam):
+    """which of two non-intersecting boxes is nearer the camera, by the plane that separates them. A
+    separating plane gives the same answer at every pose of this sweep (every component of the view
+    axis stays positive), so the painter's order only changes when silhouettes start or stop
+    overlapping -- or at the seam. With `seam`, an early block is compared as if it stood one loop
+    further along the walk: that is the order the closed loop implies, and it is what the eye must
+    see at the magic angle."""
+    K = 4
+    A = box(blocks[a], g if (seam and a < K and b >= N - K) else (0, 0, 0))
+    B = box(blocks[b], g if (seam and b < K and a >= N - K) else (0, 0, 0))
+    verdicts = set()
+    for k in range(3):
+        if A[k][1] <= B[k][0] + 1e-9:
+            verdicts.add(b)        # B lies on the +axis side, and the camera is on the + side of every axis
+        elif B[k][1] <= A[k][0] + 1e-9:
+            verdicts.add(a)
+    if len(verdicts) != 1:        # not separated (impossible) or separated two ways (cannot overlap on screen)
+        return None
+    return verdicts.pop()
 
 
-def depth_at(k):
-    return [dot(c, poses[k]["f"]) for c in centres]
+CORNERS = [[[proj(p, c) for c in corners(b)] for b in blocks] for p in poses]
 
 
-def constraints(corn, dep):
-    """set of (a, b): plate a must be drawn before plate b"""
+def corners_at(s):
+    k = min(int(s), NPOSE - 2)
+    u = s - k
+    if u < 1e-12:
+        return CORNERS[k]
+    return [[(lerp(a[0], b[0], u), lerp(a[1], b[1], u)) for a, b in zip(ca, cb)] for ca, cb in zip(CORNERS[k], CORNERS[k + 1])]
+
+
+def gap_at_pose(s):
+    k = min(int(s), NPOSE - 2)
+    u = s - k
+    S = [lerp(a, b, u) for a, b in zip(proj(poses[k], SEAM), proj(poses[k + 1], SEAM))]
+    E = [lerp(a, b, u) for a, b in zip(proj(poses[k], END), proj(poses[k + 1], END))]
+    return math.dist(S, E)
+
+
+def constraints_at(s):
+    """set of (a, b): block a must be drawn before block b, at fractional pose s. The browser
+    interpolates the projected geometry linearly between baked poses, so the interpolated
+    silhouettes are exactly what it draws."""
+    corn = corners_at(s)
+    seam = gap_at_pose(s) < SEAM_PX
     sil = [hull(c) for c in corn]
-    bb = [(min(x for x, _ in s), min(y for _, y in s), max(x for x, _ in s), max(y for _, y in s)) for s in sil]
+    bb = [(min(x for x, _ in c), min(y for _, y in c), max(x for x, _ in c), max(y for _, y in c)) for c in sil]
     E = set()
     for i in range(N):
         for j in range(i + 1, N):
@@ -222,7 +295,9 @@ def constraints(corn, dep):
                 continue
             if not overlap(sil[i], sil[j]):
                 continue
-            E.add((j, i) if dep[i] > dep[j] else (i, j))
+            n = nearer(i, j, seam)
+            if n is not None:
+                E.add((j, i) if n == i else (i, j))
     return E
 
 
@@ -252,34 +327,14 @@ def violations(order, E):
     return sum(1 for a, b in E if rk[a] > rk[b])
 
 
-def lerp(a, b, s):
-    return a + (b - a) * s
-
-
-CORNERS = [corners_at(k) for k in range(NPOSE)]
-DEPTHS = [depth_at(k) for k in range(NPOSE)]
-
-
-def constraints_at(s):
-    """occlusion constraints at fractional pose s: the browser interpolates the projected geometry
-    linearly between baked poses, so the interpolated silhouettes are exactly what it draws"""
-    k = min(int(s), NPOSE - 2)
-    u = s - k
-    if u < 1e-12:
-        return constraints(CORNERS[k], DEPTHS[k])
-    corn = [[(lerp(a[0], b[0], u), lerp(a[1], b[1], u)) for a, b in zip(ca, cb)]
-            for ca, cb in zip(CORNERS[k], CORNERS[k + 1])]
-    dep = [lerp(a, b, u) for a, b in zip(DEPTHS[k], DEPTHS[k + 1])]
-    return constraints(corn, dep)
-
-
 def depth_key(s):
     k = min(int(s), NPOSE - 2)
     u = s - k
-    return lambda i: lerp(DEPTHS[k][i], DEPTHS[k + 1][i], u)
+    fa, fb = poses[k]["f"], poses[k + 1]["f"]
+    return lambda i: lerp(dot(blocks[i]["c"], fa), dot(blocks[i]["c"], fb), u)
 
 
-# painter order on a grid finer than the poses, because pairs flip between poses too
+# painter order on a grid finer than the poses, because pairs start overlapping between poses too
 SUB = 6
 GRID = [k + j / SUB for k in range(NPOSE - 1) for j in range(SUB)] + [NPOSE - 1.0]
 CONS = [constraints_at(s) for s in GRID]
@@ -295,11 +350,11 @@ while k < len(GRID):
         acc |= CONS[j]
         best = o
         j += 1
+    assert best is not None, f"no painter's order exists at grid pose {GRID[k]:.2f}: the occlusion graph has a cycle"
     passes.append((k, j - 1, best))
     k = j
 
-# the switch between consecutive passes: between the last grid point of one and the first of the next,
-# look for the instant where both orders are legal; failing that, the least-bad one
+# the switch between consecutive passes: the instant the incoming order becomes legal
 switches = []        # fractional pose index at which pass p gives way to pass p+1
 for p in range(len(passes) - 1):
     b = passes[p][1]
@@ -313,14 +368,14 @@ for p in range(len(passes) - 1):
         if vo == 0 and vi == 0:
             both.append(u)
         if vi == 0 and (best is None or best[0] > 0):
-            best = (0, u, vo, vi)          # the first instant the incoming order is legal
+            best = (0, u, vo, vi)
         elif best is None:
             best = (vo + vi, u, vo, vi)
     u_star = both[len(both) // 2] if both else best[1]
     switches.append(lerp(s0, s1, u_star))
-    if not both:
-        print(f"  pass {p} -> {p + 1} at pose {switches[-1]:.3f}: switching the instant the incoming order becomes legal "
-              f"(outgoing order breaks {best[2]} overlapping pairs there)")
+    print(f"  pass {p} -> {p + 1} at pose {switches[-1]:.3f} (gap {gap_at_pose(switches[-1]):.1f} px): "
+          + (f"both orders legal on u in [{both[0]:.2f}, {both[-1]:.2f}]" if both else
+             f"switching the instant the incoming order becomes legal (outgoing breaks {best[2]} pairs there)"))
 print(f"painter order: {len(passes)} passes over {len(GRID)} grid poses; switches at "
       + ", ".join(f"{s:.2f}" for s in switches))
 for p, (a, b, order) in enumerate(passes):
@@ -328,7 +383,7 @@ for p, (a, b, order) in enumerate(passes):
         assert violations(order, CONS[kk]) == 0, f"pass {p} is not legal at grid pose {kk}"
 
 NORM = {"top": (0, 0, 1), "sx": (1, 0, 0), "sy": (0, 1, 0)}
-mind = min(dot(NORM[k_], p["f"]) for k_ in FACES for p in poses)
+mind = min(dot(NORM[k_], p["f"]) for k_ in NORM for p in poses)
 assert mind > 0, f"a drawn face turns its back on the camera during the sweep ({mind:.3f})"
 
 
@@ -469,17 +524,18 @@ RIDGE_LEN = ARC[-1]
 seam_gap = math.dist(ridge_scr[0], ridge_scr[-1])
 assert seam_gap < 1e-6, f"ridge does not close on screen ({seam_gap:.2e} px)"
 
-face_vals = {name: [("M" + " ".join(f"{q(x)} {q(y)}" for x, y in [proj0(p, v) for v in verts]) + "Z") for p in poses]
-             for name, verts in FACES.items()}
-plate_vals = [[f"{q(proj(p, b)[0])} {q(proj(p, b)[1])}" for p in poses] for b in plates]
+face_vals = {kind: {name: [("M" + " ".join(f"{q(x)} {q(y)}" for x, y in [proj0(p, v) for v in verts]) + "Z") for p in poses]
+                    for name, verts in faces(kind).items()} for kind in SIZE}
+block_vals = [[f"{q(proj(p, b['c'])[0])} {q(proj(p, b['c'])[1])}" for p in poses] for b in blocks]
 seam_vals = [f"{q(proj(p, SEAM)[0])} {q(proj(p, SEAM)[1])}" for p in poses]
 end_vals = [f"{q(proj(p, END)[0])} {q(proj(p, END)[1])}" for p in poses]
 link_vals = [f"M{q(proj(p, SEAM)[0])} {q(proj(p, SEAM)[1])}L{q(proj(p, END)[0])} {q(proj(p, END)[1])}" for p in poses]
 gap_px = [math.dist(proj(p, SEAM), proj(p, END)) for p in poses]
-print(f"steps N={N}  riser h={h:.4f}  plate {PW}x{PW}x{TH:.3f}  |g|={math.hypot(*g):.4f}")
+print(f"blocks N={N} ({sum(1 for b in blocks if b['kind'] != 'C')} treads + 4 landings)  riser h={h:.4f}  "
+      f"thickness {TH:.3f}  |g|={math.hypot(*g):.4f}")
 print(f"|g x f0| = {PAR:.3e}   screen gap at magic angle = ({GAP0[0]:.2e}, {GAP0[1]:.2e})   ridge seam = {seam_gap:.2e} px")
 print(f"projected gap at the reveal pose = {gap_px[-1]:.1f} px   ridge length = {RIDGE_LEN:.1f} px")
-print(f"screen riser = {h * P0['s']:.1f} px  tread = {T * P0['s']:.1f} px  plate = {PW * P0['s']:.0f} px  (at {W} wide)")
+print(f"screen riser = {h * P0['s']:.1f} px  tread = {T * P0['s']:.1f} px  flight width = {PW * P0['s']:.0f} px  (at {W} wide)")
 
 
 def pose_at(t):
@@ -495,12 +551,7 @@ def pose_at(t):
 
 
 def gap_at(t):
-    s = pose_at(t)
-    k = min(int(s), NPOSE - 2)
-    u = s - k
-    S = [lerp(a, b, u) for a, b in zip(proj(poses[k], SEAM), proj(poses[k + 1], SEAM))]
-    E = [lerp(a, b, u) for a, b in zip(proj(poses[k], END), proj(poses[k + 1], END))]
-    return math.dist(S, E)
+    return gap_at_pose(pose_at(t))
 
 
 # ---------------------------------------------------------------- emit
@@ -509,35 +560,38 @@ A = out.append
 A(f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
   f'viewBox="0 0 {W} {H}" width="{W}" height="{H}">')
 A('<title>REPRO STEPS</title>')
-A(f'<desc>A staircase of {N} identical slabs that ascends on every step and still closes on itself. '
+A(f'<desc>A staircase of {N} blocks that ascends on every step and still closes on itself. '
   f'The walk really ends {math.hypot(*g):.2f} treads from where it started, along the view axis, so it projects '
   f'onto its own beginning; then the camera moves and the loop comes apart. Pure SMIL, generated by '
   f'scripts/render_stairs.py.</desc>')
 A('<defs>')
-# the three instanced faces: the entire shape of every plate at every pose lives here
-for name, fill in (("sy", "currentColor"), ("sx", "currentColor"), ("top", "currentColor")):
-    A(f'<path id="f_{name}" fill="{fill}" stroke="{INK}" stroke-width="0.8" stroke-linejoin="round">{anim("d", face_vals[name])}</path>')
-A('<g id="blk">'
-  '<use href="#f_sy" xlink:href="#f_sy"/><use href="#f_sy" xlink:href="#f_sy" fill="' + INK + '" opacity="0.62"/>'
-  '<use href="#f_sx" xlink:href="#f_sx"/><use href="#f_sx" xlink:href="#f_sx" fill="' + INK + '" opacity="0.44"/>'
-  '<use href="#f_top" xlink:href="#f_top"/>'
-  '</g>')
-# one placed plate each: colour by walk order, position baked per pose. Placed once, painted many times.
-for i in range(N):
-    v, kt = track(plate_vals[i])
+# the instanced faces: the entire shape of every block at every pose lives in these nine paths
+for kind in SIZE:
+    for name in ("sy", "sx", "top"):
+        A(f'<path id="f_{kind}_{name}" fill="currentColor" stroke="{INK}" stroke-width="0.8" stroke-linejoin="round">'
+          f'{anim("d", face_vals[kind][name])}</path>')
+    A(f'<g id="blk{kind}">'
+      f'<use href="#f_{kind}_sy" xlink:href="#f_{kind}_sy"/><use href="#f_{kind}_sy" xlink:href="#f_{kind}_sy" fill="{INK}" opacity="0.62"/>'
+      f'<use href="#f_{kind}_sx" xlink:href="#f_{kind}_sx"/><use href="#f_{kind}_sx" xlink:href="#f_{kind}_sx" fill="{INK}" opacity="0.44"/>'
+      f'<use href="#f_{kind}_top" xlink:href="#f_{kind}_top"/>'
+      f'</g>')
+# one placed block each: colour by walk order, position baked per pose, a tread that lights up as the
+# comet crosses it. Placed once, painted once per pass.
+for i, b in enumerate(blocks):
+    v, kt = track(block_vals[i])
     ta, tb = tread_idx[i]
     mid = (ARC[ta] + ARC[tb]) / 2 / RIDGE_LEN * LAP          # when the comet is on this tread, per lap
-    lit = [(mid + lap * LAP) for lap in range(LAPS)]
     kts, vals = [0.0], ["0"]
-    for t in lit:
-        kts += [max(0.001, t - 0.06), t, t + 0.32]   # plate 0 lights up at the very start of the loop
+    for lap in range(LAPS):
+        t = mid + lap * LAP
+        kts += [max(0.001, t - 0.06), t, t + 0.32]           # block 0 lights up at the very start of the loop
         vals += ["0", "0.45", "0"]
     kts.append(TL)
     vals.append("0")
     A(f'<g id="p{i}"><g><animateTransform attributeName="transform" type="translate" dur="{TL}s" repeatCount="indefinite" '
       f'calcMode="linear" keyTimes="{kt}" values="{v}"/>'
-      f'<use href="#blk" xlink:href="#blk" color="{ramp(i / N)}"/>'
-      f'<use href="#f_top" xlink:href="#f_top" fill="#ffffff" stroke="none" opacity="0">'
+      f'<use href="#blk{b["kind"]}" xlink:href="#blk{b["kind"]}" color="{ramp(i / N)}"/>'
+      f'<use href="#f_{b["kind"]}_top" xlink:href="#f_{b["kind"]}_top" fill="#ffffff" stroke="none" opacity="0">'
       f'<animate attributeName="opacity" dur="{TL}s" repeatCount="indefinite" keyTimes="{";".join(qt(t / TL) for t in kts)}" '
       f'values="{";".join(vals)}"/></use></g></g>')
 A(f'<path id="ridge" fill="none" d="{RIDGE_D}"/>')
@@ -545,7 +599,7 @@ for ch, rows in FONT.items():
     A(f'<path id="{GID[ch]}" d="{glyph_path(rows)}"/>')
 A('<g id="odo">' + "".join(f'<use href="#c{d}" xlink:href="#c{d}" y="{8 * d}"/>' for d in range(10)) + '</g>')
 A('<clipPath id="win"><rect x="-0.5" y="-0.5" width="6" height="8"/></clipPath>')
-A(f'<path id="dia" d="M0 -7L7 0L0 7L-7 0Z"/>')
+A('<path id="dia" d="M0 -7L7 0L0 7L-7 0Z"/>')
 A('</defs>')
 
 A(f'<rect width="{W}" height="{H}" fill="{INK}"/>')
@@ -582,7 +636,7 @@ for width, dash, back, col, op in ((13, 230, 204, ORANGE, 0.2), (7, 84, 58, YELL
     A(f'<path d="{RIDGE_D}" fill="none" stroke="{col}" stroke-width="{width}" stroke-linecap="round" '
       f'stroke-linejoin="round" opacity="{op}" stroke-dasharray="{q(dash)} {q(L - dash)}">'
       f'<animate attributeName="stroke-dashoffset" dur="{TL}s" repeatCount="indefinite" '
-      f'keyTimes="{times(0, T_CATCH, TL)}" values="{q(back)};{q(back - 2 * L)};{q(back - 2 * L)}"/>'
+      f'keyTimes="{times(0, T_CATCH, TL)}" values="{q(back)};{q(back - LAPS * L)};{q(back - LAPS * L)}"/>'
       f'<animate attributeName="opacity" dur="{TL}s" repeatCount="indefinite" keyTimes="{vis_kt}" '
       f'values="{op};{op};0;0;{op};{op}"/></path>')
 # the snap: the whole ridge flashes white on the exact frame the loop closes again
@@ -605,7 +659,7 @@ for vals, col in ((end_vals, YELLOW), (seam_vals, PINK)):
 
 # title, readout, captions
 A(text("REPRO STEPS", 28, 22, 3, MUTE))
-A(text(f"{N} SLABS  EVERY STEP UP", 28, 52, 2, "#484f58"))
+A(text(f"{N} BLOCKS  EVERY STEP UP", 28, 52, 2, "#484f58"))
 # odometer: five columns, each a clipped stack of ten digits stepped by a discrete translate
 rx, ry, rs = W - 28, 22, 3
 A(text("^", rx - 9 * ADV * rs, ry, rs, YELLOW))
@@ -615,8 +669,7 @@ for col in range(5):
     seq = []
     for t in samples:
         s = f"{gap_at(t):5.1f}"
-        ch = s[col]
-        seq.append((t, ch))
+        seq.append((t, s[col]))
     if col == 3:
         A(text(".", rx - (8 - col) * ADV * rs, ry, rs, MUTE))
         continue
@@ -686,4 +739,4 @@ def selfcheck(svg):
 n_tracks, size = selfcheck(svg)
 with open(OUT, "w", encoding="utf-8", newline="\n") as fh:
     fh.write(svg)
-print(f"wrote {OUT}  {size:,} bytes  ({n_tracks} animation tracks, {NPOSE} poses, {N} plates, {len(passes)} passes, {TL:.2f} s loop)")
+print(f"wrote {OUT}  {size:,} bytes  ({n_tracks} animation tracks, {NPOSE} poses, {N} blocks, {len(passes)} passes, {TL:.2f} s loop)")

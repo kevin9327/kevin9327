@@ -36,11 +36,11 @@
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Infinity.png" width="34" /> A loop that never terminates
 
-<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/stairs.svg?v=20260909" width="100%" alt="A staircase of 26 identical slabs that ascends on every step and still closes on itself. A spark runs it forever. Then the camera moves, and the loop comes apart: it only closed from one angle." />
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/stairs.svg?v=20260909b" width="100%" alt="A staircase of 24 blocks that ascends on every step and still closes on itself. A spark runs it forever. Then the camera moves, and the loop comes apart: it only closed from one angle." />
 
 <div align="center">
 
-<sub>Not a drawing. A real solid of 26 identical slabs, every step up, and the walk really ends 14.14 treads away from where it began &mdash; along the view axis, so it lands exactly on its own start. <b>The impossibility belongs to the viewer.</b> That is what a production-only bug is. One 75&nbsp;KB SVG, pure SMIL, no JavaScript, no video &mdash; every pose, the painter's order and the seam are computed and asserted by <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/render_stairs.py">one Python file</a>.</sub>
+<sub>Not a drawing. A real solid of 24 blocks that never intersect, every step up, and the walk really ends 11.3 treads away from where it began &mdash; along the view axis, so it lands exactly on its own start. <b>The impossibility belongs to the viewer.</b> That is what a production-only bug is. One 85&nbsp;KB SVG, pure SMIL, no JavaScript, no video &mdash; every pose, the painter's order and the seam are computed and asserted by <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/render_stairs.py">one Python file</a>.</sub>
 
 </div>
 
