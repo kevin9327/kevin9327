@@ -70,6 +70,18 @@
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Collision.png" width="34" /> Cut. Rewind. Fix.
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/smash.webp?v=20260909" width="100%" alt="The arena's knight takes a two-handed slice at the word BUG, built from glowing blocks; the blocks explode as rigid bodies in slow motion, the debris gathers itself into the word FIX, the knight cheers, and the tape rewinds." />
+
+<div align="center">
+
+<sub>The knight from the arena, same CC0 rig, takes a two-handed slice at a BUG built from 53 glowing blocks. The blocks are rigid bodies &mdash; the blast, the tumbling and every bounce are Blender's physics, run at half speed &mdash; and then the debris gathers itself into FIX (42 blocks, the same blast played backwards) before the tape rewinds. Rendered with Cycles on the same machine as the header, in three passes sequenced by a script. A 1&nbsp;MB WebP, so it plays at full speed on anything &mdash; <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/render_smash.py">scripts/render_smash.py</a> &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/assemble_smash.py">assemble_smash.py</a>.</sub>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="34" /> What I actually do
 
 I hunt the bugs that **survive code review and only detonate in production** — the ones a
