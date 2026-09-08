@@ -46,27 +46,7 @@
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Counterclockwise%20Arrows%20Button.png" width="34" /> Run it backwards
-
-<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/entropy.svg?v=20260909" width="100%" alt="A field of static that assembles itself, cell by cell, into the words NO BUG IS RANDOM, holds them, and dissolves back into the same static." />
-
-<div align="center">
-
-<sub>That first frame is not static. It is the sentence, 80 steps early. The field is a reversible cellular automaton &mdash; one fixed rule on every 2&times;2 block, every step &mdash; and the seed was found by running that rule <b>backwards from the answer</b>. Played forward, the same rule reassembles the words cell for cell; the file asserts it before it is written. A crash log works the same way. One 117&nbsp;KB SVG, every frame a real state of the automaton, no JavaScript, no video &mdash; <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/render_entropy.py">scripts/render_entropy.py</a>.</sub>
-
-</div>
-
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" width="34" /> One line, 360 circles
-
-<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/fourier.svg?v=20260909" width="100%" alt="A chain of 360 spinning circles, each turning a whole number of times per lap, whose last tip draws a beetle in a single unbroken line; the beetle then fills with light." />
-
-<div align="center">
-
-<sub>Three hundred and sixty circles, chained end to end. Each one turns a whole number of times per lap &mdash; its size, its starting angle and its speed are one Fourier coefficient of the beetle's outline &mdash; and the tip of the last one draws the bug in a single stroke, legs and antennae and all, to within 2&nbsp;px. Nothing is stored per frame: every circle is one SMIL rotation and your browser composes all 360 of them live. One 146&nbsp;KB SVG, no JavaScript, no video &mdash; <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/render_fourier.py">scripts/render_fourier.py</a>.</sub>
-
-</div>
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
@@ -77,6 +57,18 @@
 <div align="center">
 
 <sub>The knight from the arena, same CC0 rig, takes a two-handed slice at a BUG built from 53 glowing blocks. The blocks are rigid bodies &mdash; the blast, the tumbling and every bounce are Blender's physics, run at half speed &mdash; and then the debris gathers itself into FIX (42 blocks, the same blast played backwards) before the tape rewinds. Rendered with Cycles on the same machine as the header, in three passes sequenced by a script. A 1&nbsp;MB WebP, so it plays at full speed on anything &mdash; <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/render_smash.py">scripts/render_smash.py</a> &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/assemble_smash.py">assemble_smash.py</a>.</sub>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crown.png" width="34" /> Boss fight
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/boss.webp?v=20260909" width="100%" alt="The arena's knight faces the PRODUCTION BUG, a giant beetle of glowing armour plates. It slams the floor where the knight stood; the knight jumps clear, runs in and lands a critical two-handed slice; the boss bursts into hundreds of plates in slow motion. BUG SLAIN." />
+
+<div align="center">
+
+<sub>The knight against the <b>PRODUCTION BUG</b>: a glowing core under 430 armour plates, six legs, mandibles, and one sliver of health left. It rears and slams the floor where the knight stood; the knight jumps clear, runs in and lands a two-handed crit. Every plate is a rigid body &mdash; on the hit all 430 let go at once, in slow motion, and the core goes out. Modelled, animated and rendered by one Blender script on the same machine as the header; the HUD is drawn on top by a second. A 1.2&nbsp;MB WebP, full speed on anything &mdash; <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/render_boss.py">scripts/render_boss.py</a> &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/assemble_boss.py">assemble_boss.py</a>.</sub>
 
 </div>
 
@@ -378,7 +370,7 @@ That is the job. Not the badge on the pull request — **the bug being gone.**
 
 **The reviews I leave are the ones I would stake my name on. Silence otherwise.**
 
-<sub>The loops here are rendered in Blender (bpy + Cycles) from scripts in this repo; the staircase, the automaton and the circles are a Python script's arithmetic that your browser draws live; the arena is the real game, captured frame by frame in headless Chromium; the graphs are redrawn by GitHub Actions from live data. No JavaScript runs here — <a href="https://kevin9327.github.io">the WebGL version lives next door</a>.</sub>
+<sub>The loops here are rendered in Blender (bpy + Cycles) from scripts in this repo; the staircase is a Python script's arithmetic that your browser draws live; the arena is the real game, captured frame by frame in headless Chromium; the graphs are redrawn by GitHub Actions from live data. No JavaScript runs here — <a href="https://kevin9327.github.io">the WebGL version lives next door</a>.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ec4899,50:f97316,100:facc15&height=130&section=footer" width="100%" />
 
