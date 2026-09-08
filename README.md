@@ -36,7 +36,7 @@
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Infinity.png" width="34" /> A loop that never terminates
 
-<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/stairs.svg?v=20260908" width="100%" alt="A staircase of 26 identical slabs that ascends on every step and still closes on itself. A spark runs it forever. Then the camera moves, and the loop comes apart: it only closed from one angle." />
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/stairs.svg?v=20260909" width="100%" alt="A staircase of 26 identical slabs that ascends on every step and still closes on itself. A spark runs it forever. Then the camera moves, and the loop comes apart: it only closed from one angle." />
 
 <div align="center">
 

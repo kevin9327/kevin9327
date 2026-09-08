@@ -37,7 +37,7 @@ NPOSE = 24                                            # baked camera poses betwe
 W, H = 1000, 460
 BAND = (30, 14, 970, 392)                             # the object is fitted into this box at every pose
 
-LAP, LAPS, CATCH, SWEEP, HOLD, BACK, SNAP = 2.20, 2, 0.22, 1.30, 0.60, 0.90, 0.18
+LAP, LAPS, CATCH, SWEEP, HOLD, BACK, SNAP = 2.20, 3, 0.22, 1.30, 0.60, 0.90, 0.18
 TL = LAPS * LAP + CATCH + SWEEP + HOLD + BACK + SNAP
 T_CATCH = LAPS * LAP
 T_SWEEP = T_CATCH + CATCH
@@ -55,8 +55,10 @@ def hexlerp(a, b, s):
 
 
 def ramp(s):
-    """pink -> orange -> yellow, in walk order"""
-    return hexlerp(PINK, ORANGE, s * 2) if s < 0.5 else hexlerp(ORANGE, YELLOW, (s - 0.5) * 2)
+    """pink -> orange -> yellow -> orange -> pink around the loop: periodic, so the last slab meets the
+    first in the same colour and the eye can follow the stairs across the seam without a break"""
+    t = 1 - abs(2 * (s % 1.0) - 1)
+    return hexlerp(PINK, ORANGE, t * 2) if t < 0.5 else hexlerp(ORANGE, YELLOW, (t - 0.5) * 2)
 
 
 # ---------------------------------------------------------------- geometry
@@ -534,7 +536,7 @@ for i in range(N):
     vals.append("0")
     A(f'<g id="p{i}"><g><animateTransform attributeName="transform" type="translate" dur="{TL}s" repeatCount="indefinite" '
       f'calcMode="linear" keyTimes="{kt}" values="{v}"/>'
-      f'<use href="#blk" xlink:href="#blk" color="{ramp(i / (N - 1))}"/>'
+      f'<use href="#blk" xlink:href="#blk" color="{ramp(i / N)}"/>'
       f'<use href="#f_top" xlink:href="#f_top" fill="#ffffff" stroke="none" opacity="0">'
       f'<animate attributeName="opacity" dur="{TL}s" repeatCount="indefinite" keyTimes="{";".join(qt(t / TL) for t in kts)}" '
       f'values="{";".join(vals)}"/></use></g></g>')
@@ -571,7 +573,10 @@ for p, (a, b, order) in enumerate(passes):
       + discrete("opacity", [(t, "1" if v == "inline" else "0") for t, v in ev], "1" if first == "inline" else "0")
       + "".join(f'<use href="#p{i}" xlink:href="#p{i}"/>' for i in order) + "</g>")
 
-# the comet: a dash running the ridge, two laps, then parked on the seam until the loop is whole again
+# the path itself, one unbroken line around the whole loop, so the eye can trace that it never ends
+A(f'<path d="{RIDGE_D}" fill="none" stroke="#fde68a" stroke-width="1.6" stroke-linejoin="round" opacity="0.32">'
+  f'<animate attributeName="opacity" dur="{TL}s" repeatCount="indefinite" keyTimes="{vis_kt}" values="0.32;0.32;0;0;0.32;0.32"/></path>')
+# the comet: a dash running the ridge, lap after lap, then parked on the seam until the loop is whole again
 L = RIDGE_LEN
 for width, dash, back, col, op in ((13, 230, 204, ORANGE, 0.2), (7, 84, 58, YELLOW, 0.55), (4.4, 26, 0, "#fff7cc", 1)):
     A(f'<path d="{RIDGE_D}" fill="none" stroke="{col}" stroke-width="{width}" stroke-linecap="round" '
