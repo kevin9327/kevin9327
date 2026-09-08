@@ -34,6 +34,18 @@
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Infinity.png" width="34" /> A loop that never terminates
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/stairs.svg?v=20260908" width="100%" alt="A staircase of 26 identical slabs that ascends on every step and still closes on itself. A spark runs it forever. Then the camera moves, and the loop comes apart: it only closed from one angle." />
+
+<div align="center">
+
+<sub>Not a drawing. A real solid of 26 identical slabs, every step up, and the walk really ends 14.14 treads away from where it began &mdash; along the view axis, so it lands exactly on its own start. <b>The impossibility belongs to the viewer.</b> That is what a production-only bug is. One 75&nbsp;KB SVG, pure SMIL, no JavaScript, no video &mdash; every pose, the painter's order and the seam are computed and asserted by <a href="https://github.com/kevin9327/kevin9327/blob/main/scripts/render_stairs.py">one Python file</a>.</sub>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="34" /> What I actually do
 
 I hunt the bugs that **survive code review and only detonate in production** — the ones a
@@ -330,7 +342,7 @@ That is the job. Not the badge on the pull request — **the bug being gone.**
 
 **The reviews I leave are the ones I would stake my name on. Silence otherwise.**
 
-<sub>The loops here are rendered in Blender (bpy + Cycles) from scripts in this repo; the arena is the real game, captured frame by frame in headless Chromium; the graphs are redrawn by GitHub Actions from live data. No JavaScript runs here — <a href="https://kevin9327.github.io">the WebGL version lives next door</a>.</sub>
+<sub>The loops here are rendered in Blender (bpy + Cycles) from scripts in this repo; the staircase is a Python script's arithmetic that your browser draws live; the arena is the real game, captured frame by frame in headless Chromium; the graphs are redrawn by GitHub Actions from live data. No JavaScript runs here — <a href="https://kevin9327.github.io">the WebGL version lives next door</a>.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ec4899,50:f97316,100:facc15&height=130&section=footer" width="100%" />
 
