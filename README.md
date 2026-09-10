@@ -101,7 +101,7 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/CopilotKit/OpenBot"><b>CopilotKit/OpenBot</b></a><br/><sub>AI coworker platform</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3ACopilotKit%2FOpenBot&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3ACopilotKit%2FOpenBot&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 27 · top outside contributor</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3ACopilotKit%2FOpenBot&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3ACopilotKit%2FOpenBot&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 25 · top outside contributor</sub></td>
 <td>A snapshot cache living in process memory meant element refs <b>silently stopped resolving the moment a second replica existed</b> — moved it into Postgres. A credential filter that blocked <code>api-key</code> and <b>let <code>x-api-key</code> straight through</b>. <code>1e999</code> is valid JSON, so a scroll delta arrived as <code>Infinity</code>, was erased by the transport, and the browser <b>scrolled its own default distance while answering 200</b>. A key pasted with a line break <b>reported as an agent that could not be reached</b> — one that was never dialled. Take the wheel, type a password, press Enter: <b>nothing happened, and nothing said so</b>. Quit with the app installed anywhere but the default path and <b>five containers stayed up</b>.</td>
 </tr>
 
@@ -113,14 +113,56 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/openai/codex-security"><b>openai/codex-security</b></a><br/><sub>OpenAI's security scanner for coding agents</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aopenai%2Fcodex-security&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aopenai%2Fcodex-security&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#11 of 33 contributors</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aopenai%2Fcodex-security&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aopenai%2Fcodex-security&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#10 of 32 contributors</sub></td>
 <td>A diff scan of a commit touching only <code>.cjs</code>, <code>.cts</code> or <code>.mts</code> files <b>reviewed nothing and reported no skips</b> — those extensions were missing from the inventory's allowlist. When Git's own listing failed, the scanner treated it as <b>"no such files" and still exited 0</b>, so a repository with a broken index scanned a silently shortened file list. <code>import --csv</code> refused an escaping location path; <code>--json</code> <b>accepted it, and <code>--dry-run</code> called it valid</b>. A guard that owned <code>plugins</code> was <b>bypassed by moving the key one table deeper</b>.</td>
 </tr>
 
 <tr>
+<td><a href="https://github.com/n8n-io/n8n"><b>n8n-io/n8n</b></a><br/><sub>Workflow automation, 204k &#9733;</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3An8n-io%2Fn8n&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>The same expression gave two different answers and <b>neither raised an error</b>: <code>{{ $json.url.extractUrlPath() }}</code> on a URL with a non-ASCII path previewed as <code>/wiki/K%C3%A4se</code> in the editor and executed as <code>/wiki/Käse</code>. The editor has no isolate, so it uses the platform's <code>new URL()</code>; the server's default engine uses a hand-rolled parser that never learned dot-segment removal, percent-encoding, backslash separators or <code>%2e</code>. The regression test is an oracle — 38 URLs asserted against <code>new URL()</code> itself, so the expectations cannot drift from the API they replace.</td>
+</tr>
+
+<tr>
 <td><a href="https://github.com/microsoft/markitdown"><b>microsoft/markitdown</b></a><br/><sub>Document → Markdown, 182k ★</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Amicrosoft%2Fmarkitdown&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Amicrosoft%2Fmarkitdown&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#11 of 100+ contributors</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Amicrosoft%2Fmarkitdown&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Amicrosoft%2Fmarkitdown&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#10 of 123 contributors</sub></td>
 <td>A file whose encoding could not be sniffed was <b>converted to the literal string <code>None</code></b>. A byte order mark made the notebook parser fail, the error was swallowed, and the <code>.ipynb</code> <b>came back as its own JSON source with no error at all</b>. A <code>.docx</code> written by anything but Word <b>lost every equation, silently</b> — one optional child element, one <code>KeyError</code>, one blanket <code>except</code>. Blank-line normalisation ran <b>inside fenced code blocks</b>, so the code in the Markdown was not the code in the source.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/opencv/opencv"><b>opencv/opencv</b></a><br/><sub>Computer vision, 82k &#9733;</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aopencv%2Fopencv&label=in%20review&color=f97316&style=flat-square"/></td>
+<td><b>Any JPEG 2000 narrower or shorter than 32 pixels silently failed to write.</b> <code>setupEncoderParameters()</code> never set <code>numresolution</code>, so OpenJPEG kept its default of 6 and its own validator rejected every tile below 2<sup>5</sup> — thumbnails, tiles, icons, sprite cells. <code>imwrite</code> returned false and printed nothing.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/uber-go/zap"><b>uber-go/zap</b></a><br/><sub>Uber's structured logger for Go, 25k &#9733;</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Auber-go%2Fzap&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>A <code>Config</code> missing <code>level</code> <b>created the log file and leaked its descriptor</b> — <code>Build</code> returns an error and no closer, so a service that retries it runs out of descriptors over a typo. A multi-sink <code>WriteSyncer</code> <b>reported a full write when one sink wrote nothing</b>: a closed or full file returns <code>(0, err)</code>, the normal short-write signal, and <code>n</code> came back from whichever sink was listed later — so <code>io.Copy</code> accounts for bytes that never landed. And <code>WithGroup("")</code>, which <code>slog</code> defines as returning the receiver, nested <b>every later attribute under an empty key</b>.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/Netflix/metaflow"><b>Netflix/metaflow</b></a><br/><sub>ML pipelines at Netflix</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3ANetflix%2Fmetaflow&label=in%20review&color=f97316&style=flat-square"/></td>
+<td><code>to_pod()</code> turned <code>None</code> into the <b>string</b> <code>"None"</code>, so a plain <code>@resources(cpu=2, memory=8192)</code> was recorded as <code>"gpu": "None"</code> — truthy — and anything reading the run's graph back concludes a GPU was requested. When a local metadata write failed, the path you cannot write to was replaced by <code>UnboundLocalError: cannot access local variable 'f'</code>. And a <code>@trigger</code> returning the wrong type raised <code>TypeError: unhashable type: 'list'</code> because <b>the message that would have explained it could not be built.</b></td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/huggingface/lerobot"><b>huggingface/lerobot</b></a><br/><sub>Hugging Face's robot-learning stack</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Ahuggingface%2Flerobot&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>Fine-tune from a checkpoint with a YAML config and every <b>list-valued</b> field beside <code>policy.path</code> is dropped without a word — <code>crop_shape: [76, 76]</code> runs at the checkpoint's <code>(84, 84)</code> while the scalar next to it applies. Everything beside <code>reward_model.path</code> is discarded the same way, and the policy branch <i>not</i> doing it is what makes the asymmetry invisible. Turn streaming on and <b>your depth maps change unit</b>: <code>depth_output_unit</code> is validated, then never passed to the streaming dataset. Plus two test guards that had never actually guarded anything.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/zalando/skipper"><b>zalando/skipper</b></a><br/><sub>Zalando's HTTP router and proxy</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Azalando%2Fskipper&label=in%20review&color=f97316&style=flat-square"/></td>
+<td><b><code>modResponseHeader</code> deleted cookies.</b> Rewriting the cookie domain of a backend that sets two cookies delivered one — the filter read through the single-value accessor and wrote a single value back. <code>dropRequestHeaderRegexp</code> silently did nothing unless the header name in the route was already canonical, and where it half-worked it <b>left an empty string where the value had been</b>. <code>eskip</code> also serialized large numbers in exponent notation, which its own parser will not read back.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/roboflow/supervision"><b>roboflow/supervision</b></a><br/><sub>Roboflow's computer-vision toolkit</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aroboflow%2Fsupervision&label=in%20review&color=f97316&style=flat-square"/></td>
+<td><code>sv.tint_image</code> <b>tinted the image you passed in</b>, not just the one it returned — so the standard before/after <code>hstack</code> came out tinted on both halves — and only for NumPy input, because a Pillow argument was shielded by a conversion, making one call alias differently by input type. A <code>LineZone</code>'s triggering anchors came from a generator, so it <b>stopped counting crossings after the first frame</b>. And a single non-finite keypoint crashed the annotators instead of being skipped.</td>
 </tr>
 
 <tr>
@@ -202,6 +244,8 @@ without ever throwing. Then I prove them.
 </tr>
 
 </table>
+
+<sub>Also in review: <a href="https://github.com/huggingface/skills">huggingface/skills</a> (a cost estimator that read <code>7B</code> out of <code>Qwen2.5-72B</code> because it matched the shortest size string first, and a dataset inspector that reported a row count the endpoint it asked never returns) &middot; <a href="https://github.com/labring/FastGPT">labring/FastGPT</a> (a whitespace regex that ate <code>]]</code> out of ordinary prose, an HTML table whose header row lost its columns on the way to Markdown, and a select-all that cleared the pages you were not looking at).</sub>
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
