@@ -101,8 +101,8 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/CopilotKit/OpenBot"><b>CopilotKit/OpenBot</b></a><br/><sub>AI coworker platform</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3ACopilotKit%2FOpenBot&label=merged&color=3fb950&style=flat-square"/><br/><sub>#2 of 24 contributors</sub></td>
-<td>A snapshot cache living in process memory meant element refs <b>silently stopped resolving the moment a second replica existed</b> — moved it into Postgres. A deny rule written for one action surface <b>refused every other surface too</b>. An audit page that <b>called a refused call "Allowed"</b>. An empty <code>PORT</code> in the environment that let the server <b>come up on a random port</b>. A component <b>published under the padded name instead of the one the guard approved</b>. A <code>Stop</code> that lands mid-action, <b>recorded as anything but a stop</b>.</td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3ACopilotKit%2FOpenBot&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3ACopilotKit%2FOpenBot&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 27 · top outside contributor</sub></td>
+<td>A snapshot cache living in process memory meant element refs <b>silently stopped resolving the moment a second replica existed</b> — moved it into Postgres. A credential filter that blocked <code>api-key</code> and <b>let <code>x-api-key</code> straight through</b>. <code>1e999</code> is valid JSON, so a scroll delta arrived as <code>Infinity</code>, was erased by the transport, and the browser <b>scrolled its own default distance while answering 200</b>. A key pasted with a line break <b>reported as an agent that could not be reached</b> — one that was never dialled. Take the wheel, type a password, press Enter: <b>nothing happened, and nothing said so</b>. Quit with the app installed anywhere but the default path and <b>five containers stayed up</b>.</td>
 </tr>
 
 <tr>
@@ -112,14 +112,26 @@ without ever throwing. Then I prove them.
 </tr>
 
 <tr>
+<td><a href="https://github.com/openai/codex-security"><b>openai/codex-security</b></a><br/><sub>OpenAI's security scanner for coding agents</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aopenai%2Fcodex-security&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aopenai%2Fcodex-security&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#11 of 33 contributors</sub></td>
+<td>A diff scan of a commit touching only <code>.cjs</code>, <code>.cts</code> or <code>.mts</code> files <b>reviewed nothing and reported no skips</b> — those extensions were missing from the inventory's allowlist. When Git's own listing failed, the scanner treated it as <b>"no such files" and still exited 0</b>, so a repository with a broken index scanned a silently shortened file list. <code>import --csv</code> refused an escaping location path; <code>--json</code> <b>accepted it, and <code>--dry-run</code> called it valid</b>. A guard that owned <code>plugins</code> was <b>bypassed by moving the key one table deeper</b>.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/microsoft/markitdown"><b>microsoft/markitdown</b></a><br/><sub>Document → Markdown, 182k ★</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Amicrosoft%2Fmarkitdown&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Amicrosoft%2Fmarkitdown&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#11 of 100+ contributors</sub></td>
+<td>A file whose encoding could not be sniffed was <b>converted to the literal string <code>None</code></b>. A byte order mark made the notebook parser fail, the error was swallowed, and the <code>.ipynb</code> <b>came back as its own JSON source with no error at all</b>. A <code>.docx</code> written by anything but Word <b>lost every equation, silently</b> — one optional child element, one <code>KeyError</code>, one blanket <code>except</code>. Blank-line normalisation ran <b>inside fenced code blocks</b>, so the code in the Markdown was not the code in the source.</td>
+</tr>
+
+<tr>
 <td><a href="https://github.com/leookun/cursor-byok"><b>leookun/cursor-byok</b></a><br/><sub>Local Cursor backend</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aleookun%2Fcursor-byok&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aleookun%2Fcursor-byok&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 25 contributors</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aleookun%2Fcursor-byok&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aleookun%2Fcursor-byok&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 26 · top outside contributor</sub></td>
 <td>A tool-call id reused across rounds <b>wedged the run forever, with no timeout on that path</b>. Result truncation that <b>spun at 100% CPU, then underflowed a <code>usize</code></b>. One unreadable proxy row that <b>bricked every request</b>. Empty tool arguments that killed the entire run with <code>EOF while parsing a value</code>. Also: the repo's first pull-request CI, so <code>main</code> stops drifting red.</td>
 </tr>
 
 <tr>
 <td><a href="https://github.com/crmne/fastpotify"><b>crmne/fastpotify</b></a><br/><sub>Native Spotify client in Rust</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Acrmne%2Ffastpotify&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acrmne%2Ffastpotify&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#4 of 25 contributors</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Acrmne%2Ffastpotify&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acrmne%2Ffastpotify&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#4 of 27 contributors</sub></td>
 <td>A skin colour with a <b>multi-byte character panicked the parser</b>, and release builds abort on panic, so the app just closed. On Windows the locale is empty, so every Japanese, Korean and Traditional-Chinese user got <b>three mismatched fallback fonts</b> — the Han region now comes from the Windows display language, and full-width punctuation <b>folds onto the skin font's own cells</b> instead of a fallback's. A byte order mark, the thing Notepad writes, <b>silently threw away every colour in a skin</b>.</td>
 </tr>
 
@@ -149,8 +161,8 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/shy3130/tick-stock-panel"><b>shy3130/tick-stock-panel</b></a><br/><sub>A-share quant workbench</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/badge/8-landed-3fb950?style=flat-square"/><br/><sub>#7 of 27 · 4 merged, 4 absorbed</sub></td>
-<td>A forced-exit signal <b>evaporated under pandas copy-on-write</b> — chained assignment, dropped without a warning. An upload handler read <b>whole files into memory with no cap at all</b>.</td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Ashy3130%2Ftick-stock-panel&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Ashy3130%2Ftick-stock-panel&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 27 · 30 commits</sub></td>
+<td>A forced-exit signal <b>evaporated under pandas copy-on-write</b> — chained assignment, dropped without a warning. Nine straight sessions where high equals low make <code>0/0</code>, which is <b>NaN, not null</b>, so the guard missed it and <b>KDJ never came back for that symbol</b>. The previous trading day was looked up in <b>calendar days</b>, so across the Spring Festival the limit-up ladder <b>came up empty</b>. An index change already in percent was <b>multiplied by 100 again</b>, and the AI report said the market rose 123%. A placeholder limit price of <code>0</code> marked <b>every stock limit-up</b>. A manual refresh on a weekend divided by one elapsed minute and <b>inflated volume ratios 240×</b>, firing surge alerts across the board.</td>
 </tr>
 
 <tr>
@@ -172,15 +184,21 @@ without ever throwing. Then I prove them.
 </tr>
 
 <tr>
+<td><a href="https://github.com/dmtrKovalenko/fff"><b>dmtrKovalenko/fff</b></a><br/><sub>Terminal file finder, Rust</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3AdmtrKovalenko%2Ffff&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>One <code>return</code> where a <code>continue</code> belonged, inside a parallel chunk closure: the first binary file in a 256-file chunk <b>removed every file behind it from the content index</b>, and those files never matched a plain search again. <code>String::truncate</code> counts <b>bytes</b>, so shortening a path with any non-ASCII directory name <b>panicked</b>. A git status constant of <code>0</code> made "is it clean?" <b>vacuously true</b>, so a conflicted file reported clean. On Windows the first colon of <code>C:\…\file.rs:12</code> is the <b>drive separator</b>, and the line number was dropped.</td>
+</tr>
+
+<tr>
 <td><a href="https://github.com/every-app/open-seo"><b>every-app/open-seo</b></a><br/><sub>Open-source SEO audit suite</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aevery-app%2Fopen-seo&label=in%20review&color=f97316&style=flat-square"/></td>
-<td>Backlink history parsed date-only strings as UTC midnight and then rendered them in the reader's own timezone, so <b>every reader west of UTC saw each link first seen a day early</b> — and on the 1st, <b>the month axis a whole month early</b>.</td>
+<td>Backlink history parsed date-only strings as UTC midnight and then rendered them in the reader's own timezone, so <b>every reader west of UTC saw each link first seen a day early</b> — and on the 1st, <b>the month axis a whole month early</b>. The crawler asks for XHTML in its own <code>Accept</code> header and then <b>gated on <code>text/html</code></b>, so an XHTML site yielded no links and <b>the crawl never left the start URL</b>. <code>robots.txt</code> was consulted with no user-agent, so a group naming this crawler by name was <b>dead text in both directions</b>. <code>rel</code> was compared case-sensitively, so <code>rel="Canonical"</code> was dropped — and a page with no canonical is treated as duplicate-eligible, so it came back flagged as duplicate.</td>
 </tr>
 
 <tr>
 <td><a href="https://github.com/NVIDIA/SkillSpector"><b>NVIDIA/SkillSpector</b></a><br/><sub>Security scanner for agent skills</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3ANVIDIA%2FSkillSpector&label=in%20review&color=f97316&style=flat-square"/></td>
-<td>A Windows path with an <b>8.3 short name in it failed the handle-path safety check</b>, so on any account with a space in its name, <code>%TEMP%</code> is short-form and <b>every URL scan broke by default</b>.</td>
+<td>A Windows path with an <b>8.3 short name in it failed the handle-path safety check</b>, so on any account with a space in its name, <code>%TEMP%</code> is short-form and <b>every URL scan broke by default</b>. Then five contract tests that <b>had never actually run</b>: failure was injected into a primitive only the POSIX branch calls, symlink and FIFO cases died in setup rather than skipping, and fixtures written with the platform's newline were asserted against <code>LF</code>. Windows failures 23 → 9.</td>
 </tr>
 
 </table>
