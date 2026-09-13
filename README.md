@@ -102,7 +102,7 @@ without ever throwing. Then I prove them.
 <tr>
 <td><a href="https://github.com/CopilotKit/OpenBot"><b>CopilotKit/OpenBot</b></a><br/><sub>AI coworker platform</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3ACopilotKit%2FOpenBot&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3ACopilotKit%2FOpenBot&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 25 · top outside contributor</sub></td>
-<td>A snapshot cache living in process memory meant element refs <b>silently stopped resolving the moment a second replica existed</b> — moved it into Postgres. A credential filter that blocked <code>api-key</code> and <b>let <code>x-api-key</code> straight through</b>. <code>1e999</code> is valid JSON, so a scroll delta arrived as <code>Infinity</code>, was erased by the transport, and the browser <b>scrolled its own default distance while answering 200</b>. A key pasted with a line break <b>reported as an agent that could not be reached</b> — one that was never dialled. Take the wheel, type a password, press Enter: <b>nothing happened, and nothing said so</b>; double-click landed as two single clicks; a half-ticked box read as ticked. A proxy handed over the way curl takes it, <code>user:pass@host:3128</code>, parsed as a scheme plus a path, so the redaction found no password to strip and <b>the proxy password reached the admin page, the API and the bot's own shell</b>. Quit with the app installed anywhere but the default path and <b>five containers stayed up</b>.</td>
+<td>A snapshot cache living in process memory meant element refs <b>silently stopped resolving the moment a second replica existed</b> — moved it into Postgres. A credential filter that blocked <code>api-key</code> and <b>let <code>x-api-key</code> straight through</b>. <code>1e999</code> is valid JSON, so a scroll delta arrived as <code>Infinity</code>, was erased by the transport, and the browser <b>scrolled its own default distance while answering 200</b>. A key pasted with a line break <b>reported as an agent that could not be reached</b> — one that was never dialled. Take the wheel, type a password, press Enter: <b>nothing happened, and nothing said so</b>; double-click landed as two single clicks; a half-ticked box read as ticked. A proxy handed over the way curl takes it, <code>user:pass@host:3128</code>, parsed as a scheme plus a path, so the redaction found no password to strip and <b>the proxy password reached the admin page, the API and the bot's own shell</b>. A message with a file attached reached both Bots as <code>[object Object],[object Object]</code>, <b>replacing the typed question and the file alike</b>. Quit with the app installed anywhere but the default path and <b>five containers stayed up</b>.</td>
 </tr>
 
 <tr>
@@ -125,7 +125,7 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/microsoft/markitdown"><b>microsoft/markitdown</b></a><br/><sub>Document → Markdown, 182k ★</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Amicrosoft%2Fmarkitdown&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Amicrosoft%2Fmarkitdown&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#8 of 124 contributors</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Amicrosoft%2Fmarkitdown&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Amicrosoft%2Fmarkitdown&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#8 of 125 contributors</sub></td>
 <td>A file whose encoding could not be sniffed was <b>converted to the literal string <code>None</code></b>. A byte order mark made the notebook parser fail, the error was swallowed, and the <code>.ipynb</code> <b>came back as its own JSON source with no error at all</b>. A <code>.docx</code> written by anything but Word <b>lost every equation, silently</b> — one optional child element, one <code>KeyError</code>, one blanket <code>except</code>. Blank-line normalisation ran <b>inside fenced code blocks</b>, so the code in the Markdown was not the code in the source.</td>
 </tr>
 
@@ -154,6 +154,18 @@ without ever throwing. Then I prove them.
 </tr>
 
 <tr>
+<td><a href="https://github.com/deer-flow/llm-space"><b>deer-flow/llm-space</b></a><br/><sub>DeerFlow's prompt &amp; agent workbench, 1.9k &#9733;</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Adeer-flow%2Fllm-space&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>An agent's <code>apply_patch</code> call was <b>rejected outright when a hunk held a genuinely empty line</b>, and an insertion-only hunk placed before a line-adding edit <b>landed mid-file while the tool still reported Success</b>. Importing a thread <b>turned failed tool calls into successes</b>, so re-running it told the model they had worked. And without <code>replace_all</code> the edit tool read the new text as a replacement pattern, so a Makefile's <code>$$HOME</code> was <b>saved as <code>$HOME</code></b>.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/NVIDIA/cosmos-framework"><b>NVIDIA/cosmos-framework</b></a><br/><sub>NVIDIA Cosmos world-model framework</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3ANVIDIA%2Fcosmos-framework&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>A string in a fine-tuning TOML — <code>name = "20260913"</code>, <code>"true"</code>, <code>"null"</code> — <b>reached the config as an int, a bool or None</b>, and one containing <code>=</code>, <code>(</code>, <code>[</code> or <code>#</code> <b>stopped the TOML from loading at all</b>. A mistyped input glob matched nothing and <b>returned zero samples without an error</b>, so inference loaded the model and generated nothing.</td>
+</tr>
+
+<tr>
 <td><a href="https://github.com/huggingface/lerobot"><b>huggingface/lerobot</b></a><br/><sub>Hugging Face's robot-learning stack</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Ahuggingface%2Flerobot&label=in%20review&color=f97316&style=flat-square"/></td>
 <td>Fine-tune from a checkpoint with a YAML config and every <b>list-valued</b> field beside <code>policy.path</code> is dropped without a word — <code>crop_shape: [76, 76]</code> runs at the checkpoint's <code>(84, 84)</code> while the scalar next to it applies. Everything beside <code>reward_model.path</code> is discarded the same way, and the policy branch <i>not</i> doing it is what makes the asymmetry invisible. Turn streaming on and <b>your depth maps change unit</b>: <code>depth_output_unit</code> is validated, then never passed to the streaming dataset. Plus two test guards that had never actually guarded anything.</td>
@@ -166,8 +178,14 @@ without ever throwing. Then I prove them.
 </tr>
 
 <tr>
+<td><a href="https://github.com/shadcn-labs/pdfcn"><b>shadcn-labs/pdfcn</b></a><br/><sub>shadcn's PDF components, 1.7k &#9733;</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Ashadcn-labs%2Fpdfcn&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>Highlight a component in the docs search menu once, and <b>every Ctrl/Cmd+C on the page afterwards copied that install command</b> instead of the text you had selected — even with the menu closed.</td>
+</tr>
+
+<tr>
 <td><a href="https://github.com/roboflow/supervision"><b>roboflow/supervision</b></a><br/><sub>Roboflow's computer-vision toolkit</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aroboflow%2Fsupervision&label=in%20review&color=f97316&style=flat-square"/></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aroboflow%2Fsupervision&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aroboflow%2Fsupervision&label=in%20review&color=f97316&style=flat-square"/></td>
 <td><code>sv.tint_image</code> <b>tinted the image you passed in</b>, not just the one it returned — so the standard before/after <code>hstack</code> came out tinted on both halves — and only for NumPy input, because a Pillow argument was shielded by a conversion, making one call alias differently by input type. A <code>LineZone</code>'s triggering anchors came from a generator, so it <b>stopped counting crossings after the first frame</b>. And a single non-finite keypoint crashed the annotators instead of being skipped.</td>
 </tr>
 
@@ -179,14 +197,14 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/crmne/fastpotify"><b>crmne/fastpotify</b></a><br/><sub>Native Spotify client in Rust</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Acrmne%2Ffastpotify&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acrmne%2Ffastpotify&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#4 of 27 contributors</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Acrmne%2Ffastpotify&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acrmne%2Ffastpotify&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#4 of 31 contributors</sub></td>
 <td>A skin colour with a <b>multi-byte character panicked the parser</b>, and release builds abort on panic, so the app just closed. On Windows the locale is empty, so every Japanese, Korean and Traditional-Chinese user got <b>three mismatched fallback fonts</b> — the Han region now comes from the Windows display language, and full-width punctuation <b>folds onto the skin font's own cells</b> instead of a fallback's. A byte order mark, the thing Notepad writes, <b>silently threw away every colour in a skin</b>.</td>
 </tr>
 
 <tr>
 <td><a href="https://github.com/lightningpixel/modly"><b>lightningpixel/modly</b></a><br/><sub>Image to 3D desktop app</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Alightningpixel%2Fmodly&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Alightningpixel%2Fmodly&label=in%20review&color=f97316&style=flat-square"/></td>
-<td>Headless runs wrote their results into <b>an unindexed folder the app could never see</b>. The "free the GPU" step ran <b>only on the rare max-iterations exit</b> — dead code on the path that mattered. A tool that reported a <b>failed model unload as success</b>.</td>
+<td>Headless runs wrote their results into <b>an unindexed folder the app could never see</b>. The "free the GPU" step ran <b>only on the rare max-iterations exit</b> — dead code on the path that mattered. A tool that reported a <b>failed model unload as success</b>. Move the workspace and new generations <b>kept writing to the old folder</b>, and jobs started through the headless API <b>were never purged</b>.</td>
 </tr>
 
 <tr>
@@ -203,25 +221,25 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/xevrion/breakscale"><b>xevrion/breakscale</b></a><br/><sub>Distributed-systems failure simulator</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Axevrion%2Fbreakscale&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Axevrion%2Fbreakscale&label=in%20review&color=f97316&style=flat-square"/></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Axevrion%2Fbreakscale&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Axevrion%2Fbreakscale&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#3 of 11 contributors</sub></td>
 <td>Every knob a shared link can carry, measured against the range the inspector itself declares — <b>six of them accepted values the UI never allows</b>. The instance count landed first: <code>Math.max(1, NaN)</code> is still <code>NaN</code>, so the simulator <b>tried to allocate a billion-slot array and died on its first snapshot</b>. In review: the fleet counts the data components read, a broker's partition count, the transcoder's rendition ladder, a region switch, an autoscaler.</td>
 </tr>
 
 <tr>
 <td><a href="https://github.com/shy3130/tick-stock-panel"><b>shy3130/tick-stock-panel</b></a><br/><sub>A-share quant workbench</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Ashy3130%2Ftick-stock-panel&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Ashy3130%2Ftick-stock-panel&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 27 · 30 commits</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Ashy3130%2Ftick-stock-panel&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Ashy3130%2Ftick-stock-panel&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 28 · 36 commits</sub></td>
 <td>A forced-exit signal <b>evaporated under pandas copy-on-write</b> — chained assignment, dropped without a warning. Nine straight sessions where high equals low make <code>0/0</code>, which is <b>NaN, not null</b>, so the guard missed it and <b>KDJ never came back for that symbol</b>. The previous trading day was looked up in <b>calendar days</b>, so across the Spring Festival the limit-up ladder <b>came up empty</b>. An index change already in percent was <b>multiplied by 100 again</b>, and the AI report said the market rose 123%. A placeholder limit price of <code>0</code> marked <b>every stock limit-up</b>. A manual refresh on a weekend divided by one elapsed minute and <b>inflated volume ratios 240×</b>, firing surge alerts across the board.</td>
 </tr>
 
 <tr>
 <td><a href="https://github.com/akitaonrails/ai-memory"><b>akitaonrails/ai-memory</b></a><br/><sub>Long-term memory for agent CLIs</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/badge/landed-3fb950?style=flat-square"/></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aakitaonrails%2Fai-memory&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/badge/landed-3fb950?style=flat-square"/></td>
 <td>A packaging test that <b>could never pass on Windows</b> — found by running the suite where CI does not.</td>
 </tr>
 
 <tr>
 <td><a href="https://github.com/cactus-compute/needle"><b>cactus-compute/needle</b></a><br/><sub>14 MB on-device tool-calling model</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acactus-compute%2Fneedle&label=in%20review&color=f97316&style=flat-square"/></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Acactus-compute%2Fneedle&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acactus-compute%2Fneedle&label=in%20review&color=f97316&style=flat-square"/></td>
 <td>The engine moved its cache into a versioned folder and the test harness kept looking at the old path, so <b>every engine test skipped silently even with the engine installed</b>. The playground reset the wrong engine, so <b>"clear conversation" kept the previous turns</b>. Extraction dropped the system facts the docs say it needs to resolve "yesterday".</td>
 </tr>
 
@@ -233,8 +251,8 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/dmtrKovalenko/fff"><b>dmtrKovalenko/fff</b></a><br/><sub>Terminal file finder, Rust</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3AdmtrKovalenko%2Ffff&label=in%20review&color=f97316&style=flat-square"/></td>
-<td>One <code>return</code> where a <code>continue</code> belonged, inside a parallel chunk closure: the first binary file in a 256-file chunk <b>removed every file behind it from the content index</b>, and those files never matched a plain search again. <code>String::truncate</code> counts <b>bytes</b>, so shortening a path with any non-ASCII directory name <b>panicked</b>. A git status constant of <code>0</code> made "is it clean?" <b>vacuously true</b>, so a conflicted file reported clean. On Windows the first colon of <code>C:\…\file.rs:12</code> is the <b>drive separator</b>, and the line number was dropped.</td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3AdmtrKovalenko%2Ffff&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3AdmtrKovalenko%2Ffff&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#3 of 93 contributors</sub></td>
+<td>One <code>return</code> where a <code>continue</code> belonged, inside a parallel chunk closure: the first binary file in a 256-file chunk <b>removed every file behind it from the content index</b>, and those files never matched a plain search again. <code>String::truncate</code> counts <b>bytes</b>, so shortening a path with any non-ASCII directory name <b>panicked</b>. A git status constant of <code>0</code> made "is it clean?" <b>vacuously true</b>, so a conflicted file reported clean. On Windows the first colon of <code>C:\…\file.rs:12</code> is the <b>drive separator</b>, and the line number was dropped. A version number or an IP in a grep — <code>192.168.1.1 timeout</code> — was taken for a file-path filter, so the search <b>scoped itself to a file that does not exist and found nothing</b>; the test guarding that rule built its parser with the rule switched off, so it had never run.</td>
 </tr>
 
 <tr>
@@ -245,7 +263,7 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/NVIDIA/SkillSpector"><b>NVIDIA/SkillSpector</b></a><br/><sub>Security scanner for agent skills</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3ANVIDIA%2FSkillSpector&label=in%20review&color=f97316&style=flat-square"/></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3ANVIDIA%2FSkillSpector&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3ANVIDIA%2FSkillSpector&label=in%20review&color=f97316&style=flat-square"/></td>
 <td>A Windows path with an <b>8.3 short name in it failed the handle-path safety check</b>, so on any account with a space in its name, <code>%TEMP%</code> is short-form and <b>every URL scan broke by default</b>. Then five contract tests that <b>had never actually run</b>: failure was injected into a primitive only the POSIX branch calls, symlink and FIFO cases died in setup rather than skipping, and fixtures written with the platform's newline were asserted against <code>LF</code>. Windows failures 23 → 9.</td>
 </tr>
 
