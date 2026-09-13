@@ -233,7 +233,7 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/akitaonrails/ai-memory"><b>akitaonrails/ai-memory</b></a><br/><sub>Long-term memory for agent CLIs</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aakitaonrails%2Fai-memory&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/badge/landed-3fb950?style=flat-square"/></td>
+<td align="center" nowrap><img src="https://img.shields.io/badge/landed-3fb950?style=flat-square"/></td>
 <td>A packaging test that <b>could never pass on Windows</b> — found by running the suite where CI does not.</td>
 </tr>
 
