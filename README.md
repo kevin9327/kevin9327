@@ -166,6 +166,18 @@ without ever throwing. Then I prove them.
 </tr>
 
 <tr>
+<td><a href="https://github.com/QwenLM/Qwen-MM-Plugins"><b>QwenLM/Qwen-MM-Plugins</b></a><br/><sub>Qwen's multimodal plugins for agent harnesses, 2.8k &#9733;</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3AQwenLM%2FQwen-MM-Plugins&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>The configuration docs list <code>FREECAD_ONLY_TEXT_FEEDBACK</code> as defaulting to <code>off</code>, so <code>on</code> is the value you set — and it <b>was ignored, so FreeCAD tools kept attaching screenshots</b>. Four on/off flags each compared the raw value against their own list and stripped nothing, so <code>set QWEN_MM_NO_AUTO_INSTALL=1 &amp;&amp; …</code> in cmd.exe, which stores the value with its trailing space, <b>read as unset and the auto-download ran anyway</b>.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/QwenAudio/qwen-audio-agent"><b>QwenAudio/qwen-audio-agent</b></a><br/><sub>QwenAudio's realtime voice runtime for agents, 2.6k &#9733;</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3AQwenAudio%2Fqwen-audio-agent&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>Node's official installer puts npm under <code>C:\Program Files</code>, and the install step handed that path to <code>cmd.exe</code> unquoted, so <b>the npm step of a backend install — CLI or desktop button — died at <code>'C:\Program'</code></b>; the npm-prefix lookup beside it could never start a <code>.cmd</code> without a shell, so a custom prefix <b>never reached PATH</b>. On Windows <b>every <code>skill</code> subcommand failed with <code>spawnSync npx ENOENT</code></b> before the skills CLI ever ran. An ACP backend that is a <code>.cmd</code> in a spaced folder was cut at the first space, and a spaced argument arrived as several. <code>install --help</code> <b>printed a missing-argument error instead of help</b>. And a pasted Windows path with a folder starting <code>(</code>, or a <code>\\server\share</code> path, was unescaped as if it came from a POSIX shell and <b>went out as plain text instead of an attachment, silently</b>.</td>
+</tr>
+
+<tr>
 <td><a href="https://github.com/huggingface/lerobot"><b>huggingface/lerobot</b></a><br/><sub>Hugging Face's robot-learning stack</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Ahuggingface%2Flerobot&label=in%20review&color=f97316&style=flat-square"/></td>
 <td>Fine-tune from a checkpoint with a YAML config and every <b>list-valued</b> field beside <code>policy.path</code> is dropped without a word — <code>crop_shape: [76, 76]</code> runs at the checkpoint's <code>(84, 84)</code> while the scalar next to it applies. Everything beside <code>reward_model.path</code> is discarded the same way, and the policy branch <i>not</i> doing it is what makes the asymmetry invisible. Turn streaming on and <b>your depth maps change unit</b>: <code>depth_output_unit</code> is validated, then never passed to the streaming dataset. Plus two test guards that had never actually guarded anything.</td>
@@ -227,7 +239,7 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/shy3130/tick-stock-panel"><b>shy3130/tick-stock-panel</b></a><br/><sub>A-share quant workbench</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Ashy3130%2Ftick-stock-panel&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Ashy3130%2Ftick-stock-panel&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 28 · 36 commits</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Ashy3130%2Ftick-stock-panel&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Ashy3130%2Ftick-stock-panel&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 28 · 38 commits</sub></td>
 <td>A forced-exit signal <b>evaporated under pandas copy-on-write</b> — chained assignment, dropped without a warning. Nine straight sessions where high equals low make <code>0/0</code>, which is <b>NaN, not null</b>, so the guard missed it and <b>KDJ never came back for that symbol</b>. The previous trading day was looked up in <b>calendar days</b>, so across the Spring Festival the limit-up ladder <b>came up empty</b>. An index change already in percent was <b>multiplied by 100 again</b>, and the AI report said the market rose 123%. A placeholder limit price of <code>0</code> marked <b>every stock limit-up</b>. A manual refresh on a weekend divided by one elapsed minute and <b>inflated volume ratios 240×</b>, firing surge alerts across the board.</td>
 </tr>
 
@@ -235,6 +247,12 @@ without ever throwing. Then I prove them.
 <td><a href="https://github.com/akitaonrails/ai-memory"><b>akitaonrails/ai-memory</b></a><br/><sub>Long-term memory for agent CLIs</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/badge/landed-3fb950?style=flat-square"/></td>
 <td>A packaging test that <b>could never pass on Windows</b> — found by running the suite where CI does not.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/getopenpost/openpost"><b>getopenpost/openpost</b></a><br/><sub>Open-source social post scheduler</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/badge/landed-3fb950?style=flat-square"/></td>
+<td>Two background services still built the adapter key by hand and special-cased only Mastodon, so <b>a Bluesky account on a self-hosted PDS had its scheduled check run against <code>bsky.social</code> with another server's token</b>, and a Discord bot connection went through the webhook adapter — <b>a healthy account failed its pre-post check and content discovery</b>.</td>
 </tr>
 
 <tr>
