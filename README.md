@@ -287,7 +287,7 @@ without ever throwing. Then I prove them.
 
 </table>
 
-<sub>Also in review: <a href="https://github.com/huggingface/skills">huggingface/skills</a> (a cost estimator that read <code>7B</code> out of <code>Qwen2.5-72B</code> because it matched the shortest size string first, and a dataset inspector that reported a row count the endpoint it asked never returns) &middot; <a href="https://github.com/labring/FastGPT">labring/FastGPT</a> (a whitespace regex that ate <code>]]</code> out of ordinary prose, an HTML table whose header row lost its columns on the way to Markdown, and a select-all that cleared the pages you were not looking at).</sub>
+<sub>Also in review: <a href="https://github.com/huggingface/skills">huggingface/skills</a> (a cost estimator that read <code>7B</code> out of <code>Qwen2.5-72B</code> because it matched the shortest size string first, and a dataset inspector that reported a row count the endpoint it asked never returns) &middot; <a href="https://github.com/labring/FastGPT">labring/FastGPT</a> (a whitespace regex that ate <code>]]</code> out of ordinary prose, and a select-all that cleared the pages you were not looking at).</sub>
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
