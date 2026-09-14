@@ -113,7 +113,7 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/openai/codex-security"><b>openai/codex-security</b></a><br/><sub>OpenAI's security scanner for coding agents</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aopenai%2Fcodex-security&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aopenai%2Fcodex-security&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#8 of 32 contributors</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aopenai%2Fcodex-security&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aopenai%2Fcodex-security&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#8 of 33 contributors</sub></td>
 <td>A diff scan of a commit touching only <code>.cjs</code>, <code>.cts</code> or <code>.mts</code> files <b>reviewed nothing and reported no skips</b> — those extensions were missing from the inventory's allowlist. When Git's own listing failed, the scanner treated it as <b>"no such files" and still exited 0</b>, so a repository with a broken index scanned a silently shortened file list. <code>import --csv</code> refused an escaping location path; <code>--json</code> <b>accepted it, and <code>--dry-run</code> called it valid</b>. A guard that owned <code>plugins</code> was <b>bypassed by moving the key one table deeper</b>.</td>
 </tr>
 
@@ -160,12 +160,6 @@ without ever throwing. Then I prove them.
 </tr>
 
 <tr>
-<td><a href="https://github.com/NVIDIA/cosmos-framework"><b>NVIDIA/cosmos-framework</b></a><br/><sub>NVIDIA Cosmos world-model framework</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3ANVIDIA%2Fcosmos-framework&label=in%20review&color=f97316&style=flat-square"/></td>
-<td>A string in a fine-tuning TOML — <code>name = "20260913"</code>, <code>"true"</code>, <code>"null"</code> — <b>reached the config as an int, a bool or None</b>, and one containing <code>=</code>, <code>(</code>, <code>[</code> or <code>#</code> <b>stopped the TOML from loading at all</b>. A mistyped input glob matched nothing and <b>returned zero samples without an error</b>, so inference loaded the model and generated nothing.</td>
-</tr>
-
-<tr>
 <td><a href="https://github.com/QwenLM/Qwen-MM-Plugins"><b>QwenLM/Qwen-MM-Plugins</b></a><br/><sub>Qwen's multimodal plugins for agent harnesses, 2.8k &#9733;</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3AQwenLM%2FQwen-MM-Plugins&label=in%20review&color=f97316&style=flat-square"/></td>
 <td>The configuration docs list <code>FREECAD_ONLY_TEXT_FEEDBACK</code> as defaulting to <code>off</code>, so <code>on</code> is the value you set — and it <b>was ignored, so FreeCAD tools kept attaching screenshots</b>. Four on/off flags each compared the raw value against their own list and stripped nothing, so <code>set QWEN_MM_NO_AUTO_INSTALL=1 &amp;&amp; …</code> in cmd.exe, which stores the value with its trailing space, <b>read as unset and the auto-download ran anyway</b>.</td>
@@ -208,8 +202,8 @@ without ever throwing. Then I prove them.
 </tr>
 
 <tr>
-<td><a href="https://github.com/crmne/fastpotify"><b>crmne/fastpotify</b></a><br/><sub>Native Spotify client in Rust</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Acrmne%2Ffastpotify&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acrmne%2Ffastpotify&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#4 of 31 contributors</sub></td>
+<td><a href="https://github.com/crmne/spotifast"><b>crmne/spotifast</b></a><br/><sub>Native Spotify client in Rust</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Acrmne%2Fspotifast&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Acrmne%2Fspotifast&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#3 of 36 contributors</sub></td>
 <td>A skin colour with a <b>multi-byte character panicked the parser</b>, and release builds abort on panic, so the app just closed. On Windows the locale is empty, so every Japanese, Korean and Traditional-Chinese user got <b>three mismatched fallback fonts</b> — the Han region now comes from the Windows display language, and full-width punctuation <b>folds onto the skin font's own cells</b> instead of a fallback's. A byte order mark, the thing Notepad writes, <b>silently threw away every colour in a skin</b>.</td>
 </tr>
 
@@ -233,14 +227,26 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/xevrion/breakscale"><b>xevrion/breakscale</b></a><br/><sub>Distributed-systems failure simulator</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Axevrion%2Fbreakscale&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Axevrion%2Fbreakscale&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#3 of 11 contributors</sub></td>
-<td>Every knob a shared link can carry, measured against the range the inspector itself declares — <b>six of them accepted values the UI never allows</b>. The instance count landed first: <code>Math.max(1, NaN)</code> is still <code>NaN</code>, so the simulator <b>tried to allocate a billion-slot array and died on its first snapshot</b>. In review: the fleet counts the data components read, a broker's partition count, the transcoder's rendition ladder, a region switch, an autoscaler.</td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Axevrion%2Fbreakscale&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Axevrion%2Fbreakscale&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#3 of 13 contributors</sub></td>
+<td>Every knob a shared link can carry, measured against the range the inspector itself declares — <b>six of them accepted values the UI never allows</b>. The instance count landed first: <code>Math.max(1, NaN)</code> is still <code>NaN</code>, so the simulator <b>tried to allocate a billion-slot array and died on its first snapshot</b>. A broker's partition count and the transcoder's rendition ladder got the same bound, and a region switch <b>stopped routing</b> and the autoscaler <b>stopped controlling</b> once a knob was not a number. In review: the fleet counts the data components read.</td>
 </tr>
 
 <tr>
 <td><a href="https://github.com/shy3130/tick-stock-panel"><b>shy3130/tick-stock-panel</b></a><br/><sub>A-share quant workbench</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Ashy3130%2Ftick-stock-panel&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Ashy3130%2Ftick-stock-panel&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 28 · 38 commits</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Ashy3130%2Ftick-stock-panel&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Ashy3130%2Ftick-stock-panel&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 28 · 40 commits</sub></td>
 <td>A forced-exit signal <b>evaporated under pandas copy-on-write</b> — chained assignment, dropped without a warning. Nine straight sessions where high equals low make <code>0/0</code>, which is <b>NaN, not null</b>, so the guard missed it and <b>KDJ never came back for that symbol</b>. The previous trading day was looked up in <b>calendar days</b>, so across the Spring Festival the limit-up ladder <b>came up empty</b>. An index change already in percent was <b>multiplied by 100 again</b>, and the AI report said the market rose 123%. A placeholder limit price of <code>0</code> marked <b>every stock limit-up</b>. A manual refresh on a weekend divided by one elapsed minute and <b>inflated volume ratios 240×</b>, firing surge alerts across the board.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/HakanSeven12/OpenCADStudio"><b>HakanSeven12/OpenCADStudio</b></a><br/><sub>Rust CAD app with DWG/DXF support, 1.9k &#9733;</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3AHakanSeven12%2FOpenCADStudio&label=merged&color=3fb950&style=flat-square"/></td>
+<td>Rotate a linear dimension 90° and <b>its value dropped to 0</b>: the points turned, the axis it measures along did not; on a working plane off world Z, rotate and mirror left points, plane and measurement out of step. STEP export read only the <code>f32</code> half of each vertex, so at survey coordinates <b>every exported point snapped to a 1/32-unit grid</b> while the drawing kept the true position, and STEP faces and STL facets took a mesh normal instead of <b>their own triangle's</b>. An OBJ that gave normals to some faces but not all <b>imported the rest with zero normals</b>. A line rotated 180° showed its end at <code>-0.0000</code>, a <code>.lin</code> file whose header has no description <b>would not load</b>, and saving a plot style table <b>rounded its scale factor to one decimal</b>.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/JustVugg/colibri"><b>JustVugg/colibri</b></a><br/><sub>Frontier MoE models on consumer hardware, pure C, 31.9k &#9733;</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3AJustVugg%2Fcolibri&label=merged&color=3fb950&style=flat-square"/></td>
+<td>An over-long prompt to an OLMoE or Inkling model came back as <b>HTTP 500 instead of <code>context_length_exceeded</code></b>, so a client that compacts its conversation on that error never got the chance. <code>coli bench</code> on any model but GLM <b>handed it to the GLM engine</b>, which died on <code>this engine requires n_group=1</code> under a banner naming the right model. And on a Korean or Japanese Windows, verifying a <b>valid</b> shard with its output redirected <b>exited 1 with an empty stdout</b>: the verifier's note carried an em dash the code page cannot encode, and so did the error it fell back to.</td>
 </tr>
 
 <tr>
@@ -251,7 +257,7 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/getopenpost/openpost"><b>getopenpost/openpost</b></a><br/><sub>Open-source social post scheduler</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/badge/landed-3fb950?style=flat-square"/></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Agetopenpost%2Fopenpost&label=merged&color=3fb950&style=flat-square"/></td>
 <td>Two background services still built the adapter key by hand and special-cased only Mastodon, so <b>a Bluesky account on a self-hosted PDS had its scheduled check run against <code>bsky.social</code> with another server's token</b>, and a Discord bot connection went through the webhook adapter — <b>a healthy account failed its pre-post check and content discovery</b>.</td>
 </tr>
 
@@ -263,8 +269,8 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/ZSeven-W/openpencil"><b>ZSeven-W/openpencil</b></a><br/><sub>AI-native vector design tool</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3AZSeven-W%2Fopenpencil&label=in%20review&color=f97316&style=flat-square"/></td>
-<td>Five Windows fixes for the agent layer: executables probed <b>without their <code>.exe</code>/<code>.cmd</code> extensions</b>, environment allowlists that <b>miss natively-cased Windows variables</b>, restored blobs addressed <b>with the wrong path separator</b>.</td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3AZSeven-W%2Fopenpencil&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3AZSeven-W%2Fopenpencil&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>Windows fixes for the agent layer: environment allowlists that <b>missed natively-cased Windows variables</b>, restored blobs addressed <b>with the wrong path separator</b>, and, still in review, executables probed <b>without their <code>.exe</code>/<code>.cmd</code> extensions</b>. Then three string slices that counted bytes as characters: a byte order mark ahead of <code>@charset</code> <b>panicked the whole HTML import</b>, a fill colour written as <code>深蓝色</code>, nine bytes, <b>took the design linter down</b>, and a corner radius described in Chinese prose <b>panicked at byte 48</b>. <code>op import:html</code> also <b>dropped every local stylesheet, image or font with a space or non-ASCII character in its name</b> and still reported <code>"ok":true</code>.</td>
 </tr>
 
 <tr>
@@ -277,6 +283,12 @@ without ever throwing. Then I prove them.
 <td><a href="https://github.com/every-app/open-seo"><b>every-app/open-seo</b></a><br/><sub>Open-source SEO audit suite</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aevery-app%2Fopen-seo&label=in%20review&color=f97316&style=flat-square"/></td>
 <td>Backlink history parsed date-only strings as UTC midnight and then rendered them in the reader's own timezone, so <b>every reader west of UTC saw each link first seen a day early</b> — and on the 1st, <b>the month axis a whole month early</b>. The crawler asks for XHTML in its own <code>Accept</code> header and then <b>gated on <code>text/html</code></b>, so an XHTML site yielded no links and <b>the crawl never left the start URL</b>. <code>robots.txt</code> was consulted with no user-agent, so a group naming this crawler by name was <b>dead text in both directions</b>. <code>rel</code> was compared case-sensitively, so <code>rel="Canonical"</code> was dropped — and a page with no canonical is treated as duplicate-eligible, so it came back flagged as duplicate. A sitemap's <code>&lt;loc&gt;</code> entries were held to the site's origin with a <b>string prefix</b>, so a sitemap could walk the audit onto <code>example.com.attacker.test</code>, onto an unrelated <code>example.combo.test</code>, or onto any other port, and those pages were fetched, scored and quoted as the audited site's own.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/debpalash/VoiceStudio"><b>debpalash/VoiceStudio</b></a><br/><sub>Local voice cloning &amp; dubbing studio, 29k &#9733;</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Adebpalash%2FVoiceStudio&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>A subtitle saved as UTF-16, Notepad's "Unicode", <b>imported as "No valid cues found"</b>, and a Windows-1252 manuscript <b>silently lost every accent, dash and curly quote</b>: <code>Café crème — it’s late.</code> became <code>Caf crme its late.</code> Export truncated cue times instead of rounding them, so <b>every cue came back 1 ms early</b> and an untouched file no longer round-tripped. On a Chinese, Japanese or Korean Windows, a from-source install <b>never ran a single database migration</b>. And a pasted WebVTT file whose cues had no hours field was <b>read as plain text</b>, its timing lines previewed as translations.</td>
 </tr>
 
 <tr>
