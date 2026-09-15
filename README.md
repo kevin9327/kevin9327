@@ -124,13 +124,13 @@ without ever throwing. Then I prove them.
 </tr>
 
 <tr>
-<td><a href="https://github.com/microsoft/markitdown"><b>microsoft/markitdown</b></a><br/><sub>Document → Markdown, 182k ★</sub></td>
+<td><a href="https://github.com/microsoft/markitdown"><b>microsoft/markitdown</b></a><br/><sub>Document → Markdown, 184k ★</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Amicrosoft%2Fmarkitdown&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Amicrosoft%2Fmarkitdown&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#8 of 125 contributors</sub></td>
 <td>A file whose encoding could not be sniffed was <b>converted to the literal string <code>None</code></b>. A byte order mark made the notebook parser fail, the error was swallowed, and the <code>.ipynb</code> <b>came back as its own JSON source with no error at all</b>. A <code>.docx</code> written by anything but Word <b>lost every equation, silently</b> — one optional child element, one <code>KeyError</code>, one blanket <code>except</code>. Blank-line normalisation ran <b>inside fenced code blocks</b>, so the code in the Markdown was not the code in the source.</td>
 </tr>
 
 <tr>
-<td><a href="https://github.com/opencv/opencv"><b>opencv/opencv</b></a><br/><sub>Computer vision, 82k &#9733;</sub></td>
+<td><a href="https://github.com/opencv/opencv"><b>opencv/opencv</b></a><br/><sub>Computer vision, 91k &#9733;</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aopencv%2Fopencv&label=in%20review&color=f97316&style=flat-square"/></td>
 <td><b>Any JPEG 2000 narrower or shorter than 32 pixels silently failed to write.</b> <code>setupEncoderParameters()</code> never set <code>numresolution</code>, so OpenJPEG kept its default of 6 and its own validator rejected every tile below 2<sup>5</sup> — thumbnails, tiles, icons, sprite cells. <code>imwrite</code> returned false and printed nothing.</td>
 </tr>
@@ -184,20 +184,20 @@ without ever throwing. Then I prove them.
 </tr>
 
 <tr>
-<td><a href="https://github.com/shadcn-labs/pdfcn"><b>shadcn-labs/pdfcn</b></a><br/><sub>shadcn's PDF components, 1.7k &#9733;</sub></td>
+<td><a href="https://github.com/shadcn-labs/pdfcn"><b>shadcn-labs/pdfcn</b></a><br/><sub>shadcn's PDF components, 1.8k &#9733;</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Ashadcn-labs%2Fpdfcn&label=in%20review&color=f97316&style=flat-square"/></td>
 <td>Highlight a component in the docs search menu once, and <b>every Ctrl/Cmd+C on the page afterwards copied that install command</b> instead of the text you had selected — even with the menu closed.</td>
 </tr>
 
 <tr>
 <td><a href="https://github.com/roboflow/supervision"><b>roboflow/supervision</b></a><br/><sub>Roboflow's computer-vision toolkit</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aroboflow%2Fsupervision&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aroboflow%2Fsupervision&label=in%20review&color=f97316&style=flat-square"/></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aroboflow%2Fsupervision&label=merged&color=3fb950&style=flat-square"/></td>
 <td><code>sv.tint_image</code> <b>tinted the image you passed in</b>, not just the one it returned — so the standard before/after <code>hstack</code> came out tinted on both halves — and only for NumPy input, because a Pillow argument was shielded by a conversion, making one call alias differently by input type. A <code>LineZone</code>'s triggering anchors came from a generator, so it <b>stopped counting crossings after the first frame</b>. And a single non-finite keypoint crashed the annotators instead of being skipped.</td>
 </tr>
 
 <tr>
 <td><a href="https://github.com/leookun/cursor-byok"><b>leookun/cursor-byok</b></a><br/><sub>Local Cursor backend</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aleookun%2Fcursor-byok&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aleookun%2Fcursor-byok&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 26 · top outside contributor</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Aleookun%2Fcursor-byok&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Aleookun%2Fcursor-byok&label=in%20review&color=f97316&style=flat-square"/><br/><sub>#2 of 27 · top outside contributor</sub></td>
 <td>A tool-call id reused across rounds <b>wedged the run forever, with no timeout on that path</b>. Result truncation that <b>spun at 100% CPU, then underflowed a <code>usize</code></b>. One unreadable proxy row that <b>bricked every request</b>. Empty tool arguments that killed the entire run with <code>EOF while parsing a value</code>. Also: the repo's first pull-request CI, so <code>main</code> stops drifting red.</td>
 </tr>
 
@@ -221,7 +221,7 @@ without ever throwing. Then I prove them.
 
 <tr>
 <td><a href="https://github.com/sonorahq/sonora"><b>sonorahq/sonora</b></a><br/><sub>Native music client, Rust + GPUI</sub></td>
-<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Asonorahq%2Fsonora&label=merged&color=3fb950&style=flat-square"/><br/><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Asonorahq%2Fsonora&label=in%20review&color=f97316&style=flat-square"/></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3Asonorahq%2Fsonora&label=merged&color=3fb950&style=flat-square"/></td>
 <td>The local library scanner stored <b>no "date added" at all</b>, so the column sat empty and sorting by it did nothing — now filled from the file's modification time. The toolchain file left out clippy, so <b>the lint command the contributing guide asks for failed on every fresh checkout</b>.</td>
 </tr>
 
@@ -238,13 +238,13 @@ without ever throwing. Then I prove them.
 </tr>
 
 <tr>
-<td><a href="https://github.com/HakanSeven12/OpenCADStudio"><b>HakanSeven12/OpenCADStudio</b></a><br/><sub>Rust CAD app with DWG/DXF support, 1.9k &#9733;</sub></td>
+<td><a href="https://github.com/HakanSeven12/OpenCADStudio"><b>HakanSeven12/OpenCADStudio</b></a><br/><sub>Rust CAD app with DWG/DXF support, 2k &#9733;</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3AHakanSeven12%2FOpenCADStudio&label=merged&color=3fb950&style=flat-square"/></td>
 <td>Rotate a linear dimension 90° and <b>its value dropped to 0</b>: the points turned, the axis it measures along did not; on a working plane off world Z, rotate and mirror left points, plane and measurement out of step. STEP export read only the <code>f32</code> half of each vertex, so at survey coordinates <b>every exported point snapped to a 1/32-unit grid</b> while the drawing kept the true position, and STEP faces and STL facets took a mesh normal instead of <b>their own triangle's</b>. An OBJ that gave normals to some faces but not all <b>imported the rest with zero normals</b>. A line rotated 180° showed its end at <code>-0.0000</code>, a <code>.lin</code> file whose header has no description <b>would not load</b>, and saving a plot style table <b>rounded its scale factor to one decimal</b>.</td>
 </tr>
 
 <tr>
-<td><a href="https://github.com/JustVugg/colibri"><b>JustVugg/colibri</b></a><br/><sub>Frontier MoE models on consumer hardware, pure C, 31.9k &#9733;</sub></td>
+<td><a href="https://github.com/JustVugg/colibri"><b>JustVugg/colibri</b></a><br/><sub>Frontier MoE models on consumer hardware, pure C, 33.2k &#9733;</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Amerged%20repo%3AJustVugg%2Fcolibri&label=merged&color=3fb950&style=flat-square"/></td>
 <td>An over-long prompt to an OLMoE or Inkling model came back as <b>HTTP 500 instead of <code>context_length_exceeded</code></b>, so a client that compacts its conversation on that error never got the chance. <code>coli bench</code> on any model but GLM <b>handed it to the GLM engine</b>, which died on <code>this engine requires n_group=1</code> under a banner naming the right model. And on a Korean or Japanese Windows, verifying a <b>valid</b> shard with its output redirected <b>exited 1 with an empty stdout</b>: the verifier's note carried an em dash the code page cannot encode, and so did the error it fell back to.</td>
 </tr>
@@ -286,9 +286,15 @@ without ever throwing. Then I prove them.
 </tr>
 
 <tr>
-<td><a href="https://github.com/debpalash/VoiceStudio"><b>debpalash/VoiceStudio</b></a><br/><sub>Local voice cloning &amp; dubbing studio, 29k &#9733;</sub></td>
+<td><a href="https://github.com/debpalash/VoiceStudio"><b>debpalash/VoiceStudio</b></a><br/><sub>Local voice cloning &amp; dubbing studio, 30k &#9733;</sub></td>
 <td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Adebpalash%2FVoiceStudio&label=in%20review&color=f97316&style=flat-square"/></td>
 <td>A subtitle saved as UTF-16, Notepad's "Unicode", <b>imported as "No valid cues found"</b>, and a Windows-1252 manuscript <b>silently lost every accent, dash and curly quote</b>: <code>Café crème — it’s late.</code> became <code>Caf crme its late.</code> Export truncated cue times instead of rounding them, so <b>every cue came back 1 ms early</b> and an untouched file no longer round-tripped. On a Chinese, Japanese or Korean Windows, a from-source install <b>never ran a single database migration</b>. And a pasted WebVTT file whose cues had no hours field was <b>read as plain text</b>, its timing lines previewed as translations.</td>
+</tr>
+
+<tr>
+<td><a href="https://github.com/tobi/walgit"><b>tobi/walgit</b></a><br/><sub>WAL-based git server for large monorepos, Rust, 2.5k &#9733;</sub></td>
+<td align="center" nowrap><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3Akevin9327%20is%3Aopen%20repo%3Atobi%2Fwalgit&label=in%20review&color=f97316&style=flat-square"/></td>
+<td>A <code>WALGIT__*</code> environment override whose value happened to read as a TOML number or boolean <b>was thrown away whenever its key takes text or a duration</b>, with a warning that called the key unknown in this build. <code>WALGIT__STORE__BUCKET=20260915</code> <b>left the host on the bucket from the file</b>, and <code>WALGIT__MAINTENANCE__FOLLOW_INTERVAL=0</code>, the "0 = off" the docs give, <b>kept following every 30 s</b>: the value was parsed as TOML first, failed the type check, and the plain-text reading was never tried.</td>
 </tr>
 
 <tr>
@@ -418,7 +424,7 @@ paid by platforms. Runs entirely in the browser, nothing leaves it.
 </tr>
 </table>
 
-<sub>Also on the shelf: <a href="https://kevin9327.github.io/jangteo-story/">jangteo-story</a> (three photos and one sentence from a market stall, turned into a 30-second story and a QR code on the stall) · <a href="https://github.com/kevin9327/balju-radar">balju-radar</a> (a weekly lead report on public tenders) · <a href="https://github.com/kevin9327/github-trending-daily">github-trending-daily</a> (GitHub Trending, snapshotted daily by Playwright on Actions) · hackathon prototypes <a href="https://github.com/kevin9327/protocol-sift-sentinel">protocol-sift-sentinel</a>, <a href="https://github.com/kevin9327/zipcode-cloud-relay">zipcode-cloud-relay</a> and <a href="https://github.com/kevin9327/shortsflow-ops-agent">shortsflow-ops-agent</a>.</sub>
+<sub>Also on the shelf: <a href="https://kevin9327.github.io/jangteo-story/">jangteo-story</a> (three photos and one sentence from a market stall, turned into a 30-second story and a QR code on the stall) · <a href="https://github.com/kevin9327/balju-radar">balju-radar</a> (a weekly lead report on public tenders) · <a href="https://github.com/kevin9327/github-trending-daily">github-trending-daily</a> (GitHub Trending, snapshotted daily by Playwright on Actions) · <a href="https://github.com/kevin9327/dsh-hwp">dsh-hwp</a> (a DeepSeek Harness plugin that lets agents read Korean HWP and HWPX documents as Markdown or text) · hackathon prototypes <a href="https://github.com/kevin9327/protocol-sift-sentinel">protocol-sift-sentinel</a>, <a href="https://github.com/kevin9327/zipcode-cloud-relay">zipcode-cloud-relay</a> and <a href="https://github.com/kevin9327/shortsflow-ops-agent">shortsflow-ops-agent</a>.</sub>
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
