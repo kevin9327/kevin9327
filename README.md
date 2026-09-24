@@ -46,7 +46,15 @@
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
-<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clapper%20Board.png" width="34" /> The bug, in 30 seconds
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/reel.webp?v=20260925" width="100%" alt="A hand-drawn rubber-hose cartoon. In a terminal, a failing test's red cross sprouts legs and bolts; the prompt cursor wakes up as a little block-cursor hero and knocks the title letters loose. The hero chases the bug across lines of code, inking every line it runs over, while real bugs are scribbled overhead and erased. The real day-by-day total of merged pull requests becomes a glowing curve the hero surfs up to 535. The bug hijacks the mouse pointer; the hero grabs it, the pointer turns into a pencil, and the hero draws a test around the bug: FAILED. On clean paper a patch is drawn, the stamp flips to PASSED and the bug becomes a green check mark that flies off. Repo names slam past faster and faster, the hero signs the name, and everything crumples back into the blinking prompt it started from." />
+
+<div align="center">
+
+<sub>No camera, no footage, no image model: 900 frames of React and SVG, rendered headless by <a href="https://www.remotion.dev">Remotion</a>. The block cursor from the terminal is the hero, the red &#x2717; from a failing test is the bug, and every line <i>boils</i> the way a 1930s cel does &mdash; a displacement filter re-seeded every third frame. None of the numbers are typed in: a script asks GitHub for every merged pull request in someone else&rsquo;s repository, and the orange curve the hero surfs is that day-by-day total. The bugs scribbled over the chase are real ones from the table below. It ends on the prompt it opened on, so it loops. 3.3&nbsp;MB, 12 frames a second, on twos &mdash; <a href="https://github.com/kevin9327/kevin9327/tree/main/reel">reel/</a>.</sub>
+
+</div>
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 

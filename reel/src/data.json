@@ -1,0 +1,462 @@
+{
+ "generated": "2026-09-24T22:04:18.894613+00:00",
+ "total": 535,
+ "repos": 32,
+ "start": "2026-07-18",
+ "end": "2026-09-25",
+ "days": 69,
+ "series": [
+  {
+   "date": "2026-07-18",
+   "total": 2
+  },
+  {
+   "date": "2026-07-19",
+   "total": 30
+  },
+  {
+   "date": "2026-07-20",
+   "total": 33
+  },
+  {
+   "date": "2026-07-21",
+   "total": 36
+  },
+  {
+   "date": "2026-07-22",
+   "total": 36
+  },
+  {
+   "date": "2026-07-23",
+   "total": 86
+  },
+  {
+   "date": "2026-07-24",
+   "total": 87
+  },
+  {
+   "date": "2026-07-25",
+   "total": 88
+  },
+  {
+   "date": "2026-07-26",
+   "total": 89
+  },
+  {
+   "date": "2026-07-27",
+   "total": 89
+  },
+  {
+   "date": "2026-07-28",
+   "total": 91
+  },
+  {
+   "date": "2026-07-29",
+   "total": 93
+  },
+  {
+   "date": "2026-07-30",
+   "total": 97
+  },
+  {
+   "date": "2026-07-31",
+   "total": 97
+  },
+  {
+   "date": "2026-08-01",
+   "total": 97
+  },
+  {
+   "date": "2026-08-02",
+   "total": 97
+  },
+  {
+   "date": "2026-08-03",
+   "total": 97
+  },
+  {
+   "date": "2026-08-04",
+   "total": 97
+  },
+  {
+   "date": "2026-08-05",
+   "total": 100
+  },
+  {
+   "date": "2026-08-06",
+   "total": 103
+  },
+  {
+   "date": "2026-08-07",
+   "total": 104
+  },
+  {
+   "date": "2026-08-08",
+   "total": 108
+  },
+  {
+   "date": "2026-08-09",
+   "total": 108
+  },
+  {
+   "date": "2026-08-10",
+   "total": 108
+  },
+  {
+   "date": "2026-08-11",
+   "total": 108
+  },
+  {
+   "date": "2026-08-12",
+   "total": 108
+  },
+  {
+   "date": "2026-08-13",
+   "total": 108
+  },
+  {
+   "date": "2026-08-14",
+   "total": 108
+  },
+  {
+   "date": "2026-08-15",
+   "total": 108
+  },
+  {
+   "date": "2026-08-16",
+   "total": 108
+  },
+  {
+   "date": "2026-08-17",
+   "total": 108
+  },
+  {
+   "date": "2026-08-18",
+   "total": 108
+  },
+  {
+   "date": "2026-08-19",
+   "total": 109
+  },
+  {
+   "date": "2026-08-20",
+   "total": 109
+  },
+  {
+   "date": "2026-08-21",
+   "total": 111
+  },
+  {
+   "date": "2026-08-22",
+   "total": 112
+  },
+  {
+   "date": "2026-08-23",
+   "total": 114
+  },
+  {
+   "date": "2026-08-24",
+   "total": 115
+  },
+  {
+   "date": "2026-08-25",
+   "total": 115
+  },
+  {
+   "date": "2026-08-26",
+   "total": 116
+  },
+  {
+   "date": "2026-08-27",
+   "total": 116
+  },
+  {
+   "date": "2026-08-28",
+   "total": 116
+  },
+  {
+   "date": "2026-08-29",
+   "total": 117
+  },
+  {
+   "date": "2026-08-30",
+   "total": 117
+  },
+  {
+   "date": "2026-08-31",
+   "total": 128
+  },
+  {
+   "date": "2026-09-01",
+   "total": 128
+  },
+  {
+   "date": "2026-09-02",
+   "total": 132
+  },
+  {
+   "date": "2026-09-03",
+   "total": 137
+  },
+  {
+   "date": "2026-09-04",
+   "total": 150
+  },
+  {
+   "date": "2026-09-05",
+   "total": 156
+  },
+  {
+   "date": "2026-09-06",
+   "total": 170
+  },
+  {
+   "date": "2026-09-07",
+   "total": 177
+  },
+  {
+   "date": "2026-09-08",
+   "total": 181
+  },
+  {
+   "date": "2026-09-09",
+   "total": 204
+  },
+  {
+   "date": "2026-09-10",
+   "total": 230
+  },
+  {
+   "date": "2026-09-11",
+   "total": 244
+  },
+  {
+   "date": "2026-09-12",
+   "total": 249
+  },
+  {
+   "date": "2026-09-13",
+   "total": 252
+  },
+  {
+   "date": "2026-09-14",
+   "total": 289
+  },
+  {
+   "date": "2026-09-15",
+   "total": 306
+  },
+  {
+   "date": "2026-09-16",
+   "total": 343
+  },
+  {
+   "date": "2026-09-17",
+   "total": 384
+  },
+  {
+   "date": "2026-09-18",
+   "total": 416
+  },
+  {
+   "date": "2026-09-19",
+   "total": 441
+  },
+  {
+   "date": "2026-09-20",
+   "total": 483
+  },
+  {
+   "date": "2026-09-21",
+   "total": 496
+  },
+  {
+   "date": "2026-09-22",
+   "total": 501
+  },
+  {
+   "date": "2026-09-23",
+   "total": 521
+  },
+  {
+   "date": "2026-09-24",
+   "total": 535
+  },
+  {
+   "date": "2026-09-25",
+   "total": 535
+  }
+ ],
+ "top": [
+  {
+   "repo": "rhwp",
+   "owner": "edwardkim",
+   "merged": 111
+  },
+  {
+   "repo": "OpenBot",
+   "owner": "CopilotKit",
+   "merged": 82
+  },
+  {
+   "repo": "tick-stock-panel",
+   "owner": "shy3130",
+   "merged": 75
+  },
+  {
+   "repo": "openpost",
+   "owner": "getopenpost",
+   "merged": 30
+  },
+  {
+   "repo": "supervision",
+   "owner": "roboflow",
+   "merged": 29
+  },
+  {
+   "repo": "sonora",
+   "owner": "sonorahq",
+   "merged": 25
+  },
+  {
+   "repo": "colibri",
+   "owner": "JustVugg",
+   "merged": 24
+  },
+  {
+   "repo": "VoiceStudio",
+   "owner": "debpalash",
+   "merged": 18
+  }
+ ],
+ "all": [
+  {
+   "repo": "rhwp",
+   "merged": 111
+  },
+  {
+   "repo": "OpenBot",
+   "merged": 82
+  },
+  {
+   "repo": "tick-stock-panel",
+   "merged": 75
+  },
+  {
+   "repo": "openpost",
+   "merged": 30
+  },
+  {
+   "repo": "supervision",
+   "merged": 29
+  },
+  {
+   "repo": "sonora",
+   "merged": 25
+  },
+  {
+   "repo": "colibri",
+   "merged": 24
+  },
+  {
+   "repo": "VoiceStudio",
+   "merged": 18
+  },
+  {
+   "repo": "cursor-byok",
+   "merged": 15
+  },
+  {
+   "repo": "oc",
+   "merged": 14
+  },
+  {
+   "repo": "OpenCADStudio",
+   "merged": 11
+  },
+  {
+   "repo": "spotifast",
+   "merged": 10
+  },
+  {
+   "repo": "SkillSpector",
+   "merged": 9
+  },
+  {
+   "repo": "qwen-audio-agent",
+   "merged": 9
+  },
+  {
+   "repo": "OpenMausBot",
+   "merged": 8
+  },
+  {
+   "repo": "openpencil",
+   "merged": 7
+  },
+  {
+   "repo": "markitdown",
+   "merged": 6
+  },
+  {
+   "repo": "fff",
+   "merged": 6
+  },
+  {
+   "repo": "ai-memory",
+   "merged": 6
+  },
+  {
+   "repo": "modly",
+   "merged": 5
+  },
+  {
+   "repo": "skipper",
+   "merged": 5
+  },
+  {
+   "repo": "FastGPT",
+   "merged": 5
+  },
+  {
+   "repo": "codex-security",
+   "merged": 5
+  },
+  {
+   "repo": "breakscale",
+   "merged": 5
+  },
+  {
+   "repo": "needle",
+   "merged": 3
+  },
+  {
+   "repo": "BrowserSkill",
+   "merged": 3
+  },
+  {
+   "repo": "zap",
+   "merged": 2
+  },
+  {
+   "repo": "atlas",
+   "merged": 2
+  },
+  {
+   "repo": "open-code-review",
+   "merged": 2
+  },
+  {
+   "repo": "awesome-phone-call-agents",
+   "merged": 1
+  },
+  {
+   "repo": "OpenSpec",
+   "merged": 1
+  },
+  {
+   "repo": "OpenResearch",
+   "merged": 1
+  }
+ ]
+}
