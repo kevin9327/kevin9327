@@ -5,6 +5,7 @@ action_readme.md
 c3d.ts
 g3d.svg
 *.ts
+!reel/**/*.ts
 render*/
 dist_test/
 *.gif

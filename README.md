@@ -1,5 +1,11 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/droste.webp?v=20260925" width="100%" alt="kevin9327: 535 pull requests merged into other people's repos, across 32 repos in 69 days. An endless zoom: a terminal cursor wakes up and we fall into its eye, through a bug caught eating a line of a code diff, through a compound eye of 32 facets, one per repo, and a garden of 535 petals, one per merged pull request, and land back on the same prompt." />
+
+<sub>One camera move that never cuts and never ends: into the cursor&rsquo;s eye, through a bug caught eating a diff, through a compound eye of 32 facets (one per repo) and a garden of 535 petals (one per merged pull request), and out at the same prompt it started from &mdash; the loop closes on its own first frame. React, SVG and a WebGL cornea, rendered by <a href="https://www.remotion.dev">Remotion</a> &middot; <a href="https://github.com/kevin9327/kevin9327/tree/main/reel/src/droste">source</a>.</sub>
+
+<br/>
+
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/hero.webp?v=20260903" width="100%" alt="Kevin — rendered in Blender: copper lettering, a spinning crosshair and a skyline of commits" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3400&pause=900&color=F97316&center=true&vCenter=true&width=640&lines=git+commit+-m+%22fix%3A+the+bug+that+only+appears+in+production%22;Cross-replica+state.+Fail-closed+policy.+Loops+that+never+terminate.;A+test+that+FAILS+before+and+PASSES+after+%E2%80%94+every+single+time.;Rust+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+Blender" alt="Typing SVG" />

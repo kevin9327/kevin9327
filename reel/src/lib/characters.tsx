@@ -1,10 +1,11 @@
 import React from 'react';
 import {C, hose} from './theme';
+import {bugEyeLocal, heroEyeLocal} from './geom';
+import type {Arms, Mood} from './geom';
+
+export type {Arms, Mood};
 
 type Pt = [number, number];
-
-export type Arms = 'idle' | 'run' | 'up' | 'grab' | 'draw' | 'proud' | 'wave' | 'hold';
-export type Mood = 'smile' | 'o' | 'grin' | 'determined' | 'proud';
 
 export type HeroProps = {
   x: number;
@@ -27,6 +28,12 @@ export type HeroProps = {
   body?: string;
   opacity?: number;
   rim?: string;
+  /** Pupil fill (default C.ink). */
+  pupil?: string;
+  /** While that eye is open, skip its pupil ellipse and wedge (a child level owns the region). */
+  portalEye?: 'L' | 'R';
+  /** Draw that eye as a blink arc. */
+  wink?: 'L' | 'R';
 };
 
 const glove = (p: Pt, key: string) => (
@@ -40,6 +47,7 @@ const glove = (p: Pt, key: string) => (
 export const Hero: React.FC<HeroProps> = ({
   x, y, s = 1, dir = 1, f, run = null, jump = false, look = 0, lookUp = 0, blink = false, squash = 1, lean = 0,
   arms = 'idle', mood = 'smile', eyes = 1, pencil = false, boilId, body = C.cream, opacity = 1, rim,
+  pupil = C.ink, portalEye, wink,
 }) => {
   const limb = (d: string, w: number) => (
     <>
@@ -117,16 +125,18 @@ export const Hero: React.FC<HeroProps> = ({
   const sq = Math.max(0.35, squash);
   const sx = 1 / Math.sqrt(sq);
   const ex = look * 6;
-  const ey = -lookUp * 5;
-  const eye = (cx: number) => {
-    const ry = 14 * eyes;
-    const rx = 8 * eyes;
-    if (blink) return <path d={`M ${cx - rx} ${-18} q ${rx} 6 ${rx * 2} 0`} stroke={C.ink} strokeWidth={5} fill="none" strokeLinecap="round" />;
+  const eye = (which: 'L' | 'R') => {
+    const cx = which === 'L' ? -13 : 13;
+    const g = heroEyeLocal({look, lookUp, eyes}, which);
+    const ry = g.ry;
+    const rx = g.rx;
+    if (blink || wink === which) return <path d={`M ${cx - rx} ${-18} q ${rx} 6 ${rx * 2} 0`} stroke={C.ink} strokeWidth={5} fill="none" strokeLinecap="round" />;
     if (mood === 'proud') return <path d={`M ${cx - rx} ${-14} q ${rx} -12 ${rx * 2} 0`} stroke={C.ink} strokeWidth={5} fill="none" strokeLinecap="round" />;
+    if (portalEye === which) return null;
     return (
       <g>
-        <ellipse cx={cx + ex} cy={-18 + ey} rx={rx} ry={ry} fill={C.ink} />
-        <path d={`M ${cx + ex + 1} ${-18 + ey - ry * 0.45} l ${rx * 0.9} ${-ry * 0.5} l 0 ${ry * 0.75} z`} fill={body} />
+        <ellipse cx={g.cx} cy={g.cy} rx={rx} ry={ry} fill={pupil} />
+        <path d={g.wedge} fill={body} />
       </g>
     );
   };
@@ -157,8 +167,8 @@ export const Hero: React.FC<HeroProps> = ({
               <path d={`M ${22 + ex} -38 L ${6 + ex} -32`} />
             </g>
           ) : null}
-          {eye(-13)}
-          {eye(13)}
+          {eye('L')}
+          {eye('R')}
           {mouth()}
           {/* front leg + arm */}
           {limb(hose(hipR[0], hipR[1], footR[0], footR[1], -9), 9)}
@@ -196,10 +206,27 @@ export type BugProps = {
   opacity?: number;
   rot?: number;
   rim?: string;
+  /** Eye-white scale (default 1). */
+  eyes?: number;
+  /** Pupil scale (default 1). */
+  pupil?: number;
+  /** Pupil offset per unit eyes (default [1.5, 0.5]). */
+  gaze?: [number, number];
+  /** Pupil fill (default C.ink). */
+  pupilColor?: string;
+  /** Skip that eye's white and pupil (a child level owns the region). */
+  hideEye?: 'L' | 'R';
+  /** Degrees; rotates each antenna path and its tip about its base (30,-22) / (38,-20). */
+  antenna?: number;
+  /** Squash/stretch about the feet line y=40 (default 1). */
+  stretch?: number;
 };
 
 /** The bug: a scurrying red ✗ with rubber legs. Fixed, it becomes a green ✓ with wings. */
-export const Bug: React.FC<BugProps> = ({x, y, s = 1, dir = 1, f, run = null, fixed = false, dizzy = false, shell, boilId, opacity = 1, rot = 0, rim}) => {
+export const Bug: React.FC<BugProps> = ({
+  x, y, s = 1, dir = 1, f, run = null, fixed = false, dizzy = false, shell, boilId, opacity = 1, rot = 0, rim,
+  eyes = 1, pupil = 1, gaze, pupilColor = C.ink, hideEye, antenna = 0, stretch = 1,
+}) => {
   const p = run ?? 0;
   const color = shell ?? (fixed ? C.green : C.red);
   const legs = [-18, 0, 18].map((bx, i) => {
@@ -214,9 +241,12 @@ export const Bug: React.FC<BugProps> = ({x, y, s = 1, dir = 1, f, run = null, fi
     );
   });
   const flap = 0.35 + 0.65 * Math.abs(Math.sin(f * 1.7));
-  return (
-    <g transform={`translate(${x} ${y}) scale(${s * dir} ${s}) rotate(${rot})`} opacity={opacity}>
-      <g filter={boilId ? `url(#${boilId})` : undefined}>
+  const eL = bugEyeLocal({eyes, pupil, gaze}, 'L');
+  const eR = bugEyeLocal({eyes, pupil, gaze}, 'R');
+  const ant = (i: 0 | 1, el: React.ReactElement) =>
+    antenna === 0 ? el : <g transform={i === 0 ? `rotate(${antenna} 30 -22)` : `rotate(${antenna} 38 -20)`}>{el}</g>;
+  const content = (
+    <>
         {fixed ? (
           <g opacity={0.85}>
             <ellipse cx={-8} cy={-24} rx={28} ry={12} transform={`rotate(-28 -8 -24) scale(1 ${flap})`} fill={C.cream} stroke={C.ink} strokeWidth={3} />
@@ -224,11 +254,20 @@ export const Bug: React.FC<BugProps> = ({x, y, s = 1, dir = 1, f, run = null, fi
           </g>
         ) : null}
         {fixed ? null : legs}
-        {rim ? <path d="M 30 -22 Q 28 -46 44 -50 M 38 -20 Q 48 -42 62 -38" stroke={rim} strokeWidth={10} fill="none" strokeLinecap="round" /> : null}
-        <path d="M 30 -22 Q 28 -46 44 -50" stroke={C.ink} strokeWidth={4} fill="none" strokeLinecap="round" />
-        <path d="M 38 -20 Q 48 -42 62 -38" stroke={C.ink} strokeWidth={4} fill="none" strokeLinecap="round" />
-        <circle cx={44} cy={-50} r={5} fill={C.ink} />
-        <circle cx={62} cy={-38} r={5} fill={C.ink} />
+        {rim ? (
+          antenna === 0 ? (
+            <path d="M 30 -22 Q 28 -46 44 -50 M 38 -20 Q 48 -42 62 -38" stroke={rim} strokeWidth={10} fill="none" strokeLinecap="round" />
+          ) : (
+            <>
+              {ant(0, <path d="M 30 -22 Q 28 -46 44 -50" stroke={rim} strokeWidth={10} fill="none" strokeLinecap="round" />)}
+              {ant(1, <path d="M 38 -20 Q 48 -42 62 -38" stroke={rim} strokeWidth={10} fill="none" strokeLinecap="round" />)}
+            </>
+          )
+        ) : null}
+        {ant(0, <path d="M 30 -22 Q 28 -46 44 -50" stroke={C.ink} strokeWidth={4} fill="none" strokeLinecap="round" />)}
+        {ant(1, <path d="M 38 -20 Q 48 -42 62 -38" stroke={C.ink} strokeWidth={4} fill="none" strokeLinecap="round" />)}
+        {ant(0, <circle cx={44} cy={-50} r={5} fill={C.ink} />)}
+        {ant(1, <circle cx={62} cy={-38} r={5} fill={C.ink} />)}
         <ellipse cx={0} cy={0} rx={36} ry={25} fill={color} stroke={C.ink} strokeWidth={5.5} />
         {fixed ? (
           <path d="M -15 0 L -4 12 L 16 -13" stroke={C.cream} strokeWidth={8} fill="none" strokeLinecap="round" strokeLinejoin="round" />
@@ -239,10 +278,10 @@ export const Bug: React.FC<BugProps> = ({x, y, s = 1, dir = 1, f, run = null, fi
           </g>
         )}
         <circle cx={36} cy={-6} r={16} fill={color} stroke={C.ink} strokeWidth={5} />
-        <circle cx={32} cy={-11} r={5.5} fill={C.cream} />
-        <circle cx={43} cy={-11} r={5.5} fill={C.cream} />
-        <circle cx={33.5} cy={-10.5} r={2.6} fill={C.ink} />
-        <circle cx={44.5} cy={-10.5} r={2.6} fill={C.ink} />
+        {hideEye === 'L' ? null : <circle cx={eL.cx} cy={eL.cy} r={eL.r} fill={C.cream} />}
+        {hideEye === 'R' ? null : <circle cx={eR.cx} cy={eR.cy} r={eR.r} fill={C.cream} />}
+        {hideEye === 'L' ? null : <circle cx={eL.px} cy={eL.py} r={eL.pr} fill={pupilColor} />}
+        {hideEye === 'R' ? null : <circle cx={eR.px} cy={eR.py} r={eR.pr} fill={pupilColor} />}
         <path d={fixed ? 'M 31 -1 Q 38 6 45 -1' : 'M 31 1 Q 38 -3 45 1'} stroke={C.ink} strokeWidth={3} fill="none" strokeLinecap="round" />
         {dizzy
           ? [0, 1, 2].map((i) => {
@@ -254,6 +293,12 @@ export const Bug: React.FC<BugProps> = ({x, y, s = 1, dir = 1, f, run = null, fi
               );
             })
           : null}
+    </>
+  );
+  return (
+    <g transform={`translate(${x} ${y}) scale(${s * dir} ${s}) rotate(${rot})`} opacity={opacity}>
+      <g filter={boilId ? `url(#${boilId})` : undefined}>
+        {stretch === 1 ? content : <g transform={`translate(0 40) scale(${1 / Math.sqrt(stretch)} ${stretch}) translate(0 -40)`}>{content}</g>}
       </g>
     </g>
   );
