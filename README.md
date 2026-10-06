@@ -423,7 +423,7 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-21 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+24 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
@@ -445,7 +445,10 @@ without ever throwing. Then I prove them.
 | [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | 1.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AQingYunA/answer-me-with-html&type=pullrequests) | [fix(a11y): name diagrams and the table of contents in the page language](https://github.com/QingYunA/answer-me-with-html/pull/58) |
 | [anmolkapil/plexo](https://github.com/anmolkapil/plexo) | 1.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aanmolkapil/plexo&type=pullrequests) | [Decode ISO-8859-1 filename* in Content-Disposition](https://github.com/anmolkapil/plexo/pull/78) |
 | [ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya) | 1.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aollaya-dev/ollaya&type=pullrequests) | [show: keep a multi-line DESCRIPTION as a """ block in the Modelfile](https://github.com/ollaya-dev/ollaya/pull/57) |
+| [Edwardxlai/easyread](https://github.com/Edwardxlai/easyread) | 814 | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AEdwardxlai/easyread&type=pullrequests) | [网页元数据：标题、作者名里的撇号不再截断内容](https://github.com/Edwardxlai/easyread/pull/37) |
+| [StayLameBro/backburner](https://github.com/StayLameBro/backburner) | 693 | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AStayLameBro/backburner&type=pullrequests) | [hooks: catch OpenAI project, service-account and admin keys](https://github.com/StayLameBro/backburner/pull/21) |
 | [thruwire/foreman](https://github.com/thruwire/foreman) | 673 | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Athruwire/foreman&type=pullrequests) | [test_summary: count pytest xfailed/xpassed so expected-fail runs are observed](https://github.com/thruwire/foreman/pull/41) |
+| [razorback16/openjev](https://github.com/razorback16/openjev) | 620 | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arazorback16/openjev&type=pullrequests) | [fix: confidence of a one-option distribution is 1.0, not a ZeroDivisionError](https://github.com/razorback16/openjev/pull/11) |
 | [rectorphp/rector-src](https://github.com/rectorphp/rector-src) | 137 | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arectorphp/rector-src&type=pullrequests) | [[TypeDeclaration] Skip redundant intersection types in union return types](https://github.com/rectorphp/rector-src/pull/8527) |
 | [CALLE-AI/awesome-phone-call-agents](https://github.com/CALLE-AI/awesome-phone-call-agents) | 105 | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ACALLE-AI/awesome-phone-call-agents&type=pullrequests) | [feat(late-hold-triage): add one-call late-guest hold skill](https://github.com/CALLE-AI/awesome-phone-call-agents/pull/482) |
 
