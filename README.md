@@ -26,6 +26,31 @@
 
 </div>
 
+## Merged upstream: the short version
+
+**I find real bugs in popular open-source projects and get the fixes merged** — 700+ merged pull requests across 80 repositories (live count in the badge above). A selection, by repo stars:
+
+| Repository | ★ Stars | Merged PRs |
+|---|---:|---:|
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 190k | [6](https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [opencv/opencv](https://github.com/opencv/opencv) | 91k | [1](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [1](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 72k | [2](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [docling-project/docling](https://github.com/docling-project/docling) | 69k | [4](https://github.com/docling-project/docling/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [1](https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 53k | [1](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | 51k | [35](https://github.com/roboflow/supervision/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 47k | [3](https://github.com/alibaba/open-code-review/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [psf/black](https://github.com/psf/black) | 42k | [1](https://github.com/psf/black/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [derailed/k9s](https://github.com/derailed/k9s) | 35k | [1](https://github.com/derailed/k9s/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 34k | [1](https://github.com/Tencent/WeKnora/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [symfony/symfony](https://github.com/symfony/symfony) | 31k | [1](https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [labring/FastGPT](https://github.com/labring/FastGPT) | 30k | [15](https://github.com/labring/FastGPT/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+
+<sub>Star counts as of Oct 2026. Full list: [all merged PRs](https://github.com/search?q=is%3Apr+author%3Akevin9327+is%3Amerged+-user%3Akevin9327&type=pullrequests).</sub>
+
+<img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Video%20Game.png" width="34" /> Play something first
 
 <a href="https://kevin9327.github.io/arena/"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/arena.webp?v=20260907" width="100%" alt="Gunslash Arena: a third-person wall-running sword-and-gun arena, running in the browser" /></a>
