@@ -34,19 +34,23 @@
 |---|---:|---:|
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 190k | [6](https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [1](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [1](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 72k | [2](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [docling-project/docling](https://github.com/docling-project/docling) | 69k | [4](https://github.com/docling-project/docling/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [1](https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 53k | [1](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | 51k | [35](https://github.com/roboflow/supervision/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 53k | [3](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | 51k | [37](https://github.com/roboflow/supervision/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 47k | [3](https://github.com/alibaba/open-code-review/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [psf/black](https://github.com/psf/black) | 42k | [1](https://github.com/psf/black/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37k | [1](https://github.com/markedjs/marked/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 36k | [1](https://github.com/esengine/DeepSeek-Reasonix/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [derailed/k9s](https://github.com/derailed/k9s) | 35k | [1](https://github.com/derailed/k9s/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 34k | [1](https://github.com/Tencent/WeKnora/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31k | [1](https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [labring/FastGPT](https://github.com/labring/FastGPT) | 30k | [15](https://github.com/labring/FastGPT/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [1](https://github.com/junhoyeo/tokscale/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) | 5.1k | [1](https://github.com/Edge0-AI/Edge0/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [QwenAudio/qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) | 2.9k | [14](https://github.com/QwenAudio/qwen-audio-agent/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 
 <sub>Star counts as of Oct 2026. Full list: [all merged PRs](https://github.com/search?q=is%3Apr+author%3Akevin9327+is%3Amerged+-user%3Akevin9327&type=pullrequests).</sub>
 
@@ -449,14 +453,15 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-39 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+42 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aunslothai/unsloth&type=pullrequests) | [Studio: stop listing Bonsai DSpark drafter files as models](https://github.com/unslothai/unsloth/pull/11265) |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78.1k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aunslothai/unsloth&type=pullrequests) | [Studio: cache Edit-mode text encoding by reference image content](https://github.com/unslothai/unsloth/pull/13683) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.3k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arclone/rclone&type=pullrequests) | [lib/encoder: fix decoding a trailing character after an escaped quote](https://github.com/rclone/rclone/pull/10036) |
 | [psf/black](https://github.com/psf/black) | 41.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Apsf/black&type=pullrequests) | [Don't remove backslash-newlines from raw strings in string_processing](https://github.com/psf/black/pull/5482) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amarkedjs/marked&type=pullrequests) | [fix: let indented and type 3-5 html blocks interrupt a paragraph](https://github.com/markedjs/marked/pull/4124) |
+| [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 35.8k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aesengine/DeepSeek-Reasonix&type=pullrequests) | [fix(gitstatus): count lines on renamed and copied paths](https://github.com/esengine/DeepSeek-Reasonix/pull/13175) |
 | [derailed/k9s](https://github.com/derailed/k9s) | 34.8k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aderailed/k9s&type=pullrequests) | [fix: preserve case of label selectors in command prompt](https://github.com/derailed/k9s/pull/4276) |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 33.8k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ATencent/WeKnora&type=pullrequests) | [fix(asynqdl): truncate dead-letter errors on a rune boundary](https://github.com/Tencent/WeKnora/pull/3964) |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Asymfony/symfony&type=pullrequests) | [[Yaml] Do not treat quoted `<<` keys as merge keys](https://github.com/symfony/symfony/pull/66621) |
@@ -475,6 +480,8 @@ without ever throwing. Then I prove them.
 | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 6.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aqingjian-team/qingjian&type=pullrequests) | [fix(update): reject versions with an empty prerelease segment](https://github.com/qingjian-team/qingjian/pull/395) |
 | [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT) | 7.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AKKKKhazix/AIHOT&type=pullrequests) | [fix(image-url): treat embed and share video pages as non-images](https://github.com/KKKKhazix/AIHOT/pull/126) |
 | [asciimoo/hister](https://github.com/asciimoo/hister) | 6.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aasciimoo/hister&type=pullrequests) | [[fix] return results for a query made only of negated terms](https://github.com/asciimoo/hister/pull/806) |
+| [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Ajunhoyeo/tokscale&type=pullrequests) | [fix(copilot): resolve the gh host and key every credential source and the endpoint to it](https://github.com/junhoyeo/tokscale/pull/1438) |
+| [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) | 5.1k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AEdge0-AI/Edge0&type=pullrequests) | [docs: name peak memory as the MLX allocator peak](https://github.com/Edge0-AI/Edge0/pull/132) |
 | [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | 4.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ACopilotKit/openmuse&type=pullrequests) | [fix: decode mail bodies with an unknown charset as UTF-8 instead of failing the list](https://github.com/CopilotKit/openmuse/pull/141) |
 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 7.4k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arehan-remade/universal-modder&type=pullrequests) | [fix(kb): report an impossible front-matter date instead of crashing](https://github.com/rehan-remade/universal-modder/pull/66) |
 | [CopilotKit/OpenDots](https://github.com/CopilotKit/OpenDots) | 5.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ACopilotKit/OpenDots&type=pullrequests) | [fix: give Dot turns the current time](https://github.com/CopilotKit/OpenDots/pull/76) |
