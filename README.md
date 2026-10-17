@@ -76,6 +76,8 @@
 | [facebook/relay#5427](https://github.com/facebook/relay/pull/5427) | relay_field_payload.error events report the field path instead of an empty string |
 | [facebook/relay#5428](https://github.com/facebook/relay/pull/5428) | Compiler counts variables nested in fragment-spread argument objects/lists as used |
 | [facebookresearch/fairseq2#1525](https://github.com/facebookresearch/fairseq2/pull/1525) | SamplingSequenceGenerator respects max_gen_len for shorter prompts in a padded batch |
+| [shy3130/tick-stock-panel#485](https://github.com/shy3130/tick-stock-panel/pull/485) | ChiNext 302-prefixed codes (e.g. 302132.SZ) get the ±20% limit instead of the main-board 10% |
+| [shy3130/tick-stock-panel#486](https://github.com/shy3130/tick-stock-panel/pull/486) | Paper trading uses ±20% for STAR 689-prefixed codes |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
