@@ -28,7 +28,7 @@
 
 ## Merged upstream: the short version
 
-**I find real bugs in popular open-source projects and get the fixes merged** — 700+ merged pull requests across 80 repositories (live count in the badge above). A selection, by repo stars:
+**I find real bugs in popular open-source projects and get the fixes merged** — 720+ merged pull requests across 84 repositories (live count in the badge above). A selection, by repo stars:
 
 | Repository | ★ Stars | Merged PRs |
 |---|---:|---:|
@@ -36,6 +36,7 @@
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [1](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 72k | [2](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 66k | [1](https://github.com/heygen-com/hyperframes/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [docling-project/docling](https://github.com/docling-project/docling) | 69k | [4](https://github.com/docling-project/docling/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [1](https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 53k | [3](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -48,11 +49,24 @@
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 34k | [1](https://github.com/Tencent/WeKnora/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31k | [1](https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [labring/FastGPT](https://github.com/labring/FastGPT) | 30k | [15](https://github.com/labring/FastGPT/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [faker-js/faker](https://github.com/faker-js/faker) | 16k | [1](https://github.com/faker-js/faker/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [1](https://github.com/junhoyeo/tokscale/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) | 5.1k | [1](https://github.com/Edge0-AI/Edge0/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [QwenAudio/qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) | 2.9k | [14](https://github.com/QwenAudio/qwen-audio-agent/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 
 <sub>Star counts as of Oct 2026. Full list: [all merged PRs](https://github.com/search?q=is%3Apr+author%3Akevin9327+is%3Amerged+-user%3Akevin9327&type=pullrequests).</sub>
+
+### Open PRs in progress
+
+| PR | What it fixes |
+|---|---|
+| [paperclipai/paperclip#16629](https://github.com/paperclipai/paperclip/pull/16629) | Preserve custom env vars in launchd/systemd service files |
+| [HKUDS/CLI-Anything#570](https://github.com/HKUDS/CLI-Anything/pull/570) | Percent-encode Obsidian vault paths |
+| [ruvnet/ruflo#4241](https://github.com/ruvnet/ruflo/pull/4241) | `daemon status` reports the running daemon's TTL |
+| [ruvnet/ruflo#4242](https://github.com/ruvnet/ruflo/pull/4242) | Key the console mission ledger per cwd |
+| [ruvnet/ruflo#4243](https://github.com/ruvnet/ruflo/pull/4243) | Local-only guard checks Host and Origin in mcp-bridge |
+| [longbridge/gpui-kit#3567](https://github.com/longbridge/gpui-kit/pull/3567) | Tree selects on click instead of mouse down |
+| [longbridge/gpui-kit#3568](https://github.com/longbridge/gpui-kit/pull/3568) | Tab bar overflow menu runs the tab's own on_click |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
