@@ -73,6 +73,7 @@
 | [longbridge/gpui-kit#3568](https://github.com/longbridge/gpui-kit/pull/3568) | Tab bar overflow menu runs the tab's own on_click |
 | [HKUDS/CLI-Anything#577](https://github.com/HKUDS/CLI-Anything/pull/577) | FreeCAD harness builds boolean parts and exports only final shapes |
 | [AnswerDotAI/fastcore#949](https://github.com/AnswerDotAI/fastcore/pull/949) | docments no longer crashes on defaults like numpy arrays |
+| [facebook/relay#5427](https://github.com/facebook/relay/pull/5427) | relay_field_payload.error events report the field path instead of an empty string |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
