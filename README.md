@@ -74,6 +74,7 @@
 | [HKUDS/CLI-Anything#577](https://github.com/HKUDS/CLI-Anything/pull/577) | FreeCAD harness builds boolean parts and exports only final shapes |
 | [AnswerDotAI/fastcore#949](https://github.com/AnswerDotAI/fastcore/pull/949) | docments no longer crashes on defaults like numpy arrays |
 | [facebook/relay#5427](https://github.com/facebook/relay/pull/5427) | relay_field_payload.error events report the field path instead of an empty string |
+| [facebook/relay#5428](https://github.com/facebook/relay/pull/5428) | relay_field_payload.error events report the field path instead of an empty string |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
