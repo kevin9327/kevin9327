@@ -75,6 +75,7 @@
 | [AnswerDotAI/fastcore#949](https://github.com/AnswerDotAI/fastcore/pull/949) | docments no longer crashes on defaults like numpy arrays |
 | [facebook/relay#5427](https://github.com/facebook/relay/pull/5427) | relay_field_payload.error events report the field path instead of an empty string |
 | [facebook/relay#5428](https://github.com/facebook/relay/pull/5428) | Compiler counts variables nested in fragment-spread argument objects/lists as used |
+| [facebookresearch/fairseq2#1525](https://github.com/facebookresearch/fairseq2/pull/1525) | SamplingSequenceGenerator respects max_gen_len for shorter prompts in a padded batch |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
