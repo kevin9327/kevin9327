@@ -78,6 +78,9 @@
 | [facebookresearch/fairseq2#1525](https://github.com/facebookresearch/fairseq2/pull/1525) | SamplingSequenceGenerator respects max_gen_len for shorter prompts in a padded batch |
 | [shy3130/tick-stock-panel#485](https://github.com/shy3130/tick-stock-panel/pull/485) | ChiNext 302-prefixed codes (e.g. 302132.SZ) get the ±20% limit instead of the main-board 10% |
 | [shy3130/tick-stock-panel#486](https://github.com/shy3130/tick-stock-panel/pull/486) | Paper trading uses ±20% for STAR 689-prefixed codes |
+| [shy3130/tick-stock-panel#487](https://github.com/shy3130/tick-stock-panel/pull/487) | Market overview classifies ChiNext 302-prefixed codes as ChiNext |
+| [shy3130/tick-stock-panel#488](https://github.com/shy3130/tick-stock-panel/pull/488) | Backtest board filter includes ChiNext 302 and STAR 689 codes |
+| [shy3130/tick-stock-panel#489](https://github.com/shy3130/tick-stock-panel/pull/489) | Ex-rights factor self-check uses ±20% for ChiNext 302 codes |
 | [CopilotKit/OpenBot#803](https://github.com/CopilotKit/OpenBot/pull/803) | Routine schedules with a repeated minute are described once |
 | [milind-soni/OpenMausBot#3037](https://github.com/milind-soni/OpenMausBot/pull/3037) | Stripe secret and restricted keys are masked in logs |
 | [labring/FastGPT#8015](https://github.com/labring/FastGPT/pull/8015) | File extension is read from proxy-link filenames containing % |
