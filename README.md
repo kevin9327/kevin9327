@@ -91,6 +91,9 @@
 | [akitaonrails/ai-memory#1430](https://github.com/akitaonrails/ai-memory/pull/1430) | Model page paths ending in a dot/space or naming a DOS device no longer abort a batch |
 | [ruvnet/ruflo#4281](https://github.com/ruvnet/ruflo/pull/4281) | Env-configured MCP servers keep their credentials when the browser sends them back |
 | [rclone/rclone#10129](https://github.com/rclone/rclone/pull/10129) | Durations like `--max-age 300y` are rejected instead of wrapping and filtering out every file |
+| [rclone/rclone#10130](https://github.com/rclone/rclone/pull/10130) | Time options accept multi-unit relative times like 1d12h, as documented |
+| [derailed/k9s#4309](https://github.com/derailed/k9s/pull/4309) | Sorting a capacity/number column holding n/a no longer crashes k9s |
+| [derailed/k9s#4310](https://github.com/derailed/k9s/pull/4310) | Completed parallel jobs are no longer flagged as failed after a retry |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
