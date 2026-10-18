@@ -90,6 +90,7 @@
 | [roboflow/supervision#2765](https://github.com/roboflow/supervision/pull/2765) | No-OpenCV fallback draws thick circles centred on the radius, like OpenCV |
 | [akitaonrails/ai-memory#1430](https://github.com/akitaonrails/ai-memory/pull/1430) | Model page paths ending in a dot/space or naming a DOS device no longer abort a batch |
 | [ruvnet/ruflo#4281](https://github.com/ruvnet/ruflo/pull/4281) | Env-configured MCP servers keep their credentials when the browser sends them back |
+| [rclone/rclone#10129](https://github.com/rclone/rclone/pull/10129) | Durations like `--max-age 300y` are rejected instead of wrapping and filtering out every file |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
