@@ -87,6 +87,8 @@
 | [CopilotKit/OpenBot#803](https://github.com/CopilotKit/OpenBot/pull/803) | Routine schedules with a repeated minute are described once |
 | [milind-soni/OpenMausBot#3037](https://github.com/milind-soni/OpenMausBot/pull/3037) | Stripe secret and restricted keys are masked in logs |
 | [labring/FastGPT#8015](https://github.com/labring/FastGPT/pull/8015) | File extension is read from proxy-link filenames containing % |
+| [roboflow/supervision#2765](https://github.com/roboflow/supervision/pull/2765) | No-OpenCV fallback draws thick circles centred on the radius, like OpenCV |
+| [akitaonrails/ai-memory#1430](https://github.com/akitaonrails/ai-memory/pull/1430) | Model page paths ending in a dot/space or naming a DOS device no longer abort a batch |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
