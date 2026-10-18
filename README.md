@@ -28,7 +28,7 @@
 
 ## Merged upstream: the short version
 
-**I find real bugs in popular open-source projects and get the fixes merged** — 720+ merged pull requests across 85 repositories (live count in the badge above). A selection, by repo stars:
+**I find real bugs in popular open-source projects and get the fixes merged** — 720+ merged pull requests across 86 repositories (live count in the badge above). A selection, by repo stars:
 
 | Repository | ★ Stars | Merged PRs |
 |---|---:|---:|
@@ -52,6 +52,7 @@
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 34k | [1](https://github.com/Tencent/WeKnora/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31k | [1](https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [labring/FastGPT](https://github.com/labring/FastGPT) | 30k | [15](https://github.com/labring/FastGPT/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [longbridge/gpui-kit](https://github.com/longbridge/gpui-kit) | 18k | [2](https://github.com/longbridge/gpui-kit/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [faker-js/faker](https://github.com/faker-js/faker) | 16k | [1](https://github.com/faker-js/faker/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6.6k | [91](https://github.com/CopilotKit/OpenBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 5.9k | [83](https://github.com/shy3130/tick-stock-panel/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -486,7 +487,7 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-44 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+45 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
@@ -508,7 +509,8 @@ without ever throwing. Then I prove them.
 | [Seldaek/monolog](https://github.com/Seldaek/monolog) | 21.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ASeldaek/monolog&type=pullrequests) | [Stop JsonFormatter from encoding INF and NaN as 0](https://github.com/Seldaek/monolog/pull/2078) |
 | [motdotla/dotenv](https://github.com/motdotla/dotenv) | 20.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amotdotla/dotenv&type=pullrequests) | [fix: parse debug and override in populate like config does](https://github.com/motdotla/dotenv/pull/1069) |
 | [briannesbitt/Carbon](https://github.com/briannesbitt/Carbon) | 16.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Abriannesbitt/Carbon&type=pullrequests) | [Fix day of year parsing in createFromIsoFormat](https://github.com/briannesbitt/Carbon/pull/3382) |
-| [longbridge/gpui-kit](https://github.com/longbridge/gpui-kit) | 17.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Alongbridge/gpui-kit&type=pullrequests) | [input: Count characters, not bytes, when validating a mask pattern](https://github.com/longbridge/gpui-kit/pull/3369) |
+| [longbridge/gpui-kit](https://github.com/longbridge/gpui-kit) | 18.0k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Alongbridge/gpui-kit&type=pullrequests) | [tree: select and toggle entries on click instead of mouse down](https://github.com/longbridge/gpui-kit/pull/3567) |
+| [PHPOffice/PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) | 14.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3APHPOffice/PhpSpreadsheet&type=pullrequests) | [RIGHT: return all of the text when num_chars exceeds its length](https://github.com/PHPOffice/PhpSpreadsheet/pull/5044) |
 | [PHP-CS-Fixer/PHP-CS-Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer) | 13.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3APHP-CS-Fixer/PHP-CS-Fixer&type=pullrequests) | [fix: `NewWithParenthesesFixer` - do not move parentheses past `.`, `??` and `}`](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/pull/9883) |
 | [rubocop/rubocop](https://github.com/rubocop/rubocop) | 12.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arubocop/rubocop&type=pullrequests) | [Fix an incorrect autocorrect for `Style/EmptyLiteral` with `Hash[]` as the first argument](https://github.com/rubocop/rubocop/pull/15863) |
 | [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) | 9.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Alnkiai/m3e-canvas&type=pullrequests) | [fix(color): normalize scheme seeds without # to #RRGGBB](https://github.com/lnkiai/m3e-canvas/pull/459) |
