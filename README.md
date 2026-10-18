@@ -28,7 +28,7 @@
 
 ## Merged upstream: the short version
 
-**I find real bugs in popular open-source projects and get the fixes merged** — 720+ merged pull requests across 86 repositories (live count in the badge above). A selection, by repo stars:
+**I find real bugs in popular open-source projects and get the fixes merged** — 730+ merged pull requests across 87 repositories (live count in the badge above). A selection, by repo stars:
 
 | Repository | ★ Stars | Merged PRs |
 |---|---:|---:|
@@ -55,10 +55,10 @@
 | [longbridge/gpui-kit](https://github.com/longbridge/gpui-kit) | 18k | [2](https://github.com/longbridge/gpui-kit/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [faker-js/faker](https://github.com/faker-js/faker) | 16k | [1](https://github.com/faker-js/faker/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6.6k | [91](https://github.com/CopilotKit/OpenBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 5.9k | [86](https://github.com/shy3130/tick-stock-panel/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 6.0k | [86](https://github.com/shy3130/tick-stock-panel/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [1](https://github.com/junhoyeo/tokscale/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) | 5.5k | [1](https://github.com/Edge0-AI/Edge0/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 5.0k | [8](https://github.com/milind-soni/OpenMausBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 5.1k | [9](https://github.com/milind-soni/OpenMausBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [QwenAudio/qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) | 2.9k | [14](https://github.com/QwenAudio/qwen-audio-agent/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 
 <sub>Star counts as of Oct 2026. Full list: [all merged PRs](https://github.com/search?q=is%3Apr+author%3Akevin9327+is%3Amerged+-user%3Akevin9327&type=pullrequests).</sub>
@@ -487,13 +487,13 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-45 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+46 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Athedotmack/claude-mem&type=pullrequests) | [fix(ingest): apply CLAUDE_MEM_SKIP_BASH_PATTERNS to the PowerShell tool](https://github.com/thedotmack/claude-mem/pull/4756) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78.2k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aunslothai/unsloth&type=pullrequests) | [Studio: cache Edit-mode text encoding by reference image content](https://github.com/unslothai/unsloth/pull/13683) |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76.1k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aruvnet/ruflo&type=pullrequests) | [fix(mcp-bridge): refuse foreign browser requests in local-only mode (#4226)](https://github.com/ruvnet/ruflo/pull/4243) |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76.4k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aruvnet/ruflo&type=pullrequests) | [fix(mcp-bridge): refuse foreign browser requests in local-only mode (#4226)](https://github.com/ruvnet/ruflo/pull/4243) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arclone/rclone&type=pullrequests) | [lib/encoder: fix decoding a trailing character after an escaped quote](https://github.com/rclone/rclone/pull/10036) |
 | [psf/black](https://github.com/psf/black) | 41.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Apsf/black&type=pullrequests) | [Don't remove backslash-newlines from raw strings in string_processing](https://github.com/psf/black/pull/5482) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amarkedjs/marked&type=pullrequests) | [fix: let indented and type 3-5 html blocks interrupt a paragraph](https://github.com/markedjs/marked/pull/4124) |
@@ -503,6 +503,7 @@ without ever throwing. Then I prove them.
 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Asymfony/symfony&type=pullrequests) | [[Yaml] Do not treat quoted `<<` keys as merge keys](https://github.com/symfony/symfony/pull/66621) |
 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 33.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ANandhaKishorM/laya&type=pullrequests) | [fix(ts): clean French mail like Python](https://github.com/NandhaKishorM/laya/pull/939) |
 | [composer/composer](https://github.com/composer/composer) | 29.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Acomposer/composer&type=pullrequests) | [Fix JsonManipulator::addSubNode modifying a nested key with the same name](https://github.com/composer/composer/pull/13109) |
+| [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 28.7k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Ainvoke-ai/InvokeAI&type=pullrequests) | [fix(graph): resolve Literal collector items to the types of their values](https://github.com/invoke-ai/InvokeAI/pull/9895) |
 | [t8y2/dbx](https://github.com/t8y2/dbx) | 27.0k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3At8y2/dbx&type=pullrequests) | [fix(sql): quote PostgreSQL array literals with backslashes as escape strings](https://github.com/t8y2/dbx/pull/11094) |
 | [urfave/cli](https://github.com/urfave/cli) | 24.3k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aurfave/cli&type=pullrequests) | [fix: treat "-vn=" in a short option group as an empty value](https://github.com/urfave/cli/pull/2454) |
 | [valyala/fasthttp](https://github.com/valyala/fasthttp) | 23.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Avalyala/fasthttp&type=pullrequests) | [fix(fs): reject zero-length suffix byte ranges](https://github.com/valyala/fasthttp/pull/2460) |
