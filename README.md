@@ -100,6 +100,9 @@
 | [faker-js/faker#4162](https://github.com/faker-js/faker/pull/4162) | number.float with a decimal multipleOf no longer returns 0.8999999999999999 below min 0.9 |
 | [rclone/rclone#10132](https://github.com/rclone/rclone/pull/10132) | serve s3 reports the object's modification time as Last-Modified right after an upload |
 | [ruvnet/ruflo#4284](https://github.com/ruvnet/ruflo/pull/4284) | One-shot commands write learned patterns to patterns.json before exiting |
+| [junhoyeo/tokscale#1510](https://github.com/junhoyeo/tokscale/pull/1510) | A config file saved with a UTF-8 BOM is read instead of failing to parse |
+| [Edge0-AI/Edge0#147](https://github.com/Edge0-AI/Edge0/pull/147) | Chat requests honor max_completion_tokens instead of ignoring it |
+| [Edge0-AI/Edge0#148](https://github.com/Edge0-AI/Edge0/pull/148) | Streamed chat replies keep a trailing U+FFFD so they match the non-streaming text |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
