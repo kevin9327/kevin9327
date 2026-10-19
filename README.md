@@ -94,6 +94,8 @@
 | [rclone/rclone#10130](https://github.com/rclone/rclone/pull/10130) | Time options accept multi-unit relative times like 1d12h, as documented |
 | [derailed/k9s#4309](https://github.com/derailed/k9s/pull/4309) | Sorting a capacity/number column holding n/a no longer crashes k9s |
 | [derailed/k9s#4310](https://github.com/derailed/k9s/pull/4310) | Completed parallel jobs are no longer flagged as failed after a retry |
+| [rclone/rclone#10132](https://github.com/rclone/rclone/pull/10132) | serve s3 reports the object's modification time as Last-Modified right after an upload |
+| [ruvnet/ruflo#4284](https://github.com/ruvnet/ruflo/pull/4284) | One-shot commands write learned patterns to patterns.json before exiting |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
