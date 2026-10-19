@@ -94,6 +94,10 @@
 | [rclone/rclone#10130](https://github.com/rclone/rclone/pull/10130) | Time options accept multi-unit relative times like 1d12h, as documented |
 | [derailed/k9s#4309](https://github.com/derailed/k9s/pull/4309) | Sorting a capacity/number column holding n/a no longer crashes k9s |
 | [derailed/k9s#4310](https://github.com/derailed/k9s/pull/4310) | Completed parallel jobs are no longer flagged as failed after a retry |
+| [derailed/k9s#4311](https://github.com/derailed/k9s/pull/4311) | A started native sidecar that is not ready no longer shows the pod as Init:0/1 |
+| [derailed/k9s#4312](https://github.com/derailed/k9s/pull/4312) | Pods with completed and running containers show NoReady, not Running, when not ready |
+| [derailed/k9s#4313](https://github.com/derailed/k9s/pull/4313) | Pods held by scheduling gates show SchedulingGated instead of Pending |
+| [faker-js/faker#4162](https://github.com/faker-js/faker/pull/4162) | number.float with a decimal multipleOf no longer returns 0.8999999999999999 below min 0.9 |
 | [rclone/rclone#10132](https://github.com/rclone/rclone/pull/10132) | serve s3 reports the object's modification time as Last-Modified right after an upload |
 | [ruvnet/ruflo#4284](https://github.com/ruvnet/ruflo/pull/4284) | One-shot commands write learned patterns to patterns.json before exiting |
 
