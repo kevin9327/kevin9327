@@ -28,7 +28,7 @@
 
 ## Merged upstream: the short version
 
-**I find real bugs in popular open-source projects and get the fixes merged** — 750+ merged pull requests across 88 repositories (live count in the badge above). A selection, by repo stars:
+**I find real bugs in popular open-source projects and get the fixes merged** — 750+ merged pull requests across 89 repositories (live count in the badge above). A selection, by repo stars:
 
 | Repository | ★ Stars | Merged PRs |
 |---|---:|---:|
@@ -42,7 +42,7 @@
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 66k | [1](https://github.com/heygen-com/hyperframes/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 73k | [20](https://github.com/debpalash/VoiceStudio/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [docling-project/docling](https://github.com/docling-project/docling) | 69k | [4](https://github.com/docling-project/docling/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [1](https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60k | [3](https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 54k | [6](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | 51k | [37](https://github.com/roboflow/supervision/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 48k | [3](https://github.com/alibaba/open-code-review/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -521,7 +521,7 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-47 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+48 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
@@ -529,7 +529,7 @@ without ever throwing. Then I prove them.
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Artk-ai/rtk&type=pullrequests) | [fix(init): only offer the proxy when rtk-proxy can run, and remove its base URL on uninstall](https://github.com/rtk-ai/rtk/pull/4622) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78.2k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aunslothai/unsloth&type=pullrequests) | [Studio: cache Edit-mode text encoding by reference image content](https://github.com/unslothai/unsloth/pull/13683) |
 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76.4k | [7](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aruvnet/ruflo&type=pullrequests) | [fix(mcp-bridge): refuse foreign browser requests in local-only mode (#4226)](https://github.com/ruvnet/ruflo/pull/4243) |
-| [rclone/rclone](https://github.com/rclone/rclone) | 60.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arclone/rclone&type=pullrequests) | [lib/encoder: fix decoding a trailing character after an escaped quote](https://github.com/rclone/rclone/pull/10036) |
+| [rclone/rclone](https://github.com/rclone/rclone) | 60.4k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arclone/rclone&type=pullrequests) | [lib/encoder: fix decoding a trailing character after an escaped quote](https://github.com/rclone/rclone/pull/10036) |
 | [psf/black](https://github.com/psf/black) | 41.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Apsf/black&type=pullrequests) | [Don't remove backslash-newlines from raw strings in string_processing](https://github.com/psf/black/pull/5482) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amarkedjs/marked&type=pullrequests) | [fix: let indented and type 3-5 html blocks interrupt a paragraph](https://github.com/markedjs/marked/pull/4124) |
 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 35.8k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aesengine/DeepSeek-Reasonix&type=pullrequests) | [fix(gitstatus): count lines on renamed and copied paths](https://github.com/esengine/DeepSeek-Reasonix/pull/13175) |
@@ -561,6 +561,7 @@ without ever throwing. Then I prove them.
 | [storytold/photocraft](https://github.com/storytold/photocraft) | 66.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Astorytold/photocraft&type=pullrequests) | [fix(geom): saturate Rect::translate and inflate on i32 overflow](https://github.com/storytold/photocraft/pull/159) |
 | [edenfunf/reelmimic](https://github.com/edenfunf/reelmimic) | 3.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aedenfunf/reelmimic&type=pullrequests) | [fix: name a project after the brief's first non-empty line; English placeholder for en](https://github.com/edenfunf/reelmimic/pull/56) |
 | [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | 3.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AQingYunA/answer-me-with-html&type=pullrequests) | [fix(a11y): name diagrams and the table of contents in the page language](https://github.com/QingYunA/answer-me-with-html/pull/58) |
+| [supabase/mcp](https://github.com/supabase/mcp) | 3.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Asupabase/mcp&type=pullrequests) | [fix(mcp): don't split an UPDATE on a semicolon inside a quoted value](https://github.com/supabase/mcp/pull/459) |
 | [anmolkapil/plexo](https://github.com/anmolkapil/plexo) | 4.6k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aanmolkapil/plexo&type=pullrequests) | [Decode ISO-8859-1 filename* in Content-Disposition](https://github.com/anmolkapil/plexo/pull/78) |
 | [ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya) | 1.3k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aollaya-dev/ollaya&type=pullrequests) | [show: keep a multi-line DESCRIPTION as a """ block in the Modelfile](https://github.com/ollaya-dev/ollaya/pull/57) |
 | [kerpopule/hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills) | 1.1k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Akerpopule/hermes-jev-skills&type=pullrequests) | [fix(privacy): a redact cap of 0 or 1 no longer keeps the whole text](https://github.com/kerpopule/hermes-jev-skills/pull/34) |
