@@ -114,6 +114,8 @@
 | [HKUDS/CLI-Anything#597](https://github.com/HKUDS/CLI-Anything/pull/597) | Kdenlive timecodes carry rounded milliseconds into seconds |
 | [HKUDS/CLI-Anything#598](https://github.com/HKUDS/CLI-Anything/pull/598) | Shotcut `seconds_to_frames` rounds instead of dropping a frame |
 | [HKUDS/CLI-Anything#599](https://github.com/HKUDS/CLI-Anything/pull/599) | Kdenlive rejects negative and non-finite seconds |
+| [Fission-AI/OpenSpec#2131](https://github.com/Fission-AI/OpenSpec/pull/2131) | A line starting with triple-backtick inline code no longer opens a phantom fence that hides later requirements |
+| [n8n-io/n8n#41486](https://github.com/n8n-io/n8n/pull/41486) | `pluck()` with several fields returns values in the requested field order |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
