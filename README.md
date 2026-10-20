@@ -107,6 +107,13 @@
 | [Edge0-AI/Edge0#148](https://github.com/Edge0-AI/Edge0/pull/148) | Streamed chat replies keep a trailing U+FFFD so they match the non-streaming text |
 | [n8n-io/n8n#41430](https://github.com/n8n-io/n8n/pull/41430) | Summarize's Average returns null instead of NaN for a group with no numeric values |
 | [Kruk2/jasna#567](https://github.com/Kruk2/jasna/pull/567) | Reject `nan`/`inf` timestamps in segment parsing |
+| [withmarbleapp/os-taxonomy#36](https://github.com/withmarbleapp/os-taxonomy/pull/36) | Schema validator accepts only RFC 3339 `date-time` values |
+| [headroomlabs-ai/headroom#4306](https://github.com/headroomlabs-ai/headroom/pull/4306) | SSE parser strips only one leading space from field values |
+| [headroomlabs-ai/headroom#4307](https://github.com/headroomlabs-ai/headroom/pull/4307) | SSE events framed with mixed or CR-only line endings are recognised |
+| [Kruk2/jasna#568](https://github.com/Kruk2/jasna/pull/568) | Folder output names keep dotted input stems intact |
+| [HKUDS/CLI-Anything#597](https://github.com/HKUDS/CLI-Anything/pull/597) | Kdenlive timecodes carry rounded milliseconds into seconds |
+| [HKUDS/CLI-Anything#598](https://github.com/HKUDS/CLI-Anything/pull/598) | Shotcut `seconds_to_frames` rounds instead of dropping a frame |
+| [HKUDS/CLI-Anything#599](https://github.com/HKUDS/CLI-Anything/pull/599) | Kdenlive rejects negative and non-finite seconds |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
