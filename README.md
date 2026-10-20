@@ -116,6 +116,11 @@
 | [HKUDS/CLI-Anything#599](https://github.com/HKUDS/CLI-Anything/pull/599) | Kdenlive rejects negative and non-finite seconds |
 | [Fission-AI/OpenSpec#2131](https://github.com/Fission-AI/OpenSpec/pull/2131) | A line starting with triple-backtick inline code no longer opens a phantom fence that hides later requirements |
 | [n8n-io/n8n#41486](https://github.com/n8n-io/n8n/pull/41486) | `pluck()` with several fields returns values in the requested field order |
+| [rclone/rclone#10149](https://github.com/rclone/rclone/pull/10149) | RepeatableReader.Seek past the cache returns the cache length, not an arbitrary offset |
+| [Fission-AI/OpenSpec#2133](https://github.com/Fission-AI/OpenSpec/pull/2133) | `validate` sees duplicate or misplaced `###Requirement:` headers written without a space |
+| [docling-project/docling#4916](https://github.com/docling-project/docling/pull/4916) | OTSL parser keeps every cell when an unclosed cell precedes a closed one |
+| [unslothai/unsloth#14342](https://github.com/unslothai/unsloth/pull/14342) | `formatted_int` prints 1.0M instead of 1,000.0K at unit boundaries |
+| [ChromeDevTools/chrome-devtools-mcp#3255](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3255) | IPv4-mapped loopback (`[::ffff:127.0.0.1]`) counts as localhost |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
