@@ -106,6 +106,7 @@
 | [Edge0-AI/Edge0#147](https://github.com/Edge0-AI/Edge0/pull/147) | Chat requests honor max_completion_tokens instead of ignoring it |
 | [Edge0-AI/Edge0#148](https://github.com/Edge0-AI/Edge0/pull/148) | Streamed chat replies keep a trailing U+FFFD so they match the non-streaming text |
 | [n8n-io/n8n#41430](https://github.com/n8n-io/n8n/pull/41430) | Summarize's Average returns null instead of NaN for a group with no numeric values |
+| [Kruk2/jasna#567](https://github.com/Kruk2/jasna/pull/567) | Reject `nan`/`inf` timestamps in segment parsing |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
