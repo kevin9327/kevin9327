@@ -28,7 +28,7 @@
 
 ## Merged upstream: the short version
 
-**I find real bugs in popular open-source projects and get the fixes merged** — 750+ merged pull requests across 89 repositories (live count in the badge above). A selection, by repo stars:
+**I find real bugs in popular open-source projects and get the fixes merged** — 750+ merged pull requests across 90 repositories (live count in the badge above). A selection, by repo stars:
 
 | Repository | ★ Stars | Merged PRs |
 |---|---:|---:|
@@ -37,7 +37,7 @@
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [1](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84k | [1](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [10](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [11](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 72k | [2](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 66k | [1](https://github.com/heygen-com/hyperframes/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 73k | [20](https://github.com/debpalash/VoiceStudio/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -121,6 +121,15 @@
 | [docling-project/docling#4916](https://github.com/docling-project/docling/pull/4916) | OTSL parser keeps every cell when an unclosed cell precedes a closed one |
 | [unslothai/unsloth#14342](https://github.com/unslothai/unsloth/pull/14342) | `formatted_int` prints 1.0M instead of 1,000.0K at unit boundaries |
 | [ChromeDevTools/chrome-devtools-mcp#3255](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3255) | IPv4-mapped loopback (`[::ffff:127.0.0.1]`) counts as localhost |
+| [ruvnet/ruflo#4301](https://github.com/ruvnet/ruflo/pull/4301) | `agent spawn` keeps the name it was given |
+| [ruvnet/ruflo#4302](https://github.com/ruvnet/ruflo/pull/4302) | `agent list --all` and `--type` filter as documented |
+| [ruvnet/ruflo#4321](https://github.com/ruvnet/ruflo/pull/4321) | `status tasks` lists tasks instead of always printing "No tasks" |
+| [ruvnet/ruflo#4324](https://github.com/ruvnet/ruflo/pull/4324) | `task_list` total counts every matching task, not just the returned page |
+| [ruvnet/ruflo#4331](https://github.com/ruvnet/ruflo/pull/4331) | `task cancel` reports unknown and finished tasks instead of claiming success |
+| [ruvnet/ruflo#4332](https://github.com/ruvnet/ruflo/pull/4332) | `task status` header shows the task id instead of undefined |
+| [ChromeDevTools/chrome-devtools-mcp#3215](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3215) | Truncated titles, names and bodies keep surrogate pairs and emoji whole |
+| [ChromeDevTools/chrome-devtools-mcp#3216](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3216) | `get_network_request` no longer waits forever for an unread no-store body |
+| [thedotmack/claude-mem#4928](https://github.com/thedotmack/claude-mem/pull/4928) | Redaction catches keys whose last character is a dash |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
@@ -521,14 +530,14 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-49 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+50 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101.4k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Athedotmack/claude-mem&type=pullrequests) | [fix(ingest): apply CLAUDE_MEM_SKIP_BASH_PATTERNS to the PowerShell tool](https://github.com/thedotmack/claude-mem/pull/4756) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Artk-ai/rtk&type=pullrequests) | [fix(init): only offer the proxy when rtk-proxy can run, and remove its base URL on uninstall](https://github.com/rtk-ai/rtk/pull/4622) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78.2k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aunslothai/unsloth&type=pullrequests) | [Studio: cache Edit-mode text encoding by reference image content](https://github.com/unslothai/unsloth/pull/13683) |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76.4k | [10](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aruvnet/ruflo&type=pullrequests) | [fix(mcp-bridge): refuse foreign browser requests in local-only mode (#4226)](https://github.com/ruvnet/ruflo/pull/4243) |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76.4k | [11](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aruvnet/ruflo&type=pullrequests) | [fix(mcp-bridge): refuse foreign browser requests in local-only mode (#4226)](https://github.com/ruvnet/ruflo/pull/4243) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.4k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arclone/rclone&type=pullrequests) | [lib/encoder: fix decoding a trailing character after an escaped quote](https://github.com/rclone/rclone/pull/10036) |
 | [psf/black](https://github.com/psf/black) | 41.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Apsf/black&type=pullrequests) | [Don't remove backslash-newlines from raw strings in string_processing](https://github.com/psf/black/pull/5482) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amarkedjs/marked&type=pullrequests) | [fix: let indented and type 3-5 html blocks interrupt a paragraph](https://github.com/markedjs/marked/pull/4124) |
@@ -546,6 +555,7 @@ without ever throwing. Then I prove them.
 | [Seldaek/monolog](https://github.com/Seldaek/monolog) | 21.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ASeldaek/monolog&type=pullrequests) | [Stop JsonFormatter from encoding INF and NaN as 0](https://github.com/Seldaek/monolog/pull/2078) |
 | [motdotla/dotenv](https://github.com/motdotla/dotenv) | 20.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amotdotla/dotenv&type=pullrequests) | [fix: parse debug and override in populate like config does](https://github.com/motdotla/dotenv/pull/1069) |
 | [briannesbitt/Carbon](https://github.com/briannesbitt/Carbon) | 16.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Abriannesbitt/Carbon&type=pullrequests) | [Fix day of year parsing in createFromIsoFormat](https://github.com/briannesbitt/Carbon/pull/3382) |
+| [KittenML/KittenTTS](https://github.com/KittenML/KittenTTS) | 16.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AKittenML/KittenTTS&type=pullrequests) | [Read voices.json and config.json as UTF-8 so KittenTTS 2 loads on Windows](https://github.com/KittenML/KittenTTS/pull/164) |
 | [longbridge/gpui-kit](https://github.com/longbridge/gpui-kit) | 18.0k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Alongbridge/gpui-kit&type=pullrequests) | [tree: select and toggle entries on click instead of mouse down](https://github.com/longbridge/gpui-kit/pull/3567) |
 | [PHPOffice/PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) | 14.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3APHPOffice/PhpSpreadsheet&type=pullrequests) | [RIGHT: return all of the text when num_chars exceeds its length](https://github.com/PHPOffice/PhpSpreadsheet/pull/5044) |
 | [PHP-CS-Fixer/PHP-CS-Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer) | 13.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3APHP-CS-Fixer/PHP-CS-Fixer&type=pullrequests) | [fix: `NewWithParenthesesFixer` - do not move parentheses past `.`, `??` and `}`](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/pull/9883) |
