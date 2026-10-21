@@ -77,6 +77,8 @@
 | [longbridge/gpui-kit#3568](https://github.com/longbridge/gpui-kit/pull/3568) | Tab bar overflow menu runs the tab's own on_click |
 | [HKUDS/CLI-Anything#577](https://github.com/HKUDS/CLI-Anything/pull/577) | FreeCAD harness builds boolean parts and exports only final shapes |
 | [AnswerDotAI/fastcore#949](https://github.com/AnswerDotAI/fastcore/pull/949) | docments no longer crashes on defaults like numpy arrays |
+| [lovisdotio/motion2code#1](https://github.com/lovisdotio/motion2code/pull/1) | Stage size read from `<svg id="stage">`, single-quoted viewBox accepted |
+| [lovisdotio/motion2code#2](https://github.com/lovisdotio/motion2code/pull/2) | Correct portrait side-by-side size in docs (1120x1020) |
 | [facebook/relay#5427](https://github.com/facebook/relay/pull/5427) | relay_field_payload.error events report the field path instead of an empty string |
 | [facebook/relay#5428](https://github.com/facebook/relay/pull/5428) | Compiler counts variables nested in fragment-spread argument objects/lists as used |
 | [facebook/relay#5430](https://github.com/facebook/relay/pull/5430) | recycleNodesInto no longer returns the previous object when the key sets differ but have the same size |
