@@ -33,23 +33,23 @@
 | Repository | ★ Stars | Merged PRs |
 |---|---:|---:|
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 191k | [6](https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [2](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [3](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [1](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84k | [1](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [7](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [10](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 72k | [2](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 66k | [1](https://github.com/heygen-com/hyperframes/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 73k | [20](https://github.com/debpalash/VoiceStudio/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [docling-project/docling](https://github.com/docling-project/docling) | 69k | [4](https://github.com/docling-project/docling/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [3](https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 54k | [6](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | 51k | [37](https://github.com/roboflow/supervision/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 54k | [7](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | 51k | [38](https://github.com/roboflow/supervision/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 48k | [3](https://github.com/alibaba/open-code-review/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [psf/black](https://github.com/psf/black) | 42k | [1](https://github.com/psf/black/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37k | [1](https://github.com/markedjs/marked/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 36k | [3](https://github.com/esengine/DeepSeek-Reasonix/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [derailed/k9s](https://github.com/derailed/k9s) | 35k | [1](https://github.com/derailed/k9s/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [derailed/k9s](https://github.com/derailed/k9s) | 35k | [2](https://github.com/derailed/k9s/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 34k | [1](https://github.com/Tencent/WeKnora/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31k | [1](https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [labring/FastGPT](https://github.com/labring/FastGPT) | 30k | [18](https://github.com/labring/FastGPT/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -521,19 +521,19 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-48 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+49 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101.4k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Athedotmack/claude-mem&type=pullrequests) | [fix(ingest): apply CLAUDE_MEM_SKIP_BASH_PATTERNS to the PowerShell tool](https://github.com/thedotmack/claude-mem/pull/4756) |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101.4k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Athedotmack/claude-mem&type=pullrequests) | [fix(ingest): apply CLAUDE_MEM_SKIP_BASH_PATTERNS to the PowerShell tool](https://github.com/thedotmack/claude-mem/pull/4756) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Artk-ai/rtk&type=pullrequests) | [fix(init): only offer the proxy when rtk-proxy can run, and remove its base URL on uninstall](https://github.com/rtk-ai/rtk/pull/4622) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78.2k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aunslothai/unsloth&type=pullrequests) | [Studio: cache Edit-mode text encoding by reference image content](https://github.com/unslothai/unsloth/pull/13683) |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76.4k | [7](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aruvnet/ruflo&type=pullrequests) | [fix(mcp-bridge): refuse foreign browser requests in local-only mode (#4226)](https://github.com/ruvnet/ruflo/pull/4243) |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76.4k | [10](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aruvnet/ruflo&type=pullrequests) | [fix(mcp-bridge): refuse foreign browser requests in local-only mode (#4226)](https://github.com/ruvnet/ruflo/pull/4243) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.4k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arclone/rclone&type=pullrequests) | [lib/encoder: fix decoding a trailing character after an escaped quote](https://github.com/rclone/rclone/pull/10036) |
 | [psf/black](https://github.com/psf/black) | 41.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Apsf/black&type=pullrequests) | [Don't remove backslash-newlines from raw strings in string_processing](https://github.com/psf/black/pull/5482) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amarkedjs/marked&type=pullrequests) | [fix: let indented and type 3-5 html blocks interrupt a paragraph](https://github.com/markedjs/marked/pull/4124) |
 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 35.8k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aesengine/DeepSeek-Reasonix&type=pullrequests) | [fix(gitstatus): count lines on renamed and copied paths](https://github.com/esengine/DeepSeek-Reasonix/pull/13175) |
-| [derailed/k9s](https://github.com/derailed/k9s) | 34.8k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aderailed/k9s&type=pullrequests) | [fix: preserve case of label selectors in command prompt](https://github.com/derailed/k9s/pull/4276) |
+| [derailed/k9s](https://github.com/derailed/k9s) | 34.8k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aderailed/k9s&type=pullrequests) | [fix: preserve case of label selectors in command prompt](https://github.com/derailed/k9s/pull/4276) |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 34.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ATencent/WeKnora&type=pullrequests) | [fix(asynqdl): truncate dead-letter errors on a rune boundary](https://github.com/Tencent/WeKnora/pull/3964) |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Asymfony/symfony&type=pullrequests) | [[Yaml] Do not treat quoted `<<` keys as merge keys](https://github.com/symfony/symfony/pull/66621) |
 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 33.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ANandhaKishorM/laya&type=pullrequests) | [fix(ts): clean French mail like Python](https://github.com/NandhaKishorM/laya/pull/939) |
@@ -541,6 +541,7 @@ without ever throwing. Then I prove them.
 | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 28.7k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Ainvoke-ai/InvokeAI&type=pullrequests) | [fix(graph): resolve Literal collector items to the types of their values](https://github.com/invoke-ai/InvokeAI/pull/9895) |
 | [t8y2/dbx](https://github.com/t8y2/dbx) | 27.0k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3At8y2/dbx&type=pullrequests) | [fix(sql): quote PostgreSQL array literals with backslashes as escape strings](https://github.com/t8y2/dbx/pull/11094) |
 | [urfave/cli](https://github.com/urfave/cli) | 24.3k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aurfave/cli&type=pullrequests) | [fix: treat "-vn=" in a short option group as an empty value](https://github.com/urfave/cli/pull/2454) |
+| [facebook/lexical](https://github.com/facebook/lexical) | 24.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Afacebook/lexical&type=pullrequests) | [[lexical-markdown] Bug Fix: Read an out-of-range decimal character reference as U+FFFD](https://github.com/facebook/lexical/pull/9388) |
 | [valyala/fasthttp](https://github.com/valyala/fasthttp) | 23.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Avalyala/fasthttp&type=pullrequests) | [fix(fs): reject zero-length suffix byte ranges](https://github.com/valyala/fasthttp/pull/2460) |
 | [Seldaek/monolog](https://github.com/Seldaek/monolog) | 21.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ASeldaek/monolog&type=pullrequests) | [Stop JsonFormatter from encoding INF and NaN as 0](https://github.com/Seldaek/monolog/pull/2078) |
 | [motdotla/dotenv](https://github.com/motdotla/dotenv) | 20.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amotdotla/dotenv&type=pullrequests) | [fix: parse debug and override in populate like config does](https://github.com/motdotla/dotenv/pull/1069) |
