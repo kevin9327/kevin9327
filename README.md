@@ -37,11 +37,11 @@
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [1](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84k | [1](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [11](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [12](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 72k | [2](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 66k | [1](https://github.com/heygen-com/hyperframes/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 73k | [20](https://github.com/debpalash/VoiceStudio/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [docling-project/docling](https://github.com/docling-project/docling) | 69k | [4](https://github.com/docling-project/docling/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [docling-project/docling](https://github.com/docling-project/docling) | 69k | [5](https://github.com/docling-project/docling/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [3](https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 54k | [7](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | 51k | [38](https://github.com/roboflow/supervision/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -129,6 +129,7 @@
 | [ruvnet/ruflo#4324](https://github.com/ruvnet/ruflo/pull/4324) | `task_list` total counts every matching task, not just the returned page |
 | [ruvnet/ruflo#4331](https://github.com/ruvnet/ruflo/pull/4331) | `task cancel` reports unknown and finished tasks instead of claiming success |
 | [ruvnet/ruflo#4332](https://github.com/ruvnet/ruflo/pull/4332) | `task status` header shows the task id instead of undefined |
+| [ruvnet/ruflo#4344](https://github.com/ruvnet/ruflo/pull/4344) | `session_list` total counts every saved session, not just the returned page |
 | [ChromeDevTools/chrome-devtools-mcp#3215](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3215) | Truncated titles, names and bodies keep surrogate pairs and emoji whole |
 | [ChromeDevTools/chrome-devtools-mcp#3216](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3216) | `get_network_request` no longer waits forever for an unread no-store body |
 | [thedotmack/claude-mem#4928](https://github.com/thedotmack/claude-mem/pull/4928) | Redaction catches keys whose last character is a dash |
@@ -539,7 +540,7 @@ without ever throwing. Then I prove them.
 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101.4k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Athedotmack/claude-mem&type=pullrequests) | [fix(ingest): apply CLAUDE_MEM_SKIP_BASH_PATTERNS to the PowerShell tool](https://github.com/thedotmack/claude-mem/pull/4756) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Artk-ai/rtk&type=pullrequests) | [fix(init): only offer the proxy when rtk-proxy can run, and remove its base URL on uninstall](https://github.com/rtk-ai/rtk/pull/4622) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78.2k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aunslothai/unsloth&type=pullrequests) | [Studio: cache Edit-mode text encoding by reference image content](https://github.com/unslothai/unsloth/pull/13683) |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76.4k | [11](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aruvnet/ruflo&type=pullrequests) | [fix(mcp-bridge): refuse foreign browser requests in local-only mode (#4226)](https://github.com/ruvnet/ruflo/pull/4243) |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76.4k | [12](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aruvnet/ruflo&type=pullrequests) | [fix(mcp-bridge): refuse foreign browser requests in local-only mode (#4226)](https://github.com/ruvnet/ruflo/pull/4243) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.4k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arclone/rclone&type=pullrequests) | [lib/encoder: fix decoding a trailing character after an escaped quote](https://github.com/rclone/rclone/pull/10036) |
 | [psf/black](https://github.com/psf/black) | 41.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Apsf/black&type=pullrequests) | [Don't remove backslash-newlines from raw strings in string_processing](https://github.com/psf/black/pull/5482) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amarkedjs/marked&type=pullrequests) | [fix: let indented and type 3-5 html blocks interrupt a paragraph](https://github.com/markedjs/marked/pull/4124) |
