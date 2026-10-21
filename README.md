@@ -133,6 +133,10 @@
 | [ChromeDevTools/chrome-devtools-mcp#3215](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3215) | Truncated titles, names and bodies keep surrogate pairs and emoji whole |
 | [ChromeDevTools/chrome-devtools-mcp#3216](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3216) | `get_network_request` no longer waits forever for an unread no-store body |
 | [thedotmack/claude-mem#4928](https://github.com/thedotmack/claude-mem/pull/4928) | Redaction catches keys whose last character is a dash |
+| [eagle-hq/EAGLE-4#1](https://github.com/eagle-hq/EAGLE-4/pull/1) | Keep added License-File headers out of a description-less wheel METADATA |
+| [eagle-hq/EAGLE-4#2](https://github.com/eagle-hq/EAGLE-4/pull/2) | Wheel index tool no longer crashes on an empty index |
+| [eagle-hq/EAGLE-4#3](https://github.com/eagle-hq/EAGLE-4/pull/3) | stop_check rejects a workload shorter than concurrency x waves |
+| [eagle-hq/EAGLE-4#4](https://github.com/eagle-hq/EAGLE-4/pull/4) | CUDA redist installer works on Python 3.10 |
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/divider.svg" width="100%" />
 
