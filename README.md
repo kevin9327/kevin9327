@@ -33,23 +33,23 @@
 | Repository | ★ Stars | Merged PRs |
 |---|---:|---:|
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 191k | [6](https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [3](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [6](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [2](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84k | [1](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [14](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [15](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 72k | [2](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 66k | [1](https://github.com/heygen-com/hyperframes/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 66k | [2](https://github.com/heygen-com/hyperframes/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 73k | [20](https://github.com/debpalash/VoiceStudio/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [docling-project/docling](https://github.com/docling-project/docling) | 69k | [5](https://github.com/docling-project/docling/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [docling-project/docling](https://github.com/docling-project/docling) | 69k | [6](https://github.com/docling-project/docling/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [3](https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 54k | [7](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | 51k | [38](https://github.com/roboflow/supervision/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 54k | [8](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | 51k | [39](https://github.com/roboflow/supervision/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 48k | [3](https://github.com/alibaba/open-code-review/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [psf/black](https://github.com/psf/black) | 42k | [1](https://github.com/psf/black/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37k | [1](https://github.com/markedjs/marked/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 36k | [3](https://github.com/esengine/DeepSeek-Reasonix/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [derailed/k9s](https://github.com/derailed/k9s) | 35k | [2](https://github.com/derailed/k9s/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [derailed/k9s](https://github.com/derailed/k9s) | 35k | [4](https://github.com/derailed/k9s/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 34k | [1](https://github.com/Tencent/WeKnora/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31k | [1](https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [labring/FastGPT](https://github.com/labring/FastGPT) | 30k | [18](https://github.com/labring/FastGPT/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
