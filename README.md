@@ -40,7 +40,7 @@
 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [17](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 72k | [2](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 66k | [2](https://github.com/heygen-com/hyperframes/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 73k | [23](https://github.com/debpalash/VoiceStudio/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 73k | [24](https://github.com/debpalash/VoiceStudio/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [docling-project/docling](https://github.com/docling-project/docling) | 69k | [8](https://github.com/docling-project/docling/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [3](https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 54k | [8](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
