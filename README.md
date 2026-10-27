@@ -32,8 +32,9 @@
 
 | Repository | ★ Stars | Merged PRs |
 |---|---:|---:|
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 208k | [2](https://github.com/n8n-io/n8n/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 191k | [6](https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [7](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [10](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [2](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84k | [1](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -49,7 +50,7 @@
 | [psf/black](https://github.com/psf/black) | 42k | [1](https://github.com/psf/black/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37k | [1](https://github.com/markedjs/marked/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 36k | [3](https://github.com/esengine/DeepSeek-Reasonix/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [derailed/k9s](https://github.com/derailed/k9s) | 35k | [4](https://github.com/derailed/k9s/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [derailed/k9s](https://github.com/derailed/k9s) | 35k | [6](https://github.com/derailed/k9s/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 34k | [1](https://github.com/Tencent/WeKnora/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31k | [1](https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [labring/FastGPT](https://github.com/labring/FastGPT) | 30k | [18](https://github.com/labring/FastGPT/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -57,7 +58,7 @@
 | [faker-js/faker](https://github.com/faker-js/faker) | 16k | [1](https://github.com/faker-js/faker/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6.6k | [93](https://github.com/CopilotKit/OpenBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 6.0k | [86](https://github.com/shy3130/tick-stock-panel/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [1](https://github.com/junhoyeo/tokscale/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [2](https://github.com/junhoyeo/tokscale/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) | 5.5k | [3](https://github.com/Edge0-AI/Edge0/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 5.1k | [9](https://github.com/milind-soni/OpenMausBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [QwenAudio/qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) | 2.9k | [14](https://github.com/QwenAudio/qwen-audio-agent/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
