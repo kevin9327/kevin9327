@@ -34,7 +34,7 @@
 |---|---:|---:|
 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 208k | [2](https://github.com/n8n-io/n8n/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 191k | [6](https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [10](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [12](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [2](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84k | [1](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
