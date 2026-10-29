@@ -56,7 +56,7 @@
 | [labring/FastGPT](https://github.com/labring/FastGPT) | 30k | [18](https://github.com/labring/FastGPT/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 29k | [3](https://github.com/invoke-ai/InvokeAI/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [longbridge/gpui-kit](https://github.com/longbridge/gpui-kit) | 18k | [3](https://github.com/longbridge/gpui-kit/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [faker-js/faker](https://github.com/faker-js/faker) | 16k | [2](https://github.com/faker-js/faker/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [faker-js/faker](https://github.com/faker-js/faker) | 16k | [3](https://github.com/faker-js/faker/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6.6k | [93](https://github.com/CopilotKit/OpenBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 6.0k | [86](https://github.com/shy3130/tick-stock-panel/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [2](https://github.com/junhoyeo/tokscale/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
