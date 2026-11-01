@@ -49,7 +49,7 @@
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 48k | [4](https://github.com/alibaba/open-code-review/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [psf/black](https://github.com/psf/black) | 42k | [1](https://github.com/psf/black/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37k | [1](https://github.com/markedjs/marked/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 36k | [10](https://github.com/esengine/DeepSeek-Reasonix/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 36k | [11](https://github.com/esengine/DeepSeek-Reasonix/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [derailed/k9s](https://github.com/derailed/k9s) | 35k | [6](https://github.com/derailed/k9s/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 34k | [5](https://github.com/Tencent/WeKnora/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31k | [1](https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -61,7 +61,7 @@
 | [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 6.0k | [86](https://github.com/shy3130/tick-stock-panel/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [3](https://github.com/junhoyeo/tokscale/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) | 5.5k | [3](https://github.com/Edge0-AI/Edge0/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 5.1k | [9](https://github.com/milind-soni/OpenMausBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 5.1k | [11](https://github.com/milind-soni/OpenMausBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [QwenAudio/qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) | 2.9k | [14](https://github.com/QwenAudio/qwen-audio-agent/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 
 <sub>Star counts as of Oct 2026. Full list: [all merged PRs](https://github.com/search?q=is%3Apr+author%3Akevin9327+is%3Amerged+-user%3Akevin9327&type=pullrequests).</sub>
