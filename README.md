@@ -38,7 +38,7 @@
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [2](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84k | [1](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [24](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [28](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 72k | [4](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 66k | [6](https://github.com/heygen-com/hyperframes/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 73k | [24](https://github.com/debpalash/VoiceStudio/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -49,7 +49,7 @@
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 48k | [4](https://github.com/alibaba/open-code-review/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [psf/black](https://github.com/psf/black) | 42k | [1](https://github.com/psf/black/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37k | [1](https://github.com/markedjs/marked/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 36k | [13](https://github.com/esengine/DeepSeek-Reasonix/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 36k | [15](https://github.com/esengine/DeepSeek-Reasonix/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [derailed/k9s](https://github.com/derailed/k9s) | 35k | [6](https://github.com/derailed/k9s/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 34k | [5](https://github.com/Tencent/WeKnora/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31k | [1](https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -570,6 +570,7 @@ without ever throwing. Then I prove them.
 | [PHPOffice/PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) | 14.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3APHPOffice/PhpSpreadsheet&type=pullrequests) | [RIGHT: return all of the text when num_chars exceeds its length](https://github.com/PHPOffice/PhpSpreadsheet/pull/5044) |
 | [PHP-CS-Fixer/PHP-CS-Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer) | 13.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3APHP-CS-Fixer/PHP-CS-Fixer&type=pullrequests) | [fix: `NewWithParenthesesFixer` - do not move parentheses past `.`, `??` and `}`](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/pull/9883) |
 | [rubocop/rubocop](https://github.com/rubocop/rubocop) | 12.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arubocop/rubocop&type=pullrequests) | [Fix an incorrect autocorrect for `Style/EmptyLiteral` with `Hash[]` as the first argument](https://github.com/rubocop/rubocop/pull/15863) |
+| [bootandy/dust](https://github.com/bootandy/dust) | 12.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Abootandy/dust&type=pullrequests) | [fix: show a size that rounds up to 10 without a decimal place](https://github.com/bootandy/dust/pull/640) |
 | [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) | 9.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Alnkiai/m3e-canvas&type=pullrequests) | [fix(color): normalize scheme seeds without # to #RRGGBB](https://github.com/lnkiai/m3e-canvas/pull/459) |
 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | 6.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AJetBrains/thinkrail&type=pullrequests) | [fix(resource-renderers): show MB when an image size rounds to 1024 KB](https://github.com/JetBrains/thinkrail/pull/1096) |
 | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 6.8k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aqingjian-team/qingjian&type=pullrequests) | [fix(update): reject versions with an empty prerelease segment](https://github.com/qingjian-team/qingjian/pull/395) |
