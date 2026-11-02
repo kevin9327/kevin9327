@@ -34,7 +34,7 @@
 |---|---:|---:|
 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 208k | [2](https://github.com/n8n-io/n8n/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 191k | [6](https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [14](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [19](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [2](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84k | [1](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -59,7 +59,7 @@
 | [faker-js/faker](https://github.com/faker-js/faker) | 16k | [5](https://github.com/faker-js/faker/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6.6k | [93](https://github.com/CopilotKit/OpenBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 6.0k | [88](https://github.com/shy3130/tick-stock-panel/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [3](https://github.com/junhoyeo/tokscale/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [4](https://github.com/junhoyeo/tokscale/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) | 5.5k | [6](https://github.com/Edge0-AI/Edge0/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 5.1k | [12](https://github.com/milind-soni/OpenMausBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [QwenAudio/qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) | 2.9k | [14](https://github.com/QwenAudio/qwen-audio-agent/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -544,7 +544,7 @@ without ever throwing. Then I prove them.
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
 | [github/spec-kit](https://github.com/github/spec-kit) | 143.8k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Agithub/spec-kit&type=pullrequests) | [fix(bundles): refuse to build when bundle.yml or README.md is a symlink](https://github.com/github/spec-kit/pull/5169) |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101.4k | [14](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Athedotmack/claude-mem&type=pullrequests) | [fix(ingest): apply CLAUDE_MEM_SKIP_BASH_PATTERNS to the PowerShell tool](https://github.com/thedotmack/claude-mem/pull/4756) |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101.4k | [19](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Athedotmack/claude-mem&type=pullrequests) | [fix(ingest): apply CLAUDE_MEM_SKIP_BASH_PATTERNS to the PowerShell tool](https://github.com/thedotmack/claude-mem/pull/4756) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Artk-ai/rtk&type=pullrequests) | [fix(init): only offer the proxy when rtk-proxy can run, and remove its base URL on uninstall](https://github.com/rtk-ai/rtk/pull/4622) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78.2k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aunslothai/unsloth&type=pullrequests) | [Studio: cache Edit-mode text encoding by reference image content](https://github.com/unslothai/unsloth/pull/13683) |
 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76.4k | [24](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aruvnet/ruflo&type=pullrequests) | [fix(mcp-bridge): refuse foreign browser requests in local-only mode (#4226)](https://github.com/ruvnet/ruflo/pull/4243) |
@@ -576,7 +576,7 @@ without ever throwing. Then I prove them.
 | [qingjian-team/qingjian](https://github.com/qingjian-team/qingjian) | 6.8k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aqingjian-team/qingjian&type=pullrequests) | [fix(update): reject versions with an empty prerelease segment](https://github.com/qingjian-team/qingjian/pull/395) |
 | [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT) | 7.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AKKKKhazix/AIHOT&type=pullrequests) | [fix(image-url): treat embed and share video pages as non-images](https://github.com/KKKKhazix/AIHOT/pull/126) |
 | [asciimoo/hister](https://github.com/asciimoo/hister) | 6.1k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aasciimoo/hister&type=pullrequests) | [[fix] return results for a query made only of negated terms](https://github.com/asciimoo/hister/pull/806) |
-| [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Ajunhoyeo/tokscale&type=pullrequests) | [fix(copilot): resolve the gh host and key every credential source and the endpoint to it](https://github.com/junhoyeo/tokscale/pull/1438) |
+| [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [4](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Ajunhoyeo/tokscale&type=pullrequests) | [fix(copilot): resolve the gh host and key every credential source and the endpoint to it](https://github.com/junhoyeo/tokscale/pull/1438) |
 | [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) | 5.5k | [6](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AEdge0-AI/Edge0&type=pullrequests) | [docs: name peak memory as the MLX allocator peak](https://github.com/Edge0-AI/Edge0/pull/132) |
 | [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | 5.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ACopilotKit/openmuse&type=pullrequests) | [fix: decode mail bodies with an unknown charset as UTF-8 instead of failing the list](https://github.com/CopilotKit/openmuse/pull/141) |
 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 8.2k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arehan-remade/universal-modder&type=pullrequests) | [fix(kb): report an impossible front-matter date instead of crashing](https://github.com/rehan-remade/universal-modder/pull/66) |
