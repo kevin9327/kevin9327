@@ -539,12 +539,13 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-50 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+51 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
 | [github/spec-kit](https://github.com/github/spec-kit) | 143.8k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Agithub/spec-kit&type=pullrequests) | [fix(bundles): refuse to build when bundle.yml or README.md is a symlink](https://github.com/github/spec-kit/pull/5169) |
 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101.4k | [19](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Athedotmack/claude-mem&type=pullrequests) | [fix(ingest): apply CLAUDE_MEM_SKIP_BASH_PATTERNS to the PowerShell tool](https://github.com/thedotmack/claude-mem/pull/4756) |
+| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 94.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AD4Vinci/Scrapling&type=pullrequests) | [fix(fetchers): decode percent-encoded credentials in proxy URLs](https://github.com/D4Vinci/Scrapling/pull/545) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Artk-ai/rtk&type=pullrequests) | [fix(init): only offer the proxy when rtk-proxy can run, and remove its base URL on uninstall](https://github.com/rtk-ai/rtk/pull/4622) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78.2k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aunslothai/unsloth&type=pullrequests) | [Studio: cache Edit-mode text encoding by reference image content](https://github.com/unslothai/unsloth/pull/13683) |
 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76.4k | [24](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aruvnet/ruflo&type=pullrequests) | [fix(mcp-bridge): refuse foreign browser requests in local-only mode (#4226)](https://github.com/ruvnet/ruflo/pull/4243) |
