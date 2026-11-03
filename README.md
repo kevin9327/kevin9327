@@ -600,6 +600,7 @@ without ever throwing. Then I prove them.
 | [razorback16/openjev](https://github.com/razorback16/openjev) | 700 | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arazorback16/openjev&type=pullrequests) | [fix: confidence of a one-option distribution is 1.0, not a ZeroDivisionError](https://github.com/razorback16/openjev/pull/11) |
 | [rectorphp/rector-src](https://github.com/rectorphp/rector-src) | 138 | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arectorphp/rector-src&type=pullrequests) | [[TypeDeclaration] Skip redundant intersection types in union return types](https://github.com/rectorphp/rector-src/pull/8527) |
 | [CALLE-AI/awesome-phone-call-agents](https://github.com/CALLE-AI/awesome-phone-call-agents) | 107 | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ACALLE-AI/awesome-phone-call-agents&type=pullrequests) | [feat(late-hold-triage): add one-call late-guest hold skill](https://github.com/CALLE-AI/awesome-phone-call-agents/pull/482) |
+| [rlaope/deepseek-bot](https://github.com/rlaope/deepseek-bot) | 103 | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arlaope/deepseek-bot&type=pullrequests) | [Read NAT64 local-use addresses for the IPv4 they carry](https://github.com/rlaope/deepseek-bot/pull/90) |
 
 <sub>Star counts as of 2026-10-14.</sub>
 
