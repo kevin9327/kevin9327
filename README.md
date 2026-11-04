@@ -38,7 +38,7 @@
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [2](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84k | [1](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [28](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76k | [33](https://github.com/ruvnet/ruflo/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [tw93/Mole](https://github.com/tw93/Mole) | 74k | [2](https://github.com/tw93/Mole/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 72k | [4](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 66k | [6](https://github.com/heygen-com/hyperframes/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -64,7 +64,7 @@
 | [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 6.0k | [88](https://github.com/shy3130/tick-stock-panel/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [4](https://github.com/junhoyeo/tokscale/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) | 5.5k | [7](https://github.com/Edge0-AI/Edge0/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 5.1k | [12](https://github.com/milind-soni/OpenMausBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 5.1k | [14](https://github.com/milind-soni/OpenMausBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [QwenAudio/qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) | 2.9k | [14](https://github.com/QwenAudio/qwen-audio-agent/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 
 <sub>Star counts as of Oct 2026. Full list: [all merged PRs](https://github.com/search?q=is%3Apr+author%3Akevin9327+is%3Amerged+-user%3Akevin9327&type=pullrequests).</sub>
