@@ -34,7 +34,7 @@
 |---|---:|---:|
 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 208k | [2](https://github.com/n8n-io/n8n/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 191k | [6](https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [21](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [22](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [2](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84k | [1](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -58,10 +58,11 @@
 | [longbridge/gpui-kit](https://github.com/longbridge/gpui-kit) | 18k | [3](https://github.com/longbridge/gpui-kit/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [faker-js/faker](https://github.com/faker-js/faker) | 16k | [7](https://github.com/faker-js/faker/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [josdejong/mathjs](https://github.com/josdejong/mathjs) | 15k | [1](https://github.com/josdejong/mathjs/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) | 9.0k | [2](https://github.com/Orkas-AI/Orkas/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6.6k | [96](https://github.com/CopilotKit/OpenBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | 6.0k | [88](https://github.com/shy3130/tick-stock-panel/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.7k | [4](https://github.com/junhoyeo/tokscale/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) | 5.5k | [6](https://github.com/Edge0-AI/Edge0/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) | 5.5k | [7](https://github.com/Edge0-AI/Edge0/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 5.1k | [12](https://github.com/milind-soni/OpenMausBot/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [QwenAudio/qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) | 2.9k | [14](https://github.com/QwenAudio/qwen-audio-agent/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 
