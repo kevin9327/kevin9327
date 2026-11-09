@@ -1,3 +1,32 @@
+<!-- showcase:start (newest first; publish.py prepends here) -->
+<div align="center">
+
+<sub><b>RENDERED FROM CODE</b> &middot; original data stories & animations by kevin9327 &middot; click any clip for the full-quality MP4</sub>
+
+<!-- showcase:items -->
+<!-- showcase:item 2026-11-10-saber-duel -->
+<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-saber-duel.mp4" title="Saber duel, two stages"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-saber-duel.webp?v=20261110" width="58%" alt="Saber duel, two stages: an original procedural animation: IK stick fighters, keyframed choreography, analytic spark physics, bloom, motion trails, living backgrounds and a slow-mo finish. No video model and no stock assets: Python + Skia, 60 fps" /></a>
+<br/>
+<!-- showcase:item 2026-11-10-drain-the-oceans -->
+<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-drain-the-oceans.mp4" title="Draining the oceans"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-drain-the-oceans.webp?v=20261110" width="32%" alt="Draining the oceans: sea level falls from 0 to −10.4 km over real NOAA ETOPO1 bathymetry (6.5M depth samples); the dry-land share is computed live from the grid" /></a>
+<!-- showcase:item 2026-11-10-earthquakes-2025 -->
+<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-earthquakes-2025.mp4" title="Every M4+ earthquake of 2025"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-earthquakes-2025.webp?v=20261110" width="32%" alt="Every M4+ earthquake of 2025: 18,305 real events from the USGS ComCat catalog, colored by depth, on NOAA ETOPO1 relief" /></a>
+<!-- showcase:item 2026-11-10-every-merged-pr -->
+<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-every-merged-pr.mp4" title="Every merged PR"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-every-merged-pr.webp?v=20261110" width="32%" alt="Every merged PR: 994 pull requests merged into 128 other people’s repos (3.56M combined ★), one comet each. Data: GitHub API, Jul 18 – Nov 9 2026" /></a>
+
+<!-- showcase:caps -->
+<!-- showcase:cap 2026-11-10-saber-duel -->
+<sub><b>Saber duel, two stages</b> &mdash; an original procedural animation: IK stick fighters, keyframed choreography, analytic spark physics, bloom, motion trails, living backgrounds and a slow-mo finish. No video model and no stock assets: Python + Skia, 60 fps &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-saber-duel.mp4">MP4</a></sub><br/>
+<!-- showcase:cap 2026-11-10-drain-the-oceans -->
+<sub><b>Draining the oceans</b> &mdash; sea level falls from 0 to &minus;10.4 km over real NOAA ETOPO1 bathymetry (6.5M depth samples); the dry-land share is computed live from the grid &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-drain-the-oceans.mp4">MP4</a></sub><br/>
+<!-- showcase:cap 2026-11-10-earthquakes-2025 -->
+<sub><b>Every M4+ earthquake of 2025</b> &mdash; 18,305 real events from the USGS ComCat catalog, colored by depth, on NOAA ETOPO1 relief &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-earthquakes-2025.mp4">MP4</a></sub><br/>
+<!-- showcase:cap 2026-11-10-every-merged-pr -->
+<sub><b>Every merged PR</b> &mdash; 994 pull requests merged into 128 other people&rsquo;s repos (3.56M combined &#9733;), one comet each. Data: GitHub API, Jul 18 &ndash; Nov 9 2026 &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-every-merged-pr.mp4">MP4</a></sub><br/>
+
+</div>
+<!-- showcase:end -->
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/droste.webp?v=20260925" width="100%" alt="kevin9327: 535 pull requests merged into other people's repos, across 32 repos in 69 days. An endless zoom: a terminal cursor wakes up and we fall into its eye, through a bug caught eating a line of a code diff, through a compound eye of 32 facets, one per repo, and a garden of 535 petals, one per merged pull request, and land back on the same prompt." />
