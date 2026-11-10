@@ -1,28 +1,26 @@
 <!-- showcase:start (newest first; publish.py prepends here) -->
 <div align="center">
 
-<sub><b>RENDERED FROM CODE</b> &middot; original data stories & animations by kevin9327 &middot; click any clip for the full-quality MP4</sub>
+<sub><b>FABLE 5.2 DEMOS, REBUILT FROM CODE</b> &middot; each clip takes a Fable 5.2 demo posted on X as the brief and is written from scratch by kevin9327 (no Fable, no video model) &middot; click a clip for the full MP4</sub>
 
 <!-- showcase:items -->
-<!-- showcase:item 2026-11-10-saber-duel -->
-<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-saber-duel.mp4" title="Saber duel, two stages"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-saber-duel.webp?v=20261110" width="58%" alt="Saber duel, two stages: an original procedural animation: IK stick fighters, keyframed choreography, analytic spark physics, bloom, motion trails, living backgrounds and a slow-mo finish. No video model and no stock assets: Python + Skia, 60 fps" /></a>
+<!-- showcase:item 2026-11-10-seoul-dusk -->
+<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-seoul-dusk.mp4" title="Seoul at dusk, from real map data"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-seoul-dusk.webp?v=20261110" width="100%" alt="Seoul at dusk, from real map data: inspired by @bpthaber’s viral Fable 5.2 3D Istanbul (758♥). 9,250 real OpenStreetMap buildings around Yeouido (3,750 with surveyed heights), the real Han River and road graph, and a sunset-to-night time-lapse with reflections and traffic. Distant glow and mountains are procedural. Data © OpenStreetMap contributors (ODbL). Rendered from code by kevin9327" /></a>
 <br/>
-<!-- showcase:item 2026-11-10-drain-the-oceans -->
-<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-drain-the-oceans.mp4" title="Draining the oceans"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-drain-the-oceans.webp?v=20261110" width="32%" alt="Draining the oceans: sea level falls from 0 to −10.4 km over real NOAA ETOPO1 bathymetry (6.5M depth samples); the dry-land share is computed live from the grid" /></a>
-<!-- showcase:item 2026-11-10-earthquakes-2025 -->
-<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-earthquakes-2025.mp4" title="Every M4+ earthquake of 2025"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-earthquakes-2025.webp?v=20261110" width="32%" alt="Every M4+ earthquake of 2025: 18,305 real events from the USGS ComCat catalog, colored by depth, on NOAA ETOPO1 relief" /></a>
-<!-- showcase:item 2026-11-10-every-merged-pr -->
-<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-every-merged-pr.mp4" title="Every merged PR"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-every-merged-pr.webp?v=20261110" width="32%" alt="Every merged PR: 994 pull requests merged into 128 other people’s repos (3.56M combined ★), one comet each. Data: GitHub API, Jul 18 – Nov 9 2026" /></a>
+<!-- showcase:item 2026-11-10-cathedral-of-ice -->
+<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-cathedral-of-ice.mp4" title="Cathedral of Ice"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-cathedral-of-ice.webp?v=20261110" width="100%" alt="Cathedral of Ice: inspired by @EnvolDev’s viral Fable 5.2 “Cathedral of Ice” (521♥). One continuous shot, 47k procedural flat-shaded triangles, and a searchlight that relights the ice as it sweeps the arch. Aurora, reflections, wake and snow. Rendered from code by kevin9327, no 3D engine and no assets" /></a>
+<br/>
+<!-- showcase:item 2026-11-10-saber-duel-solo -->
+<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-saber-duel-solo.mp4" title="Saber duel, one take"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-saber-duel-solo.webp?v=20261110" width="100%" alt="Saber duel, one take: inspired by a Fable 5.2 lightsaber-duel demo (the split-screen “Fable 5.2 vs Opus 5.5” clip), rebuilt as a single shot: IK stick fighters, keyframed choreography, analytic spark physics, bloom and slow-mo. Rendered from code by kevin9327 (Python + Skia), no video model" /></a>
+<br/>
 
 <!-- showcase:caps -->
-<!-- showcase:cap 2026-11-10-saber-duel -->
-<sub><b>Saber duel, two stages</b> &mdash; an original procedural animation: IK stick fighters, keyframed choreography, analytic spark physics, bloom, motion trails, living backgrounds and a slow-mo finish. No video model and no stock assets: Python + Skia, 60 fps &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-saber-duel.mp4">MP4</a></sub><br/>
-<!-- showcase:cap 2026-11-10-drain-the-oceans -->
-<sub><b>Draining the oceans</b> &mdash; sea level falls from 0 to &minus;10.4 km over real NOAA ETOPO1 bathymetry (6.5M depth samples); the dry-land share is computed live from the grid &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-drain-the-oceans.mp4">MP4</a></sub><br/>
-<!-- showcase:cap 2026-11-10-earthquakes-2025 -->
-<sub><b>Every M4+ earthquake of 2025</b> &mdash; 18,305 real events from the USGS ComCat catalog, colored by depth, on NOAA ETOPO1 relief &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-earthquakes-2025.mp4">MP4</a></sub><br/>
-<!-- showcase:cap 2026-11-10-every-merged-pr -->
-<sub><b>Every merged PR</b> &mdash; 994 pull requests merged into 128 other people&rsquo;s repos (3.56M combined &#9733;), one comet each. Data: GitHub API, Jul 18 &ndash; Nov 9 2026 &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-every-merged-pr.mp4">MP4</a></sub><br/>
+<!-- showcase:cap 2026-11-10-seoul-dusk -->
+<sub><b>Seoul at dusk, from real map data</b> &mdash; inspired by <a href="https://x.com/bpthaber/status/2119919862445408370">@bpthaber&rsquo;s viral Fable 5.2 3D Istanbul</a> (758&#9829;). 9,250 real OpenStreetMap buildings around Yeouido (3,750 with surveyed heights), the real Han River and road graph, and a sunset-to-night time-lapse with reflections and traffic. Distant glow and mountains are procedural. Data &copy; OpenStreetMap contributors (ODbL). Rendered from code by kevin9327 &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-seoul-dusk.mp4">MP4</a></sub><br/>
+<!-- showcase:cap 2026-11-10-cathedral-of-ice -->
+<sub><b>Cathedral of Ice</b> &mdash; inspired by <a href="https://x.com/EnvolDev/status/2119907318729245180">@EnvolDev&rsquo;s viral Fable 5.2 &ldquo;Cathedral of Ice&rdquo;</a> (521&#9829;). One continuous shot, 47k procedural flat-shaded triangles, and a searchlight that relights the ice as it sweeps the arch. Aurora, reflections, wake and snow. Rendered from code by kevin9327, no 3D engine and no assets &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-cathedral-of-ice.mp4">MP4</a></sub><br/>
+<!-- showcase:cap 2026-11-10-saber-duel-solo -->
+<sub><b>Saber duel, one take</b> &mdash; inspired by a Fable 5.2 lightsaber-duel demo (the split-screen &ldquo;Fable 5.2 vs Opus 5.5&rdquo; clip), rebuilt as a single shot: IK stick fighters, keyframed choreography, analytic spark physics, bloom and slow-mo. Rendered from code by kevin9327 (Python + Skia), no video model &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-saber-duel-solo.mp4">MP4</a></sub><br/>
 
 </div>
 <!-- showcase:end -->
