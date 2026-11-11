@@ -570,7 +570,7 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-51 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+52 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
@@ -599,6 +599,7 @@ without ever throwing. Then I prove them.
 | [urfave/cli](https://github.com/urfave/cli) | 24.3k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aurfave/cli&type=pullrequests) | [fix: treat "-vn=" in a short option group as an empty value](https://github.com/urfave/cli/pull/2454) |
 | [facebook/lexical](https://github.com/facebook/lexical) | 24.0k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Afacebook/lexical&type=pullrequests) | [[lexical-markdown] Bug Fix: Read an out-of-range decimal character reference as U+FFFD](https://github.com/facebook/lexical/pull/9388) |
 | [valyala/fasthttp](https://github.com/valyala/fasthttp) | 23.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Avalyala/fasthttp&type=pullrequests) | [fix(fs): reject zero-length suffix byte ranges](https://github.com/valyala/fasthttp/pull/2460) |
+| [dream-num/univer](https://github.com/dream-num/univer) | 23.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Adream-num/univer&type=pullrequests) | [fix(formula): read complex numbers whose parts use a signed exponent](https://github.com/dream-num/univer/pull/8167) |
 | [Seldaek/monolog](https://github.com/Seldaek/monolog) | 21.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ASeldaek/monolog&type=pullrequests) | [Stop JsonFormatter from encoding INF and NaN as 0](https://github.com/Seldaek/monolog/pull/2078) |
 | [motdotla/dotenv](https://github.com/motdotla/dotenv) | 20.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amotdotla/dotenv&type=pullrequests) | [fix: parse debug and override in populate like config does](https://github.com/motdotla/dotenv/pull/1069) |
 | [briannesbitt/Carbon](https://github.com/briannesbitt/Carbon) | 16.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Abriannesbitt/Carbon&type=pullrequests) | [Fix day of year parsing in createFromIsoFormat](https://github.com/briannesbitt/Carbon/pull/3382) |
