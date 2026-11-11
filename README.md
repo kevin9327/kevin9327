@@ -82,7 +82,7 @@
 | [derailed/k9s](https://github.com/derailed/k9s) | 35k | [6](https://github.com/derailed/k9s/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 34k | [9](https://github.com/Tencent/WeKnora/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31k | [1](https://github.com/symfony/symfony/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [labring/FastGPT](https://github.com/labring/FastGPT) | 30k | [19](https://github.com/labring/FastGPT/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [labring/FastGPT](https://github.com/labring/FastGPT) | 30k | [20](https://github.com/labring/FastGPT/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 29k | [5](https://github.com/invoke-ai/InvokeAI/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [longbridge/gpui-kit](https://github.com/longbridge/gpui-kit) | 18k | [4](https://github.com/longbridge/gpui-kit/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [faker-js/faker](https://github.com/faker-js/faker) | 16k | [8](https://github.com/faker-js/faker/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
