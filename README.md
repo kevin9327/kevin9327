@@ -570,7 +570,7 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-52 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+54 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
@@ -586,6 +586,7 @@ without ever throwing. Then I prove them.
 | [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui) | 49.1k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AMHSanaei/3x-ui&type=pullrequests) | [fix(url): keep capitalized mailto: and tel: links as they are](https://github.com/MHSanaei/3x-ui/pull/7052) |
 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 42.5k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ATHU-MAIC/OpenMAIC&type=pullrequests) | [fix(pbl): don't cut an emoji in half when shortening evaluator prompt text](https://github.com/THU-MAIC/OpenMAIC/pull/2124) |
 | [psf/black](https://github.com/psf/black) | 41.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Apsf/black&type=pullrequests) | [Don't remove backslash-newlines from raw strings in string_processing](https://github.com/psf/black/pull/5482) |
+| [soxoj/maigret](https://github.com/soxoj/maigret) | 40.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Asoxoj/maigret&type=pullrequests) | [fix(utils): let profile URL regexps accept a trailing slash, query or fragment](https://github.com/soxoj/maigret/pull/3344) |
 | [markedjs/marked](https://github.com/markedjs/marked) | 37.2k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amarkedjs/marked&type=pullrequests) | [fix: let indented and type 3-5 html blocks interrupt a paragraph](https://github.com/markedjs/marked/pull/4124) |
 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 35.8k | [16](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aesengine/DeepSeek-Reasonix&type=pullrequests) | [fix(gitstatus): count lines on renamed and copied paths](https://github.com/esengine/DeepSeek-Reasonix/pull/13175) |
 | [derailed/k9s](https://github.com/derailed/k9s) | 34.8k | [6](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aderailed/k9s&type=pullrequests) | [fix: preserve case of label selectors in command prompt](https://github.com/derailed/k9s/pull/4276) |
@@ -602,6 +603,7 @@ without ever throwing. Then I prove them.
 | [dream-num/univer](https://github.com/dream-num/univer) | 23.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Adream-num/univer&type=pullrequests) | [fix(formula): read complex numbers whose parts use a signed exponent](https://github.com/dream-num/univer/pull/8167) |
 | [Seldaek/monolog](https://github.com/Seldaek/monolog) | 21.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ASeldaek/monolog&type=pullrequests) | [Stop JsonFormatter from encoding INF and NaN as 0](https://github.com/Seldaek/monolog/pull/2078) |
 | [motdotla/dotenv](https://github.com/motdotla/dotenv) | 20.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amotdotla/dotenv&type=pullrequests) | [fix: parse debug and override in populate like config does](https://github.com/motdotla/dotenv/pull/1069) |
+| [jub0t/Concat](https://github.com/jub0t/Concat) | 16.8k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Ajub0t/Concat&type=pullrequests) | [fix(api): a done export reports every frame rendered (#595)](https://github.com/jub0t/Concat/pull/646) |
 | [briannesbitt/Carbon](https://github.com/briannesbitt/Carbon) | 16.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Abriannesbitt/Carbon&type=pullrequests) | [Fix day of year parsing in createFromIsoFormat](https://github.com/briannesbitt/Carbon/pull/3382) |
 | [KittenML/KittenTTS](https://github.com/KittenML/KittenTTS) | 16.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AKittenML/KittenTTS&type=pullrequests) | [Read voices.json and config.json as UTF-8 so KittenTTS 2 loads on Windows](https://github.com/KittenML/KittenTTS/pull/164) |
 | [longbridge/gpui-kit](https://github.com/longbridge/gpui-kit) | 18.0k | [4](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Alongbridge/gpui-kit&type=pullrequests) | [tree: select and toggle entries on click instead of mouse down](https://github.com/longbridge/gpui-kit/pull/3567) |
