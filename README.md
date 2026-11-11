@@ -570,7 +570,7 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-54 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+55 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
@@ -631,6 +631,7 @@ without ever throwing. Then I prove them.
 | [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | 3.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AQingYunA/answer-me-with-html&type=pullrequests) | [fix(a11y): name diagrams and the table of contents in the page language](https://github.com/QingYunA/answer-me-with-html/pull/58) |
 | [supabase/mcp](https://github.com/supabase/mcp) | 3.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Asupabase/mcp&type=pullrequests) | [fix(mcp): don't split an UPDATE on a semicolon inside a quoted value](https://github.com/supabase/mcp/pull/459) |
 | [anmolkapil/plexo](https://github.com/anmolkapil/plexo) | 4.6k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aanmolkapil/plexo&type=pullrequests) | [Decode ISO-8859-1 filename* in Content-Disposition](https://github.com/anmolkapil/plexo/pull/78) |
+| [kagent-dev/kagent](https://github.com/kagent-dev/kagent) | 4.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Akagent-dev/kagent&type=pullrequests) | [fix(ui): move attachment sizes to MB when rounding reaches 1024 KB](https://github.com/kagent-dev/kagent/pull/3643) |
 | [Asymptote-Labs/agent-beacon](https://github.com/Asymptote-Labs/agent-beacon) | 3.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AAsymptote-Labs/agent-beacon&type=pullrequests) | [fix(privacy): redact Slack app-level (xapp-) and refresh (xoxe-) tokens](https://github.com/Asymptote-Labs/agent-beacon/pull/1173) |
 | [egoist/kero](https://github.com/egoist/kero) | 1.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aegoist/kero&type=pullrequests) | [Read $~document as every type but pages in filter lists](https://github.com/egoist/kero/pull/305) |
 | [ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya) | 1.3k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aollaya-dev/ollaya&type=pullrequests) | [show: keep a multi-line DESCRIPTION as a """ block in the Modelfile](https://github.com/ollaya-dev/ollaya/pull/57) |
