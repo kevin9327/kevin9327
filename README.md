@@ -570,7 +570,7 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-55 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+56 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
@@ -581,6 +581,7 @@ without ever throwing. Then I prove them.
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78.2k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aunslothai/unsloth&type=pullrequests) | [Studio: cache Edit-mode text encoding by reference image content](https://github.com/unslothai/unsloth/pull/13683) |
 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 76.4k | [38](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aruvnet/ruflo&type=pullrequests) | [fix(mcp-bridge): refuse foreign browser requests in local-only mode (#4226)](https://github.com/ruvnet/ruflo/pull/4243) |
 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 70.3k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aremotion-dev/remotion&type=pullrequests) | [`remotion`: Round fractional `rgb()` channels in `interpolateColors()`](https://github.com/remotion-dev/remotion/pull/12912) |
+| [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java) | 67.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ATheAlgorithms/Java&type=pullrequests) | [fix(conversions): reject non-hex digits in HexToOct.hexToDecimal](https://github.com/TheAlgorithms/Java/pull/7748) |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 66.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amvanhorn/last30days-skill&type=pullrequests) | [fix(query): strip a trailing question mark before capping the core subject](https://github.com/mvanhorn/last30days-skill/pull/1363) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.4k | [12](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arclone/rclone&type=pullrequests) | [lib/encoder: fix decoding a trailing character after an escaped quote](https://github.com/rclone/rclone/pull/10036) |
 | [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui) | 49.1k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AMHSanaei/3x-ui&type=pullrequests) | [fix(url): keep capitalized mailto: and tel: links as they are](https://github.com/MHSanaei/3x-ui/pull/7052) |
