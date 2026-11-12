@@ -570,7 +570,7 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-59 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+60 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
@@ -585,6 +585,7 @@ without ever throwing. Then I prove them.
 | [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java) | 67.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ATheAlgorithms/Java&type=pullrequests) | [fix(conversions): reject non-hex digits in HexToOct.hexToDecimal](https://github.com/TheAlgorithms/Java/pull/7748) |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 66.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amvanhorn/last30days-skill&type=pullrequests) | [fix(query): strip a trailing question mark before capping the core subject](https://github.com/mvanhorn/last30days-skill/pull/1363) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.4k | [12](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arclone/rclone&type=pullrequests) | [lib/encoder: fix decoding a trailing character after an escaped quote](https://github.com/rclone/rclone/pull/10036) |
+| [multica-ai/multica](https://github.com/multica-ai/multica) | 55.8k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amultica-ai/multica&type=pullrequests) | [fix(daemon): print a size that rounds to 1024 KB in MB](https://github.com/multica-ai/multica/pull/10431) |
 | [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui) | 49.1k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AMHSanaei/3x-ui&type=pullrequests) | [fix(url): keep capitalized mailto: and tel: links as they are](https://github.com/MHSanaei/3x-ui/pull/7052) |
 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 42.5k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ATHU-MAIC/OpenMAIC&type=pullrequests) | [fix(pbl): don't cut an emoji in half when shortening evaluator prompt text](https://github.com/THU-MAIC/OpenMAIC/pull/2124) |
 | [psf/black](https://github.com/psf/black) | 41.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Apsf/black&type=pullrequests) | [Don't remove backslash-newlines from raw strings in string_processing](https://github.com/psf/black/pull/5482) |
