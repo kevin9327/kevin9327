@@ -61,7 +61,7 @@
 |---|---:|---:|
 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 208k | [2](https://github.com/n8n-io/n8n/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 191k | [6](https://github.com/microsoft/markitdown/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [28](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101k | [29](https://github.com/thedotmack/claude-mem/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [opencv/opencv](https://github.com/opencv/opencv) | 91k | [2](https://github.com/opencv/opencv/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84k | [1](https://github.com/rtk-ai/rtk/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78k | [2](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -576,7 +576,7 @@ without ever throwing. Then I prove them.
 |---|---:|---:|---|
 | [github/spec-kit](https://github.com/github/spec-kit) | 143.8k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Agithub/spec-kit&type=pullrequests) | [fix(bundles): refuse to build when bundle.yml or README.md is a symlink](https://github.com/github/spec-kit/pull/5169) |
 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 142.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aharry0703/MoneyPrinterTurbo&type=pullrequests) | [fix(webui): show 1.00 MB instead of 1024 KB just below a unit boundary](https://github.com/harry0703/MoneyPrinterTurbo/pull/1793) |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101.4k | [28](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Athedotmack/claude-mem&type=pullrequests) | [fix(ingest): apply CLAUDE_MEM_SKIP_BASH_PATTERNS to the PowerShell tool](https://github.com/thedotmack/claude-mem/pull/4756) |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101.4k | [29](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Athedotmack/claude-mem&type=pullrequests) | [fix(ingest): apply CLAUDE_MEM_SKIP_BASH_PATTERNS to the PowerShell tool](https://github.com/thedotmack/claude-mem/pull/4756) |
 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 94.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AD4Vinci/Scrapling&type=pullrequests) | [fix(fetchers): decode percent-encoded credentials in proxy URLs](https://github.com/D4Vinci/Scrapling/pull/545) |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 84.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Artk-ai/rtk&type=pullrequests) | [fix(init): only offer the proxy when rtk-proxy can run, and remove its base URL on uninstall](https://github.com/rtk-ai/rtk/pull/4622) |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78.2k | [2](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aunslothai/unsloth&type=pullrequests) | [Studio: cache Edit-mode text encoding by reference image content](https://github.com/unslothai/unsloth/pull/13683) |
