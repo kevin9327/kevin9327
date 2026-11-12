@@ -565,7 +565,7 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-62 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+63 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
@@ -582,6 +582,7 @@ without ever throwing. Then I prove them.
 | [rclone/rclone](https://github.com/rclone/rclone) | 60.4k | [12](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arclone/rclone&type=pullrequests) | [lib/encoder: fix decoding a trailing character after an escaped quote](https://github.com/rclone/rclone/pull/10036) |
 | [multica-ai/multica](https://github.com/multica-ai/multica) | 55.8k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Amultica-ai/multica&type=pullrequests) | [fix(daemon): print a size that rounds to 1024 KB in MB](https://github.com/multica-ai/multica/pull/10431) |
 | [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui) | 49.1k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3AMHSanaei/3x-ui&type=pullrequests) | [fix(url): keep capitalized mailto: and tel: links as they are](https://github.com/MHSanaei/3x-ui/pull/7052) |
+| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 47.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aluongnv89/claude-howto&type=pullrequests) | [fix: recognize mermaid fences with info strings or trailing space](https://github.com/luongnv89/claude-howto/pull/240) |
 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 42.5k | [3](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ATHU-MAIC/OpenMAIC&type=pullrequests) | [fix(pbl): don't cut an emoji in half when shortening evaluator prompt text](https://github.com/THU-MAIC/OpenMAIC/pull/2124) |
 | [psf/black](https://github.com/psf/black) | 41.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Apsf/black&type=pullrequests) | [Don't remove backslash-newlines from raw strings in string_processing](https://github.com/psf/black/pull/5482) |
 | [soxoj/maigret](https://github.com/soxoj/maigret) | 40.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Asoxoj/maigret&type=pullrequests) | [fix(utils): let profile URL regexps accept a trailing slash, query or fragment](https://github.com/soxoj/maigret/pull/3344) |
