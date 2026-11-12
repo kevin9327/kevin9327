@@ -570,7 +570,7 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-56 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+57 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
@@ -614,6 +614,7 @@ without ever throwing. Then I prove them.
 | [rubocop/rubocop](https://github.com/rubocop/rubocop) | 12.9k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arubocop/rubocop&type=pullrequests) | [Fix an incorrect autocorrect for `Style/EmptyLiteral` with `Hash[]` as the first argument](https://github.com/rubocop/rubocop/pull/15863) |
 | [bootandy/dust](https://github.com/bootandy/dust) | 12.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Abootandy/dust&type=pullrequests) | [fix: show a size that rounds up to 10 without a decimal place](https://github.com/bootandy/dust/pull/640) |
 | [0xJacky/nginx-ui](https://github.com/0xJacky/nginx-ui) | 11.7k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3A0xJacky/nginx-ui&type=pullrequests) | [fix(nginx): read the log level only from a bracketed tag in nginx output](https://github.com/0xJacky/nginx-ui/pull/2074) |
+| [meta/stylex](https://github.com/meta/stylex) | 10.5k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Ameta/stylex&type=pullrequests) | [[babel-plugin] Keep the unit of an uppercase zero time, angle or fr value](https://github.com/meta/stylex/pull/2000) |
 | [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) | 9.4k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Alnkiai/m3e-canvas&type=pullrequests) | [fix(color): normalize scheme seeds without # to #RRGGBB](https://github.com/lnkiai/m3e-canvas/pull/459) |
 | [rorkai/App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI) | 8.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Arorkai/App-Store-Connect-CLI&type=pullrequests) | [fix(signing): redact scp-style remote credentials with a capitalized user](https://github.com/rorkai/App-Store-Connect-CLI/pull/3330) |
 | [woodpecker-ci/woodpecker](https://github.com/woodpecker-ci/woodpecker) | 8.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Awoodpecker-ci/woodpecker&type=pullrequests) | [In WebUI show pretty durations as hours and minutes via Intl.DurationFormat](https://github.com/woodpecker-ci/woodpecker/pull/7530) |
