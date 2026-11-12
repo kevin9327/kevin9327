@@ -1,24 +1,19 @@
 <!-- showcase:start (newest first; publish.py prepends here) -->
 <div align="center">
 
-<sub><b>FABLE 5.2 DEMOS, REBUILT FROM CODE</b> &middot; each clip takes a Fable 5.2 demo posted on X as the brief and is written from scratch by kevin9327 (no Fable, no video model) &middot; click a clip for the full MP4</sub>
+<sub><b>FABLE 5.2 DEMOS, REBUILT FROM CODE</b> &middot; each clip takes a Fable 5.2 demo posted on X as the brief and is rebuilt from scratch by kevin9327 in code (Python, Skia, Blender/Cycles; credited free assets), with no Fable and no video model &middot; click a clip for the full MP4</sub>
 
 <!-- showcase:items -->
-<!-- showcase:item 2026-11-10-seoul-dusk -->
-<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-seoul-dusk.mp4" title="Seoul at dusk, from real map data"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-seoul-dusk.webp?v=20261110" width="100%" alt="Seoul at dusk, from real map data: inspired by @bpthaber’s viral Fable 5.2 3D Istanbul (758♥). 9,250 real OpenStreetMap buildings around Yeouido (3,750 with surveyed heights), the real Han River and road graph, and a sunset-to-night time-lapse with reflections and traffic. Distant glow and mountains are procedural. Data © OpenStreetMap contributors (ODbL). Rendered from code by kevin9327" /></a>
-<br/>
-<!-- showcase:item 2026-11-10-cathedral-of-ice -->
-<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-cathedral-of-ice.mp4" title="Cathedral of Ice"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-cathedral-of-ice.webp?v=20261110" width="100%" alt="Cathedral of Ice: inspired by @EnvolDev’s viral Fable 5.2 “Cathedral of Ice” (521♥). One continuous shot, 47k procedural flat-shaded triangles, and a searchlight that relights the ice as it sweeps the arch. Aurora, reflections, wake and snow. Rendered from code by kevin9327, no 3D engine and no assets" /></a>
+<!-- showcase:item 2026-11-12-cathedral-of-ice-3d -->
+<a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-12-cathedral-of-ice-3d.mp4" title="Cathedral of Ice"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-12-cathedral-of-ice-3d.webp?v=20261112" width="100%" alt="Cathedral of Ice: remake of a viral Fable 5.2 demo: @EnvolDev’s Cathedral of Ice (2,124♥). Blender/Cycles, 3 shots, rendered from code by kevin9327. Research vessel model: Innerscene (CC0); Poly Haven CC0 textures" /></a>
 <br/>
 <!-- showcase:item 2026-11-10-saber-duel-solo -->
 <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-saber-duel-solo.mp4" title="Saber duel, one take"><img src="https://raw.githubusercontent.com/kevin9327/kevin9327/main/assets/showcase/2026-11-10-saber-duel-solo.webp?v=20261110" width="100%" alt="Saber duel, one take: inspired by a Fable 5.2 lightsaber-duel demo (the split-screen “Fable 5.2 vs Opus 5.5” clip), rebuilt as a single shot: IK stick fighters, keyframed choreography, analytic spark physics, bloom and slow-mo. Rendered from code by kevin9327 (Python + Skia), no video model" /></a>
 <br/>
 
 <!-- showcase:caps -->
-<!-- showcase:cap 2026-11-10-seoul-dusk -->
-<sub><b>Seoul at dusk, from real map data</b> &mdash; inspired by <a href="https://x.com/bpthaber/status/2119919862445408370">@bpthaber&rsquo;s viral Fable 5.2 3D Istanbul</a> (758&#9829;). 9,250 real OpenStreetMap buildings around Yeouido (3,750 with surveyed heights), the real Han River and road graph, and a sunset-to-night time-lapse with reflections and traffic. Distant glow and mountains are procedural. Data &copy; OpenStreetMap contributors (ODbL). Rendered from code by kevin9327 &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-seoul-dusk.mp4">MP4</a></sub><br/>
-<!-- showcase:cap 2026-11-10-cathedral-of-ice -->
-<sub><b>Cathedral of Ice</b> &mdash; inspired by <a href="https://x.com/EnvolDev/status/2119907318729245180">@EnvolDev&rsquo;s viral Fable 5.2 &ldquo;Cathedral of Ice&rdquo;</a> (521&#9829;). One continuous shot, 47k procedural flat-shaded triangles, and a searchlight that relights the ice as it sweeps the arch. Aurora, reflections, wake and snow. Rendered from code by kevin9327, no 3D engine and no assets &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-cathedral-of-ice.mp4">MP4</a></sub><br/>
+<!-- showcase:cap 2026-11-12-cathedral-of-ice-3d -->
+<sub><b>Cathedral of Ice</b> &mdash; remake of a viral Fable 5.2 demo: <a href="https://x.com/EnvolDev/status/2119907318729245180">@EnvolDev&rsquo;s Cathedral of Ice</a> (2,124&#9829;). Blender/Cycles, 3 shots, rendered from code by kevin9327. Research vessel model: Innerscene (CC0); Poly Haven CC0 textures &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-12-cathedral-of-ice-3d.mp4">MP4</a></sub><br/>
 <!-- showcase:cap 2026-11-10-saber-duel-solo -->
 <sub><b>Saber duel, one take</b> &mdash; inspired by a Fable 5.2 lightsaber-duel demo (the split-screen &ldquo;Fable 5.2 vs Opus 5.5&rdquo; clip), rebuilt as a single shot: IK stick fighters, keyframed choreography, analytic spark physics, bloom and slow-mo. Rendered from code by kevin9327 (Python + Skia), no video model &middot; <a href="https://github.com/kevin9327/kevin9327/blob/main/assets/showcase/2026-11-10-saber-duel-solo.mp4">MP4</a></sub><br/>
 
