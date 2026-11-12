@@ -64,7 +64,7 @@
 | [tw93/Mole](https://github.com/tw93/Mole) | 74k | [2](https://github.com/tw93/Mole/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 72k | [4](https://github.com/Fission-AI/OpenSpec/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 66k | [7](https://github.com/heygen-com/hyperframes/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
-| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 73k | [30](https://github.com/debpalash/VoiceStudio/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
+| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 73k | [31](https://github.com/debpalash/VoiceStudio/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [docling-project/docling](https://github.com/docling-project/docling) | 69k | [9](https://github.com/docling-project/docling/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | [12](https://github.com/rclone/rclone/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 54k | [9](https://github.com/ChromeDevTools/chrome-devtools-mcp/pulls?q=is%3Apr+is%3Amerged+author%3Akevin9327) |
@@ -565,7 +565,7 @@ without ever throwing. Then I prove them.
 
 ### …and one fix at a time, everywhere else
 
-61 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
+62 more repositories where a fix of mine has been merged, sorted by stars. The counts link to GitHub search.
 
 | Repository | Stars | Merged | Latest merged fix |
 |---|---:|---:|---|
@@ -591,6 +591,7 @@ without ever throwing. Then I prove them.
 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 34.5k | [9](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ATencent/WeKnora&type=pullrequests) | [fix(asynqdl): truncate dead-letter errors on a rune boundary](https://github.com/Tencent/WeKnora/pull/3964) |
 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Asymfony/symfony&type=pullrequests) | [[Yaml] Do not treat quoted `<<` keys as merge keys](https://github.com/symfony/symfony/pull/66621) |
 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 33.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3ANandhaKishorM/laya&type=pullrequests) | [fix(ts): clean French mail like Python](https://github.com/NandhaKishorM/laya/pull/939) |
+| [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) | 33.0k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Aimmutable-js/immutable-js&type=pullrequests) | [Fix keySeq() on a lazy indexed Seq of unknown size](https://github.com/immutable-js/immutable-js/pull/2325) |
 | [composer/composer](https://github.com/composer/composer) | 29.6k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Acomposer/composer&type=pullrequests) | [Fix JsonManipulator::addSubNode modifying a nested key with the same name](https://github.com/composer/composer/pull/13109) |
 | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 28.7k | [5](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Ainvoke-ai/InvokeAI&type=pullrequests) | [fix(graph): resolve Literal collector items to the types of their values](https://github.com/invoke-ai/InvokeAI/pull/9895) |
 | [henrygd/beszel](https://github.com/henrygd/beszel) | 27.2k | [1](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3Akevin9327%20repo%3Ahenrygd/beszel&type=pullrequests) | [fix(site): move formatMicroseconds to the next unit when rounding reaches it](https://github.com/henrygd/beszel/pull/2799) |
